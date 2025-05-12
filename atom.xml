@@ -6,7 +6,7 @@
   <link href="https://enndermann.github.io/atom.xml" rel="self"/>
   
   <link href="https://enndermann.github.io/"/>
-  <updated>2025-05-09T02:38:54.598Z</updated>
+  <updated>2025-05-12T04:42:53.228Z</updated>
   <id>https://enndermann.github.io/</id>
   
   <author>
@@ -17,15 +17,28 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>远山淡影</title>
-    <link href="https://enndermann.github.io/2025/05/09/%E8%BF%9C%E5%B1%B1%E6%B7%A1%E5%BD%B1/"/>
-    <id>https://enndermann.github.io/2025/05/09/%E8%BF%9C%E5%B1%B1%E6%B7%A1%E5%BD%B1/</id>
-    <published>2025-05-09T02:38:54.000Z</published>
-    <updated>2025-05-09T02:38:54.598Z</updated>
+    <title>RSS订阅教程</title>
+    <link href="https://enndermann.github.io/2025/05/12/RSS%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/"/>
+    <id>https://enndermann.github.io/2025/05/12/RSS%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/</id>
+    <published>2025-05-12T04:18:18.000Z</published>
+    <updated>2025-05-12T04:42:53.228Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;简易信息聚合（RSS）是一种基于XML的标准，在互联网上被广泛采用的内容包装和投递协议。本文中我将聊一聊为什么使用RSS以及如何通过RSS订阅本博客。&lt;/p&gt;
+&lt;h1 id=&quot;为什么要使用RSS&quot;&gt;&lt;a href=&quot;#为什么要使用RSS&quot;</summary>
+        
+      
     
     
     
+    <category term="教程" scheme="https://enndermann.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
+    
+    <category term="RSS" scheme="https://enndermann.github.io/tags/RSS/"/>
     
   </entry>
   
