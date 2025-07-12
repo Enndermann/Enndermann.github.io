@@ -6,7 +6,7 @@
   <link href="https://enndermann.github.io/atom.xml" rel="self"/>
   
   <link href="https://enndermann.github.io/"/>
-  <updated>2025-07-10T08:55:47.975Z</updated>
+  <updated>2025-07-12T01:55:13.548Z</updated>
   <id>https://enndermann.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周报25-07-11</title>
+    <link href="https://enndermann.github.io/2025/07/11/%E5%91%A8%E6%8A%A5250711/"/>
+    <id>https://enndermann.github.io/2025/07/11/%E5%91%A8%E6%8A%A5250711/</id>
+    <published>2025-07-11T05:31:47.000Z</published>
+    <updated>2025-07-12T01:55:13.548Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="记事"><a href="#记事" class="headerlink" title="记事"></a>记事</h1><p>台风拉尼娜靠近，酷暑渐消，云朵也变得有婀娜多姿起来。</p><p>这周开始实习了。在上班的约束下，生活变得规律起来——准时起床睡觉、准时上厕所、准时吃饭，同时我也惊讶自己一天可以干这么多事。规律带来效率呀。</p><h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Zen浏览器"><a href="#Zen浏览器" class="headerlink" title="Zen浏览器"></a>Zen浏览器</h2><p>我尝试将主力浏览器从Chrome更换到了Zen，主要原因是Zen实在太好看了。高度自定义的界面、流畅的动画、毛玻璃主题让我难以拒绝，而且Zen基于FireFox开发，插件生态也很丰富，从Chrome导出密码、书签也不是很费事。暂且用着看吧。</p><p>官网：<a href="https://zen-browser.app/">https://zen-browser.app/</a></p><h2 id="screenity"><a href="#screenity" class="headerlink" title="screenity"></a>screenity</h2><p>开源、免费、私密的录频软件。</p><p>官网：<a href="https://screenity.io/en/">https://screenity.io/en/</a></p><h2 id="visustin"><a href="#visustin" class="headerlink" title="visustin"></a>visustin</h2><p>流程图生成器，支持多种编程语言。</p><p>官网：<a href="https://www.aivosto.com/visustin-zh-hans.html">https://www.aivosto.com/visustin-zh-hans.html</a></p><h2 id="chinese-internet-is-dead"><a href="#chinese-internet-is-dead" class="headerlink" title="chinese-internet-is-dead"></a>chinese-internet-is-dead</h2><p>零误伤的网站黑名单，由作者手动维护。可以添加到AdBlock等广告屏蔽插件的自定义规则中。</p><p>官网：<a href="https://github.com/obgnail/chinese-internet-is-dead">https://github.com/obgnail/chinese-internet-is-dead</a></p><h2 id="Veusz"><a href="#Veusz" class="headerlink" title="Veusz"></a>Veusz</h2><p>Veusz 是一款具有图形用户界面的科学绘图和图形程序，用于生成适合科研论文的 2D 和 3D 图表。此外，它也可作为包导入python程序。它支持矢量图和位图输出，包括  PDF、Postscript、SVG 和 EMF。</p><p>官网：<a href="https://veusz.github.io/">https://veusz.github.io/</a></p><h2 id="windhawk"><a href="#windhawk" class="headerlink" title="windhawk"></a>windhawk</h2><p>自定义windows界面。里边包含了大量的mod，我主要使用它更改Windows资源管理器的UI。</p><p>官网：<a href="https://windhawk.net/">https://windhawk.net/</a></p><h2 id="inputshare"><a href="#inputshare" class="headerlink" title="inputshare"></a>inputshare</h2><p><strong>输入流转</strong>——能够让你的安卓设备通过有线&#x2F;无线的方式和电脑<strong>共享键鼠</strong>。</p><p>官网：<a href="https://github.com/InputShare/InputShare/">https://github.com/InputShare/InputShare/</a></p><h2 id="BetterNCM"><a href="#BetterNCM" class="headerlink" title="BetterNCM"></a>BetterNCM</h2><p>BetterNCM是一个由一群热爱网易云音乐的云村村友开发的 PC 版网易云音乐扩展工具，可以提供非常丰富的自定义功能扩展增强能力。不过由于开发者迁移到了QQ音乐，网易云版本疏于维护，现在安装略嫌麻烦。</p><p>首先从<a href="https://github.com/std-microblock/chromatic/releases/tag/1.3.4">旧项目地址</a>下载<code>BetterNCMII.dll</code>文件，重命名为<code>msimg32.dll</code>，放入网易云音乐的根目录中。重新打开网易云客户端，可以看到右上角出现了一个网易云的小图标，这就是插件的入口。</p><p>但是对于最新版本的网易云，插件只有少数几个，为了有更多的插件可供选择。需要安装<code>Downgrade</code>插件将网易云回退到2.10.13版本。这样就可以安装各种第三方的插件了。</p><p>我是安装了一个主题，一个修改歌曲信息共享协议的插件，以及一个修改播放界面的插件。效果让我很欣喜。</p><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250712/LIib/1626X1107/%E6%96%B0%E7%BD%91%E6%98%93%E4%BA%91%E6%88%AA%E5%9B%BE.png?20" alt="网易云截图"></p><h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="更换微软输入法的候选窗口字体"><a href="#更换微软输入法的候选窗口字体" class="headerlink" title="更换微软输入法的候选窗口字体"></a>更换微软输入法的候选窗口字体</h2><p>按<code>Win+R</code>，输入<code>regedit</code>进入注册表，在<code>HKEY_CURRENT_USER\Software\Microsoft\InputMethod\CandidateWindow\CHS\1</code>路径下找到<code>FontStyle</code>变量，双击编辑。默认值为<code>13.50pt;Regular;;Microsoft YaHei UI</code>共四项：</p><ol><li>第一项<strong>字体大小</strong>（小：11.25pt；中：13.50pt；大：15.00pt；特大：18.00pt）可自定义数值</li><li>第二项<strong>字形</strong>（常规：Regular；粗体：Bold；细体：light）不可以设置斜体Italic</li><li>第三项为空</li><li>第四项<strong>字体名称</strong>（<code>MIcrosoft YaHei UI</code>，宋体，等线，仿宋，楷体，黑体）可自定义已安装字体</li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;记事&quot;&gt;&lt;a href=&quot;#记事&quot; class=&quot;headerlink&quot; title=&quot;记事&quot;&gt;&lt;/a&gt;记事&lt;/h1&gt;&lt;p&gt;台风拉尼娜靠近，酷暑渐消，云朵也变得有婀娜多姿起来。&lt;/p&gt;
+&lt;p&gt;这周开始实习了。在上班的约束下，生活变得规律起来——准时起床睡觉、准时上</summary>
+      
+    
+    
+    
+    <category term="周报" scheme="https://enndermann.github.io/categories/%E5%91%A8%E6%8A%A5/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>git学习笔记</title>
