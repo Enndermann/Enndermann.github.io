@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>RSS订阅教程</title>
+    <url>/2025/05/12/RSS%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>简易信息聚合（RSS）是一种基于XML的标准，在互联网上被广泛采用的内容包装和投递协议。本文中我将聊一聊为什么使用RSS以及如何通过RSS订阅本博客。</p>
+<h1 id="为什么要使用RSS"><a href="#为什么要使用RSS" class="headerlink" title="为什么要使用RSS"></a>为什么要使用RSS</h1><p>首先说一说普遍的意义，RSS可以提高信息获取效率。</p>
+<p>我不时通过抖音、b站、知乎等平台的推送获取信息，但是一般刷四五条才能看到感兴趣的信息。随着使用时间越来越长，兴趣基本被耗光了，但是之前那套滑动手指-获得快感的反射已经在脑海中建立，于是我麻木地重复着这套动作，重复得筋疲力竭。</p>
+<p>RSS就像这些平台的关注页面，它迫使你仅从亲自筛选过的信息源中获取信息，与平台的不同点在于：平台关注页面的信息源是封闭生态中的创作者，而RSS的信息源则是广阔的互联网世界（理论上互联网上的信息源都可以使用RSS订阅）。</p>
+<p>再者，RSS只会提取信息源中的标题、正文信息，再将其显示在阅读器统一的UI中，因此我们不必被不同网站五花八门的UI所干扰。</p>
+<p>对我个人而言，我只是想让移动端可以更方便地访问我的博客，毕竟移动端的网页访问体验不是很好。</p>
+<h1 id="如何通过RSS订阅本博客"><a href="#如何通过RSS订阅本博客" class="headerlink" title="如何通过RSS订阅本博客"></a>如何通过RSS订阅本博客</h1><p>市面上有许多阅读器，包括移动端orPC端，开源or收费，不同UI风格的。在安卓端博主推荐一款精致小巧的开源RSS阅读器——<a href="https://github.com/Ashinch/ReadYou">ReadYou</a>，点开链接后，径直往下滑看一看到一个”GET IT ON GitHub”，点击后选择最新版本的apk文件下载即可。</p>
+<p>安装并打开ReadYou后，点击右上角加号，输入博客的RSS订阅地址<a href="https://enndermann.github.io/atom.xml%EF%BC%8C%E7%82%B9%E5%87%BB%E6%90%9C%E7%B4%A2%E5%B0%B1%E5%A4%A7%E5%8A%9F%E5%91%8A%E6%88%90%E4%BA%86%E3%80%82">https://enndermann.github.io/atom.xml，点击搜索就大功告成了。</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Welcome to 2025</title>
+    <url>/2024/12/31/Welcome_to_2025/</url>
+    <content><![CDATA[<p>2024年很长，长到每一天我都有好多话要讲。</p>
+<p>和她一起的那些瞬间，仍不断给予我力量。</p>
+<p>这个年底倒腾了博客，这里有我的所思所想。</p>
+<p>学到的一些毫无卵用的技术，偶然也带来意外的光芒。</p>
+<p>世界在变化，我的人生道阻且长。</p>
+<p>2024年也很短，短的仿佛轮回一场。</p>
+<p>内耗，矛盾，生活总是不那么理想。</p>
+<p>我已经脱离了当初自己期许的那个模样。</p>
+<p>四处寻觅，心中满是迷茫。</p>
+<p>新的一年，我许下四个愿望。</p>
+<p>一是调。调整身体，调整心态，调整自己。</p>
+<p>二是定。找到自己钟情的方向。</p>
+<p>三是思。警惕思维惯性，多多思考。</p>
+<p>四是爱。发掘爱，传递爱，感性能力也很重要。</p>
+<p>2025年，希望自己过的坦坦荡荡。</p>
+]]></content>
+      <categories>
+        <category>年度</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Blog250122</title>
+    <url>/2025/01/22/blog20250122/</url>
+    <content><![CDATA[<p>死并非生的对立面，而作为生的一部分永存。</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>失去</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git学习笔记</title>
+    <url>/2025/07/10/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>我与Git相识已久，大学中我接触了各路大神的代码仓库，现在使用的不少工具都是<code>Github</code>上的开源项目。但是我对构建代码仓库的基础技术——Git却是一窍不通。以下是我学习<code>selierlin</code><a href="https://selierlin.github.io/git-recipes/#/">高质量Git教程</a>的笔记。</p>
+<h1 id="什么是Git"><a href="#什么是Git" class="headerlink" title="什么是Git"></a>什么是Git</h1><p>Git是一个现代化的版本管理系统，由Linux的作者Linus在2005年开发，并逐渐演变为一个成熟的开源项目。</p>
+<p>Git有着高性能（分布式架构，通过差分编码保存修改记录）、安全（文件内容和修改信息等都经过SHA1算法加密）和灵活（支持多个非线性工作流、适用于不同规模的项目、兼容多个操作系统和写一）的优势。</p>
+<h1 id="搭建代码仓库"><a href="#搭建代码仓库" class="headerlink" title="搭建代码仓库"></a>搭建代码仓库</h1><h2 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a><code>git init</code></h2><p>创建代码仓库，可以将当前目录转为git仓库，或者创建一个空的新仓库。</p>
+<p>运行<code>git init</code>会在项目根目录下创建一个<code>.git</code>目录。</p>
+<ul>
+<li><p>直接运行<code>git init</code>会将当前目录转为一个Git仓库。</p>
+</li>
+<li><p><code>git init &lt;directory&gt;</code>会在当前目录创建一个名为<code>directory</code>，只包含<code>.git</code>子目录的空目录。</p>
+</li>
+<li><p><code>git init --bare &lt;directory&gt;</code>会在当前目录创建一个名为<code>directory</code>的裸仓库，忽略工作目录。</p>
+</li>
+</ul>
+<blockquote>
+<p>裸仓库是指仓库中只包含版本修改信息，而不含项目文件。中央仓库、远程仓库通常是裸仓库。</p>
+</blockquote>
+<h2 id="git-clone"><a href="#git-clone" class="headerlink" title="git clone &lt;repo&gt; &lt;directory&gt;"></a><code>git clone &lt;repo&gt; &lt;directory&gt;</code></h2><p>拷贝本地仓库或者克隆远程仓库</p>
+<h2 id="git-config"><a href="#git-config" class="headerlink" title="git config"></a><code>git config</code></h2><p>在命令行中配置你的Git安装，包括作者姓名、邮箱。</p>
+<h1 id="保存更改"><a href="#保存更改" class="headerlink" title="保存更改"></a>保存更改</h1><h2 id="git-add-i"><a href="#git-add-i" class="headerlink" title="git add &lt;file&gt;/&lt;directory&gt;/-i"></a><code>git add &lt;file&gt;/&lt;directory&gt;/-i</code></h2><p>将更改保存到缓存区中。</p>
+<p>如果参数为<code>-i</code>，开始交互式的缓存。命令行会展示一系列更改，对每项更改，用户输入<code>y</code>则加入缓存，输入<code>n</code>忽略更改，<code>s</code>则将更改分割成更小的块，<code>e</code>则手动编辑当前的更改，<code>q</code>退出。</p>
+<h2 id="git-commit"><a href="#git-commit" class="headerlink" title="git commit"></a><code>git commit</code></h2><p>将缓存区中的快照提交到项目历史。</p>
+<p>直接运行会弹出文本编辑器，等待用户输入提交信息。</p>
+<ul>
+<li><p><code>git commit -m &quot;&lt;message&gt;&quot;</code>直接将<code>message</code>作为提交信息。</p>
+</li>
+<li><p><code>git commit -a </code>跳过缓存区，直接将所有更改提交。</p>
+</li>
+</ul>
+<blockquote>
+<p>Git 对提交信息没有特定的格式限制，但约定俗成的格式是：在第一行用 50 个以内的字符总结这个提交，留一空行，然后详细阐述具体的更改。</p>
+</blockquote>
+<h1 id="检查仓库状态"><a href="#检查仓库状态" class="headerlink" title="检查仓库状态"></a>检查仓库状态</h1><h2 id="git-status"><a href="#git-status" class="headerlink" title="git status"></a><code>git status</code></h2><p>查看工作目录和缓存区的状态。主要会列出已缓存、未缓存和未追踪的文件。</p>
+<h3 id="忽略文件"><a href="#忽略文件" class="headerlink" title="忽略文件"></a>忽略文件</h3><p>未追踪的文件要不是项目新增的、从未提交的文件，要么是编译产生的二进制文件。项目通常不需要保存像后者一样的临时文件，git给出的解决办法是将忽略的目录存在一个<code>.gitignore</code>文件中。可以使用通配符+后缀表示一类文件，如<code>*.pyc</code></p>
+<blockquote>
+<p>在提交更改前检查仓库状态是一个良好的实践，这样你就不会不小心提交什么奇怪的东西。</p>
+</blockquote>
+<h2 id="git-log"><a href="#git-log" class="headerlink" title="git log"></a><code>git log</code></h2><p>显示项目历史信息。</p>
+<p>使用默认格式显示完整地项目历史。如果输出超过一屏，你可以用 <code>空格键</code> 来滚动，按 <code>q</code> 退出。</p>
+<ul>
+<li><code>-n &lt;limit&gt;</code>用 <code>&lt;limit&gt;</code> 限制提交的数量。</li>
+<li><code>--oneline</code>将每个提交压缩到一行。当你需要查看项目历史的上层情况时这会很有用。</li>
+<li><code>--stat</code>除了 <code>git log</code> 信息之外，包含哪些文件被更改了，以及每个文件相对的增删行数。</li>
+<li><code>-p</code>显示代表每个提交的一堆信息。显示每个提交全部的差异（diff），这也是项目历史中最详细的视图。</li>
+<li><code>--author=&quot;&lt;pattern&gt;&quot;</code>搜索特定作者的提交。<code>&lt;pattern&gt;</code> 可以是字符串或正则表达式。</li>
+<li><code>--grep=&quot;&lt;pattern&gt;&quot;</code>搜索提交信息匹配特定 <code>&lt;pattern&gt;</code> 的提交。<code>&lt;pattern&gt;</code> 可以是字符串或正则表达式。</li>
+<li><code>&lt;since&gt;..&lt;until&gt;</code>只显示发生在 <code>&lt;since&gt;</code> 和 <code>&lt;until&gt;</code> 之间的提交。两个参数可以是提交 ID、分支名、<code>HEAD</code> 或是任何一种引用。</li>
+<li><code>&lt;file&gt;</code>只显示包含特定文件的提交。查找特定文件的历史这样做会很方便。</li>
+<li><code>--graph</code> 标记会绘制一幅字符组成的图形，左边是提交，右边是提交信息。<code>--decorate</code> 标记会加上提交所在的分支名称和标签。<code>--oneline</code> 标记将提交信息显示在同一行，一目了然。</li>
+</ul>
+<blockquote>
+<p>可以将很多选项放入同一个命令中</p>
+</blockquote>
+<h1 id="检出之前的提交"><a href="#检出之前的提交" class="headerlink" title="检出之前的提交"></a>检出之前的提交</h1><h1 id="回滚错误的修改"><a href="#回滚错误的修改" class="headerlink" title="回滚错误的修改"></a>回滚错误的修改</h1><h2 id="git-checkout-master"><a href="#git-checkout-master" class="headerlink" title="git checkout master/&lt;commit&gt;/&lt;commit&gt; &lt;file&gt;"></a><code>git checkout master/&lt;commit&gt;/&lt;commit&gt; &lt;file&gt;</code></h2><p>将项目&#x2F;项目中的某个文件回到某次提交&#x2F;某个分支的状态。</p>
+<h2 id="git-revert"><a href="#git-revert" class="headerlink" title="git revert &lt;commit&gt;"></a><code>git revert &lt;commit&gt;</code></h2><p>生成一个撤销了<code>&lt;commit&gt;</code>引入的修改的提交，然后应用到当前分支。</p>
+<h2 id="git-reset"><a href="#git-reset" class="headerlink" title="git reset"></a><code>git reset</code></h2><p>向前回溯</p>
+<ul>
+<li><code>git reset &lt;file&gt;</code>从缓存区中移除某文件</li>
+<li><code>git reset</code>重设缓存区，匹配上一次提交</li>
+<li><code>git reset hard</code>重设缓存区和工作目录</li>
+<li><code>git reset &lt;commit&gt;</code>将当前分支的末端移到<code>commit</code>，将缓存区重设到这个提交。</li>
+<li><code>git reset --hard &lt;commit&gt;</code>将当前分支的末端移到<code>commit</code>，并将缓存区和工作目录都设到这个提交。</li>
+</ul>
+<blockquote>
+<p>不要重设公共历史</p>
+</blockquote>
+<h2 id="git-clean-f"><a href="#git-clean-f" class="headerlink" title="git clean -f"></a><code>git clean -f</code></h2><p>将未被跟踪的文件从工作目录中移除。</p>
+<p><code>-n</code>用于查看哪些文件会被移除，<code>-df</code>移除未被跟踪的文件和目录，<code>-xf</code>移除当前目录下未跟踪的文件，以及 Git 一般忽略的文件。</p>
+<h1 id="重写项目历史"><a href="#重写项目历史" class="headerlink" title="重写项目历史"></a>重写项目历史</h1><h2 id="git-commit-amend"><a href="#git-commit-amend" class="headerlink" title="git commit --amend"></a><code>git commit --amend</code></h2><p>将最新提交与缓存中的修改合并，并替换最新提交。</p>
+<blockquote>
+<p>不要修复公共提交</p>
+</blockquote>
+<h2 id="git-rebase"><a href="#git-rebase" class="headerlink" title="git rebase &lt;base&gt;"></a><code>git rebase &lt;base&gt;</code></h2><p>将当前分支<code>rebase</code>到<code>base</code>，这里的<code>base</code>可以为任何类型的提交引用。</p>
+<h2 id="git-rebase-i"><a href="#git-rebase-i" class="headerlink" title="git rebase -i &lt;base&gt;"></a><code>git rebase -i &lt;base&gt;</code></h2><p>交互式<code>rebase</code>。它会打开一个编辑器，你可以为每个将要 rebase 的提交输入命令，这些命令决定了每个提交将会怎样被转移到新的基上去。你还可以对这些提交进行排序。</p>
+<h2 id="git-reflog"><a href="#git-reflog" class="headerlink" title="git reflog"></a><code>git reflog</code></h2><p>显示本地仓库的引用日志。</p>
+<blockquote>
+<p>引用日志提供的安全网只对提交到本地仓库的更改有效，而且只有移动操作会被记录。</p>
+</blockquote>
+<h1 id="保持同步"><a href="#保持同步" class="headerlink" title="保持同步"></a>保持同步</h1><h2 id="git-remote"><a href="#git-remote" class="headerlink" title="git remote"></a><code>git remote</code></h2><p>添加、查看和删除与其他远程仓库的连接。即维护一份将仓库URL映射到别名的字典。</p>
+<ul>
+<li>默认命令会列出所有远程连接</li>
+<li><code>-v</code>在会列出所有的远程连接和对应URL</li>
+<li><code>add &lt;name&gt; &lt;url&gt;</code>会创建连接</li>
+<li><code>rm &lt;name&gt;</code>删除连接</li>
+<li><code>rename &lt;old-name&gt; &lt;new-name&gt;</code>重命名</li>
+</ul>
+<blockquote>
+<p>当使用<code>git clone</code>克隆仓库时，会自动创建一个origin的远程连接指向被克隆仓库。</p>
+</blockquote>
+<h2 id="git-fetch"><a href="#git-fetch" class="headerlink" title="git fetch &lt;remote&gt;"></a><code>git fetch &lt;remote&gt;</code></h2><p>拉取远程仓库的所有分支，并下载相关提交。再后面加<code>&lt;branch&gt;</code>可以拉取指定分支。</p>
+<p>拉取下来的分支会另外储存为远程分支。</p>
+<h2 id="git-pull"><a href="#git-pull" class="headerlink" title="git pull &lt;remote&gt;"></a><code>git pull &lt;remote&gt;</code></h2><p>拉取当前分支对应的远程副本，并立即并入本地副本。</p>
+<p>加<code>--remote</code>后，使用<code>git rebase</code>合并远程分支和本地分支。</p>
+<h2 id="git-push-all-tags"><a href="#git-push-all-tags" class="headerlink" title="git push &lt;remote&gt; &lt;branch&gt;/--all/--tags"></a><code>git push &lt;remote&gt; &lt;branch&gt;/--all/--tags</code></h2><p>将本地提交导出到远程分支</p>
+<blockquote>
+<p>你只应该推送到那些用 <code>--bare</code> 标记初始化的仓库。因为推送会弄乱远程分支结构</p>
+</blockquote>
+<h1 id="Pull-Request"><a href="#Pull-Request" class="headerlink" title="Pull Request"></a>Pull Request</h1><p>大致的流程如下：</p>
+<ol>
+<li>开发者在他们的本地仓库中为某个功能创建一个专门的分支。</li>
+<li>开发者将分支推送到公共的 GitHub 仓库。</li>
+<li>开发者用 GitHub 发起一个 Pull Request。</li>
+<li>其余的团队成员审查代码，讨论并且做出修改。</li>
+<li>项目维护者将这个功能并入官方的仓库，然后关闭这个 Pull Request。</li>
+</ol>
+<h1 id="使用分支"><a href="#使用分支" class="headerlink" title="使用分支"></a>使用分支</h1><h2 id="git-branch"><a href="#git-branch" class="headerlink" title="git branch"></a><code>git branch</code></h2><p>创建、列出、重命名和删除分支。</p>
+<ul>
+<li>默认命令会列出仓库中的所有分支</li>
+<li><code>&lt;branch&gt;</code>会创建一个分支</li>
+<li><code>-d &lt;branch&gt;</code>删除指定分支。这是一个安全的操作，Git 会阻止你删除包含未合并更改的分支。</li>
+<li><code>-D &lt;branch&gt;</code>强制删除指定分支，即使包含未合并更改。如果你希望永远删除某条开发线的所有提交，你应该用这个命令。</li>
+<li><code>-m &lt;branch&gt;</code>重命名</li>
+</ul>
+<p>Git将分支存为指向提交的引用，分支历史通过提交之间的关系判断。</p>
+<h2 id="git-checkout"><a href="#git-checkout" class="headerlink" title="git checkout &lt;existing-branch&gt;"></a><code>git checkout &lt;existing-branch&gt;</code></h2><p>查看特定分支，分支应该已经通过 <code>git branch</code> 创建。这使得 <code>&lt;existing-branch&gt;</code> 成为当前的分支，并更新工作目录的版本。</p>
+<p><code>git checkout -b &lt;new-branch&gt;</code>创建并查看新分支。加<code>-</code></p>
+<p><code>git checkout -b &lt;new-branch&gt; &lt;existing-branch&gt;</code>和上一条相同，但将 <code>&lt;existing-branch&gt;</code> 作为新分支的基，而不是当前分支。</p>
+<blockquote>
+<p>你应该永远在分支上开发——而绝不在分离的 <code>HEAD</code> 上。这样确保你一直可以引用到你的新提交。不过，如果你只是想查看旧的提交，那么是否处于分离 <code>HEAD</code> 状态并不重要。</p>
+</blockquote>
+<h2 id="git-merge"><a href="#git-merge" class="headerlink" title="git merge &lt;branch&gt;"></a><code>git merge &lt;branch&gt;</code></h2><p>将指定分支并入当前分支。</p>
+<p><code>--no-ff</code>将指定分支并入当前分支，但 <em>总是</em> 生成一个合并提交。</p>
+<blockquote>
+<p>取决于你的仓库结构，Git 有几种不同的算法来完成合并：快速向前合并或者三路合并。</p>
+<p>当当前分支顶端到目标分支路径是线性之时，我们可以采取 <strong>快速向前合并</strong> 。Git 只需要将当前分支顶端（快速向前地）移动到目标分支顶端，即可整合两个分支的历史，而不需要“真正”合并分支。它在效果上合并了历史，因为目标分支上的提交现在在当前分支可以访问到。</p>
+</blockquote>
+<h1 id="常见的工作流"><a href="#常见的工作流" class="headerlink" title="常见的工作流"></a>常见的工作流</h1><h2 id="中心化的工作流"><a href="#中心化的工作流" class="headerlink" title="中心化的工作流"></a>中心化的工作流</h2><p>仅有一条分支，所有更改都被提交到这个分支。</p>
+<h2 id="Feature分支的工作流"><a href="#Feature分支的工作流" class="headerlink" title="Feature分支的工作流"></a><code>Feature</code>分支的工作流</h2><p>每个功能的开发都可以作为一个单独的分支，开发完成后再通过<code>pull-request</code>并入<code>master</code>分支。</p>
+<h2 id="GitFlow工作流"><a href="#GitFlow工作流" class="headerlink" title="GitFlow工作流"></a><code>GitFlow</code>工作流</h2><p>在<code>Feature</code>工作流的基础上，使用两个分支来记录项目历史。<code>master</code>分支储存官方发布历史，<code>develop</code>分支用来整合功能分支。</p>
+<p>加入维护分支，用来快速修复产品bug。维护分支fork自<code>master</code>分支，修复完成后应该被并入<code>master</code>和<code>develop</code>分支。</p>
+<p>加入<code>release</code>分支，fork自<code>develop</code>分支，只有和发布相关的任务应该在这个分支进行，如修复 bug、生成文档等。一旦准备好了发布，发布分支将合并进 <code>master</code>，打上版本号的标签。另外，它也应该合并回 <code>develop</code>，后者可能在发布启动之后有了新的进展。</p>
+<h2 id="Fork工作流"><a href="#Fork工作流" class="headerlink" title="Fork工作流"></a><code>Fork</code>工作流</h2><p>每个开发者fork官方仓库，在服务端创建副本进行开发，完成开发后通过<code>pull request</code>并入官方仓库。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>Git的基本命令和协作方式已经学习完了。回顾整部教程，Git带给我最大的震撼就是分布式的设计，这种设计可以让大型项目的工作流在效率和安全之间找到平衡。这种设计也可以对我们小型团队的协作带来启发。未来，我也想为某个开源项目贡献代码，锻炼自己的项目能力。</p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-next字体更换</title>
+    <url>/2024/12/16/hexo-next%E5%AD%97%E4%BD%93%E6%9B%B4%E6%8D%A2/</url>
+    <content><![CDATA[<p>Next主题原生的字体是Microsoft YaHei，我觉得霞鹜文楷在屏显上更好看一些，于是展开了一番折腾。</p>
+<h1 id="Font配置"><a href="#Font配置" class="headerlink" title="Font配置"></a>Font配置</h1><p>字体有关的设置都在themes&#x2F;next&#x2F;_config.yml中，默认配置如下：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span></span><br><span class="line">  <span class="attr">host:</span> </span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font options:</span></span><br><span class="line">  <span class="comment"># `external: true` will load this font family from `host` above.</span></span><br><span class="line">  <span class="comment"># `family: Times New Roman`. Without any quotes.</span></span><br><span class="line">  <span class="comment"># `size: x.x`. Use `em` as unit. Default: 1 (16px)</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Global font settings used for all elements inside &lt;body&gt;.</span></span><br><span class="line">  <span class="attr">global:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Lato</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for site title (.site-title).</span></span><br><span class="line">  <span class="attr">title:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for headlines (&lt;h1&gt; to &lt;h6&gt;).</span></span><br><span class="line">  <span class="attr">headings:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for posts (.post-body).</span></span><br><span class="line">  <span class="attr">posts:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for &lt;code&gt; and code blocks.</span></span><br><span class="line">  <span class="attr">codes:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br></pre></td></tr></table></figure>
+
+<p>为了自定义配置，需要将<code>enable</code>设置为<code>True</code>，NexT 开放了 5 个特定范围的字体设定，他们是：</p>
+<ul>
+<li>global字体：定义的字体将在全站范围使用</li>
+<li>title字体：站点标题所使用的字体</li>
+<li>headlines字体：文章内标题的字体（h1, h2, h3, h4, h5, h6）</li>
+<li>posts字体：文章正文所使用的字体</li>
+<li>codes字体： 代码块所使用的字体</li>
+</ul>
+<p>各项所指定的字体为首选字体，若不可用，则使用内部默认字体。我们在配置时，在<code>family</code>下添加我们在google fonts挑选的字体比如LXGW WenKai、Noto Serif SC即可。</p>
+<blockquote>
+<p>在博客页面对某段文字点击检查，font-family即为配置的字体，比如我博客正文的<code>font-family：LXGW WenKai, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif</code>，假如没有在CDN中找到LXGW WenKai，浏览器就会依次尝试加载后面的字体。</p>
+</blockquote>
+<p>Next默认从fonts.googleapis.com中加载字体，然而在国内该链接可能不稳定，NexT 通过设置 <code>font.host</code> 来支持字体库的自定义 URL。国内有大佬搭建了fonts.googleapis.com的镜像站点：&#x2F;&#x2F;fonts.loli.net。</p>
+<h1 id="CDN配置"><a href="#CDN配置" class="headerlink" title="CDN配置"></a>CDN配置</h1><p>一般来说到这里就没问题了，但是在我完成上述配置之后字体没有改变。这是因为Next默认的CDN无法连接，需要更换CDN。</p>
+<p>CDN的相关配置在themes&#x2F;next&#x2F;_config.ym的<code>vendors</code>项中。其中<code>internal</code>为Next内部字体的CDN，<code>plugins</code>为第三方插件的CDN。Next给出的选择有local（默认CDN）、jsdelivr、unpkg、cdnjs、custom，如果要选择第三方CDN就添加<code>custom</code>并在<code>custom_cdn_url</code>这里添加相应的URL。（注意提示：如果使用的是最新版本的NexT，将<code>internal</code>设置为<code>local</code>。博主这里选择的CDN是unpkg。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="comment"># The CDN provider of NexT internal scripts.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs | custom</span></span><br><span class="line">  <span class="comment"># Warning: If you are using the latest master branch of NexT, please set `internal: local`</span></span><br><span class="line">  <span class="comment"># internal: local</span></span><br><span class="line">  <span class="attr">internal:</span> <span class="string">local</span></span><br><span class="line">  <span class="comment"># The default CDN provider of third-party plugins.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs | custom</span></span><br><span class="line">  <span class="comment"># Dependencies for `plugins: local`: https://github.com/next-theme/plugins</span></span><br><span class="line">  <span class="comment"># plugins: cdnjs</span></span><br><span class="line">  <span class="attr">plugins:</span> <span class="string">unpkg</span></span><br><span class="line">  <span class="comment"># Custom CDN URL</span></span><br><span class="line">  <span class="comment"># For example:</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://cdn.jsdelivr.net/npm/$&#123;npm_name&#125;@$&#123;version&#125;/$&#123;minified&#125;</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://cdnjs.cloudflare.com/ajax/libs/$&#123;cdnjs_name&#125;/$&#123;version&#125;/$&#123;cdnjs_file&#125;</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://lib.baomitu.com/$&#123;cdnjs_name&#125;/$&#123;version&#125;/$&#123;cdnjs_file&#125;</span></span><br><span class="line">  <span class="attr">custom_cdn_url:</span></span><br></pre></td></tr></table></figure>
+
+<p>本教程将持续更新~</p>
+<h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><p><a href="https://theme-next.js.org/">官方文档</a></p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>积极一点</title>
+    <url>/2025/04/18/newday/</url>
+    <content><![CDATA[<p>归去来兮，田园将芜胡不归？既自以心为形役，奚惆怅而独悲？悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟遥遥以轻飏，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>失去</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>做事情的状态</title>
+    <url>/2024/12/21/%E5%81%9A%E4%BA%8B%E6%83%85%E7%9A%84%E7%8A%B6%E6%80%81/</url>
+    <content><![CDATA[<p>我发现我做事情的状态可以分为三种：满血状态，残血状态和机械状态。</p>
+<p><strong>满血状态</strong>是精力体力最好的状态，一般是休息结束或者运动后。此时大脑可以很好地梳理目前并行的所有的任务，做出合理的统筹，也可以专心做某件事。这时候时候做一些需要丰富联想的事，比如创造，理解，规划等等。</p>
+<p><strong>残血状态</strong>是精力体力下滑的状态。脑海中还会有好多任务泡泡围着我转圈，但是我已经没法雨露均沾了，一般是东敲一榔头西敲一榔头，没什么。既然这样就不要再勉强自己了，可以搞点小爱好，找人撩骚啊，打球啊，逛论坛，倒腾软件啊什么的。</p>
+<p><strong>机械状态</strong>是精力体力快要见底的状态，是三者里最好玩的。在疲劳的状态下，脑子无法再想杂七杂八的事情，只能单线程思考，碰巧就可以将注意力集中到一件事上，效率反而得到提升。一般11点过后进入深夜，我就进入了机械状态。机械状态特别适合对付那种死难死难或者特耗精力的任务，比如搞好博客的配置，调好模型的参数。我深有体悟的原因是，最近一个万字报告就是两个深夜肝出来的，博客界面也是熬夜配好的。</p>
+<p>弄清楚自己的状态，我们就可以“哄”着这个时不时就犯懒摆烂的脑子，因状态制宜地做事情啦</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>时间管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于写文章磕磕巴巴和零零散散</title>
+    <url>/2024/12/06/%E5%85%B3%E4%BA%8E%E5%86%99%E6%96%87%E7%AB%A0%E7%A3%95%E7%A3%95%E5%B7%B4%E5%B7%B4%E5%92%8C%E9%9B%B6%E9%9B%B6%E6%95%A3%E6%95%A3/</url>
+    <content><![CDATA[<p>大一大二的时候，写文章对我来说异常费劲。往往觉得心里头有万千感想，可真到打开笔记时，我却一个字都憋不出来。好不容易写完了一篇，再看的时候，文章也显得零零散散、没有主题，阅读的成本极高。</p>
+<p>现在上述的情况有了改观，我来分享一下我的几点感悟。</p>
+<h2 id="写文章之前先定好文章的主题"><a href="#写文章之前先定好文章的主题" class="headerlink" title="写文章之前先定好文章的主题"></a>写文章之前先定好文章的主题</h2><p>如何让文章头到尾都围绕着一个核心展开呢？最简单的方法是先拟标题，之后每写一个章节都对着标题琢磨：这段文字是为主题服务的吗？将它放在什么位置最合理呢？写每个段落的时候，也要琢磨有没有脱离本章节的主题。</p>
+<p>定主题有两个好处。一是可以让文章立意明确，读者一下字就可以get到重点；二是可以让自己行文更加流畅，通过思考“我把这件事讲清楚了吗”来确保应写尽写。</p>
+<h2 id="锤炼文字–从简单到完备"><a href="#锤炼文字–从简单到完备" class="headerlink" title="锤炼文字–从简单到完备"></a>锤炼文字–从简单到完备</h2><p>我以前写文章有个毛病：写一句话得从许多角度去思考表述的正确性，于是花老长时间憋出来一个大长句，挂着一堆定状语和从句。这个毛病有两方面的坏处：一是在修饰语容易过量，造成逻辑的冗余，也增加了阅读的难度。二是如果太过于专注单句的完备性，可能会造成单句与主题的脱钩。</p>
+<p>后来我的办法是什么呢？有想法了先用不那么精确的语言写一个主题句，并且围绕主题句可以进行一些散乱的扩写，确保把idea诞生在脑海中的热乎劲全部记录下来。等到第一感受记录下来了，再重构段落、锤炼文字，就不会再偏离自己的初心了。</p>
+<p>所谓“文以载道”，语言是思想的载体。唯有语言更加准确，思维才能得到更好的表达。</p>
+]]></content>
+      <categories>
+        <category>写作</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>台球的心法</title>
+    <url>/2025/01/26/%E5%8F%B0%E7%90%83%E7%9A%84%E5%BF%83%E6%B3%95/</url>
+    <content><![CDATA[<p>最近我的台球技术有了阶段性的提升，甚至在误打误撞之下完成了人生中的第一杆清台。提升的原因不在台球之中，而在台球之外——在于对身体和心态的调控。</p>
+<p>从第一性原理出发，将母球以预想的状态击出，关键在于出杆的平直，如何做到出杆平直呢？关键在于让身体处于一个最佳的姿态，能够将球杆笔直地送出。调整两脚连线与出杆方向之间的夹角，找到最舒服和放松的状态，确保主视眼、手架、握杆手臂的方向以及球杆的方向在一条直线上。这是技术层面的基础，也是稳定发挥的前提。</p>
+<p>然而，将客观条件调整到最优后，能否真正发挥出来，还取决于心法。在不击球的时候，需要做好规划，思考链接的顺序、球形的难点、下一球的杆法与力道。而当俯身准备击球时，心中只需专注于力度和打点，注意力在母球和目标球上切换，确保出杆方向与母球、假想球连线一致。至于之前的规划、球能否进袋等杂念，统统要抛之脑后。</p>
+<p>其实人生的心法和台球的心法并无二致，都可以总结为“谋定后动，动则忘忧”。我自己常常就是吃着碗里的看着锅里的，总是让过去的遗憾和未来的焦虑降低了行动的效率。留专门的时间做好长期和短期的规划，真正开始行动时，暂时放下过去和未来，集中注意力完成当下的规划即可。</p>
+]]></content>
+      <categories>
+        <category>体育</category>
+      </categories>
+      <tags>
+        <tag>心法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>周刊-25.06.10</title>
+    <url>/2025/06/10/%E5%91%A8%E5%88%8A250610/</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>新开一个系列，记录每周发现的新鲜事物</p>
+<h1 id="25-06-10"><a href="#25-06-10" class="headerlink" title="25.06.10"></a>25.06.10</h1><h2 id="Zlibrary"><a href="#Zlibrary" class="headerlink" title="Zlibrary"></a>Zlibrary</h2><p>网址就不贴了。Zlib真的是对我影响深远的一个网站之一，极大地降低了我获取图书资源的难度，这或许就是知识平权的最好体现吧。</p>
+<h2 id="全球光污染地图"><a href="#全球光污染地图" class="headerlink" title="全球光污染地图"></a>全球光污染地图</h2><p><a href="https://www.darkmap.cn/">这个网站</a>很有意思，据说许多天文爱好者就是看这个地图找合适的观星点的。看了一下，至少我这里是看不到太多星星了。</p>
+<h2 id="中国历史地图集"><a href="#中国历史地图集" class="headerlink" title="中国历史地图集"></a>中国历史地图集</h2><p><a href="http://www.ccamc.co/chinese_historical_map/">中国历史地图集</a>是一个将谭其骧主编的同名地图集数字化的网站。谭图貌似在历史地图界有着相当高的地位。这个网站在我看一些历史书时棒了许多忙了。</p>
+<h2 id="默沙东诊疗手册大众版"><a href="#默沙东诊疗手册大众版" class="headerlink" title="默沙东诊疗手册大众版"></a>默沙东诊疗手册大众版</h2><p><a href="https://www.msdmanuals.cn/home">默沙东诊疗手册大众版</a>是一个医学科普网站，感觉很权威的样子，而且搜索十分友好。对于我这样的医学小白来说太需要一个靠谱的日常医疗手册了。</p>
+<h2 id="IPSOS"><a href="#IPSOS" class="headerlink" title="IPSOS"></a>IPSOS</h2><p><a href="https://www.ipsos.com/zh-cn#">益普索</a>，一家用户洞察与策略咨询公司，张vv推荐的研报机构！</p>
+<h2 id="LINUX-DO"><a href="#LINUX-DO" class="headerlink" title="LINUX DO"></a>LINUX DO</h2><p>“<strong>真诚</strong>、<strong>友善</strong>、<strong>团结</strong>、<strong>专业</strong>，共建你我引以为荣之社区”是<a href="linux.do">这家论坛</a>的座右铭。实际上干货量是很多的，尤其是关于AI的资讯十分及时，还有一些瞎折腾的教程也很有意思。</p>
+<h2 id="quicker"><a href="#quicker" class="headerlink" title="quicker"></a>quicker</h2><p><a href="https://getquicker.net/https://getquicker.net/">quicker</a>是一款指尖工具箱，可以创建或导入各种各样有意思的脚本。我常用的脚本有长截图、破除网页复制限制和模拟打字粘贴（后两者不知道帮我逃过了多少大学中形式主义的任务。感谢quicker。</p>
+<h2 id="FuckZHS"><a href="#FuckZHS" class="headerlink" title="FuckZHS"></a>FuckZHS</h2><p><a href="https://github.com/VermiIIi0n/fuckZHS">FuckZHS</a>是一个Github开源项目，可以看到这个名字十分具有侵略性。它可以挂在后台帮我们刷智慧树课程，也曾帮了我的大忙，遗憾的是该项目没有前端界面。感谢FuckZHS。</p>
+<h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><p><a href="https://typoraio.cn/">Typora</a> is a simple yet powerful Markdown reader.正如官网介绍的那样，Typora的简洁快速、对Markdown和$LaTex$的支持是它成为我常用编辑器的重要原因。</p>
+<h2 id="PiliPlus"><a href="#PiliPlus" class="headerlink" title="PiliPlus"></a>PiliPlus</h2><p><a href="https://github.com/bggRGjQaUbCoE/PiliPlus">PiliPlus</a>是一个B站的安卓第三方客户端，本人正在使用，感觉PiliPlus的推荐质量要比原生B站高那么一些，并且还支持根据时长、关键词屏蔽视频，再加上更加简洁的界面、无广告、快速的响应，让我爱不释手。</p>
+<p>累了，暂时就这些，持续更新~</p>
+<h1 id="25-06-18"><a href="#25-06-18" class="headerlink" title="25.06.18"></a>25.06.18</h1><h2 id="GKD"><a href="#GKD" class="headerlink" title="GKD"></a>GKD</h2><p><a href="https://gkd.li/">GKD</a>是一款基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用。如果觉得每次打开京东淘宝b站要等两秒钟广告很心烦，而且乐意折腾，GKD是一个好的选择。<br>不过我在实际使用过程中，尽管给了GKD自启动的权限，但是它在后台经常退出，目前没找到办法。</p>
+<h2 id="阿里巴巴矢量图标库"><a href="#阿里巴巴矢量图标库" class="headerlink" title="阿里巴巴矢量图标库"></a>阿里巴巴矢量图标库</h2><p><a href="https://www.iconfont.cn/">https://www.iconfont.cn/</a><br>免费，素材数量多，素材导出格式多，制作PPT时的好帮手。</p>
+<h2 id="秘塔AI搜索"><a href="#秘塔AI搜索" class="headerlink" title="秘塔AI搜索"></a>秘塔AI搜索</h2><p><a href="https://metaso.cn/">秘塔</a>是一个国产AI搜索引擎，是我在查选修课资料时发现的。相比于chatgpt，豆包等通用大模型的搜索能力，幻觉更少，而且引用质量更高。更重要的是一天有100次免费次数，很爽好吧。</p>
+<h2 id="Gemini-Pro"><a href="#Gemini-Pro" class="headerlink" title="Gemini Pro"></a>Gemini Pro</h2><p>最近折腾着通过了谷歌的学生优惠，可以享受一年半的Gemini Pro。Gemini 2.5 pro的性能真的很强大，不论是上下文的容量、文章的逻辑性、代码能力还是推理能力，横向对比grok，chatgpt，豆包都是一流的，我在期末周也是爽用了一把 。</p>
+]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+      <tags>
+        <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>周报25-07-11</title>
+    <url>/2025/07/11/%E5%91%A8%E6%8A%A5250711/</url>
+    <content><![CDATA[<h1 id="记事"><a href="#记事" class="headerlink" title="记事"></a>记事</h1><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250712/182o/700X875/%E6%9C%AB%E5%BD%B1%E5%A8%98.jpg?40" alt="末影娘"></p>
+<blockquote>
+<p>末影娘~</p>
+</blockquote>
+<p>台风拉尼娜靠近，酷暑渐消，云朵也变得有婀娜多姿起来。</p>
+<p>这周开始实习了。在上班的约束下，生活变得规律起来——准时起床睡觉、准时上厕所、准时吃饭，同时我也惊讶自己一天可以干这么多事。规律带来效率呀。</p>
+<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Zen浏览器"><a href="#Zen浏览器" class="headerlink" title="Zen浏览器"></a>Zen浏览器</h2><p>我尝试将主力浏览器从<code>Chrome</code>更换到了<code>Zen</code>，主要原因是<code>Zen</code>实在太好看了。高度自定义的界面、流畅的动画、毛玻璃主题让我难以拒绝，而且<code>Zen</code>基于<code>FireFox</code>开发，插件生态也很丰富，从<code>Chrome</code>导出密码、书签也不是很费事。暂且用着看吧。</p>
+<p>官网：<a href="https://zen-browser.app/">https://zen-browser.app/</a></p>
+<h2 id="screenity"><a href="#screenity" class="headerlink" title="screenity"></a>screenity</h2><p>开源、免费、私密的录频软件。</p>
+<p>官网：<a href="https://screenity.io/en/">https://screenity.io/en/</a></p>
+<h2 id="visustin"><a href="#visustin" class="headerlink" title="visustin"></a>visustin</h2><p>流程图生成器，支持多种编程语言。</p>
+<p>官网：<a href="https://www.aivosto.com/visustin-zh-hans.html">https://www.aivosto.com/visustin-zh-hans.html</a></p>
+<h2 id="chinese-internet-is-dead"><a href="#chinese-internet-is-dead" class="headerlink" title="chinese-internet-is-dead"></a>chinese-internet-is-dead</h2><p>零误伤的网站黑名单，由作者手动维护。可以添加到<code>AdBlock</code>等广告屏蔽插件的自定义规则中。</p>
+<p>官网：<a href="https://github.com/obgnail/chinese-internet-is-dead">https://github.com/obgnail/chinese-internet-is-dead</a></p>
+<h2 id="Veusz"><a href="#Veusz" class="headerlink" title="Veusz"></a>Veusz</h2><p><code>Veusz</code>是一款具有图形用户界面的科学绘图和图形程序，用于生成适合科研论文的 2D 和 3D 图表。此外，它也可作为包导入<code>python</code>程序。它支持矢量图和位图输出，包括PDF、Postscript、SVG 和 EMF。</p>
+<p>官网：<a href="https://veusz.github.io/">https://veusz.github.io/</a></p>
+<h2 id="Windhawk"><a href="#Windhawk" class="headerlink" title="Windhawk"></a>Windhawk</h2><p>自定义windows UI。里边包含了大量的mod，我主要使用它美化Windows资源管理器和通知栏的UI。</p>
+<p>官网：<a href="https://windhawk.net/">https://windhawk.net/</a></p>
+<h2 id="inputshare"><a href="#inputshare" class="headerlink" title="inputshare"></a>inputshare</h2><p><strong>输入流转</strong>——能够让你的安卓设备通过有线&#x2F;无线的方式和电脑<strong>共享键鼠</strong>。</p>
+<p>官网：<a href="https://github.com/InputShare/InputShare/">https://github.com/InputShare/InputShare/</a></p>
+<h2 id="BetterNCM"><a href="#BetterNCM" class="headerlink" title="BetterNCM"></a>BetterNCM</h2><p><code>BetterNCM</code>是一个由一群热爱网易云音乐的云村村友开发的 PC 版网易云音乐扩展工具，可以提供非常丰富的自定义功能扩展增强能力。不过由于开发者迁移到了QQ音乐，网易云版本疏于维护，现在安装略嫌麻烦。</p>
+<p>首先从<a href="https://github.com/std-microblock/chromatic/releases/tag/1.3.4">旧项目地址</a>下载<code>BetterNCMII.dll</code>文件，重命名为<code>msimg32.dll</code>，放入网易云音乐的根目录中。重新打开网易云客户端，可以看到右上角出现了一个网易云的小图标，这就是插件的入口。</p>
+<p>但是对于最新版本的网易云，插件只有少数几个，为了有更多的插件可供选择。需要安装<code>Downgrade</code>插件将网易云回退到<code>2.10.13</code>版本。这样就可以安装各种第三方的插件了。</p>
+<p>我是安装了一个主题，一个修改歌曲信息共享协议的插件，以及一个修改播放界面的插件。效果让我很欣喜。</p>
+<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250712/LIib/1626X1107/%E6%96%B0%E7%BD%91%E6%98%93%E4%BA%91%E6%88%AA%E5%9B%BE.png?20" alt="网易云截图"></p>
+<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="更换微软输入法的候选窗口字体"><a href="#更换微软输入法的候选窗口字体" class="headerlink" title="更换微软输入法的候选窗口字体"></a>更换微软输入法的候选窗口字体</h2><p>按<code>Win+R</code>，输入<code>regedit</code>进入注册表，在<code>HKEY_CURRENT_USER\Software\Microsoft\InputMethod\CandidateWindow\CHS\1</code>路径下找到<code>FontStyle</code>变量，双击编辑。默认值为<code>13.50pt;Regular;;Microsoft YaHei UI</code>共四项：</p>
+<ol>
+<li>第一项<strong>字体大小</strong>（小：11.25pt；中：13.50pt；大：15.00pt；特大：18.00pt）可自定义数值</li>
+<li>第二项<strong>字形</strong>（常规：Regular；粗体：Bold；细体：light）不可以设置斜体Italic</li>
+<li>第三项为空</li>
+<li>第四项<strong>字体名称</strong>（<code>MIcrosoft YaHei UI</code>，宋体，等线，仿宋，楷体，黑体）可自定义已安装字体</li>
+</ol>
+<h2 id="使用Everything进行文件传输"><a href="#使用Everything进行文件传输" class="headerlink" title="使用Everything进行文件传输"></a>使用Everything进行文件传输</h2><p>众所周知，<code>everything</code>的文件功能非常强大，但是它也可以通过创建HTTP&#x2F;FTP服务器的方式进行文件传输。</p>
+<p>打开<code>everything</code>-工具-选项-HTTP服务器，点击“启动HTTP服务器“，“绑定到接口”设置为本机IP地址，再设置端口，点击应用。<strong>同一局域网</strong>中的设备就可以访问<code>IP地址:端口</code>下载主机中的文件了。</p>
+<p>待探索的功能包括传输安全性的设置和共享文件夹的设置。</p>
+]]></content>
+      <categories>
+        <category>周报</category>
+      </categories>
+      <tags>
+        <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>喜欢的音乐</title>
+    <url>/2025/05/19/%E5%96%9C%E6%AC%A2%E7%9A%84%E9%9F%B3%E4%B9%90/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250619/oN3C/4300X5734/%E5%AF%B9%E5%8F%B7%E4%BA%91-compressed.jpg?10" alt="对号云_compressed.jpg"></p>
+<p><em>学校里拍到的对号云，也就是说今年做什么都是对的(doge)</em></p>
+<hr>
+<p>无聊时翻了翻这几年的听歌记录，发现听歌的品味似乎和心志的变化有某种联系，十分有趣。</p>
+<p>小学时没有专门听歌的习惯，但是印象特别深的有一首《走在乡间的小路上》，是音乐课本里的童谣。初听时只觉得旋律轻快，可是细听下去，却又能感受到丝丝缕缕的遗憾，在一众儿歌里是别具一格的存在，因而每次音乐课唱这首歌我都十分卖力。那时的我，或许还不懂什么是落寞惆怅，但却能从歌声中感受到一种别样的情愫，像是对某种未知的朦胧感知，又像是对简单快乐的一种微妙超越。</p>
+<blockquote>
+<p> 笑意写在脸上</p>
+<p>哼一曲乡居小唱</p>
+<p>任思绪在晚风中飞扬</p>
+<p>多少落寞惆怅</p>
+<p>都随晚风飘散</p>
+<p>遗忘在乡间的小路上</p>
+<p>——《走在乡间的小路上》</p>
+</blockquote>
+<p>初中三年，我最爱的莫过于《起风了》。这首歌与我的初中生活有着许许多多的呼应。离开初中后，每听到“噔噔蹬蹬，噔-噔噔；噔噔蹬蹬，噔-噔噔噔噔噔噔噔”的前奏，我就想到下午的阳光斜照入教室，窗外仿佛有树叶飞舞。那时候的情感至真、至纯、至烈，就像这首歌所传达的那样，有对世界的好奇与向往，也有年少轻狂的无畏与执着。后来吴青峰的版本大火，但于我而言，买辣椒也用券的版本却独有一种青春的味道，</p>
+<p>然而，那时的我对其它华语歌曲并不感冒，反而沉浸在电音和摇滚之中。每到周末回家，我都要戴上耳机，播放一段电音节的录像，开启周末的狂欢。想当年，少年意气，挥斥方遒啊。</p>
+<blockquote>
+<p> 我曾难自拔于世界之大</p>
+<p>也沉溺于其中梦话</p>
+<p>不得真假 不做挣扎 不惧笑话</p>
+<p>我曾将青春翻涌成她</p>
+<p>也曾指尖弹出盛夏</p>
+<p>心之所动 且就随缘去吧</p>
+<p>逆着光行走 任风吹雨打</p>
+<p>——买辣椒也用券《起风了》</p>
+</blockquote>
+<p>进入高中，少年锋芒依旧，但对世界有了更多的思考。我不再满足于简单的高潮，而是开始关注旋律的起伏变化，就像此时的心境，不再单纯地追求快乐，而是开始思考意义与价值。在同桌的影响下，我一头扎入了欧美音乐的海洋。Imagine Dragons，One Republic，Ed Sheeran，Westlife，Coldplay，Adele，Avicii，Fall Out Boy，Maroon 5，Linkin Park，Bruno Mars，外加两位日本歌手米津玄师和上北健，这些歌手和乐队的名字，成了我高中回忆不可或缺的一部分。有趣的是，这三年我听的全都是外文歌，或许正是因为听不懂词，反而可以更好地沉浸到律动中吧。</p>
+<p>高中最喜欢的音乐要给到Imagine Dragons的《Radioactive》，在漫长的前奏与压抑的主歌后，情绪在副歌部分迎来爆发，那股炽烈的能量仿佛要摧毁一切不堪。在高中压抑的生活背景下，大丹的嘶吼仿佛是对自由与解脱的呐喊，也是对未来的期待与憧憬。</p>
+<blockquote>
+<p>I’m waking up, I feel it in my bones</p>
+<p>Enough to make my systems blow</p>
+<p>Welcome to the new age, to the new age.</p>
+<p>Welcome to the new age, to the new age.</p>
+<p>Woah, woah, I’m radioactive, radioactive.</p>
+<p>Woah, woah, I’m radioactive, radioactive.</p>
+<p>——Imagine Dragons《Radioactive》</p>
+</blockquote>
+<p>钱锺书说婚姻是座围城，我说大学也是座围城。未成年时，我曾幻想大学生活是鸟上青天，鱼入瀚海。可真正离开家乡，才发现自己只不过是只毛没长齐的雏鸟。满怀理想与完美主义的我，在不理想和不完美的世界中走的磕磕绊绊。每当我觉得自己“行了”，世界总会告诉我“你很渺小，比你想象的要更加渺小。”大一到大三，人生百态中我至少也经历了十态。与之对应地，我开始在更多风格的音乐中找到共鸣，欣赏音乐的耐心也大大增加。古典音乐中蕴含着秩序与理性；王菲似乎在唱着破，又唱着立；宫崎骏动漫的配乐总能让我想起美好的童年；日本的流行歌曲普遍一股丧味，让emo时的我狠狠共情。</p>
+<p>这三年很难说有最喜欢的歌，因为合我胃口的实在不少。这里说一下最新喜欢的歌《Don’t Be Serious》，它就是在讲“不破不立”，也正好对应着目前我对自己的期望。</p>
+<blockquote>
+<p>Turn to dust 化为尘埃</p>
+<p>As we forget 当我们忘记</p>
+<p>As we move on 当我们继续向前</p>
+<p>Still 依旧</p>
+<p>I refuse 我拒绝</p>
+<p>To let you slip away 你的悄然而逝</p>
+<p>Don’t be so serious 别那么严肃</p>
+<p>Don’t be so serious 别那么拘谨</p>
+<p>Don’t be so serious 别那么认真</p>
+<p>Don’t be so serious 别那么当真</p>
+<p>——Low Roar《Don’t Be Serious》</p>
+</blockquote>
+<hr>
+<p>缘来缘又散，面对人生的无常我们似乎无可奈何。习惯了一帆风顺，落寞时该如何自处？纤尘不染的理想如何与这滚滚红尘相容？当世界不是自己想象的那样，是该改变自己，还是孤立世界？许多问题，古今圣贤也没有答案。对于人生无常，苏轼曾留下一点思考。宋仁宗嘉祐六年，苏辙送苏轼至郑州，分手回京，作诗《怀渑池寄子瞻兄》寄苏轼。其中一句“相携话别郑原上，共道长途怕雪泥”，说“老兄啊，离开了你，我看不清前方的路啊。”苏轼应和作《和子由渑池怀旧》，笑呵呵地说“子由啊，人生不就像这鸿爪过雪泥一般么？”</p>
+<blockquote>
+<p>人生到处知何似，应似飞鸿踏雪泥。</p>
+<p>泥上偶然留指爪，鸿飞那复计东西。</p>
+<p>老僧已死成新塔，坏壁无由见旧题。</p>
+<p>往日崎岖还记否，路长人困蹇驴嘶</p>
+<p>——苏轼《和子由渑池怀旧》</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>斯诺克英雄榜</title>
+    <url>/2024/12/04/%E6%96%AF%E8%AF%BA%E5%85%8B%E8%8B%B1%E9%9B%84%E6%A6%9C/</url>
+    <content><![CDATA[<p>说说我对几位斯诺克球员的观感。</p>
+<p>小特，草原雄鹰，侠客第二，是我最中情的球员。他飘逸的球风如同雄鹰在草原上的一声长啸。我尤其喜欢11年世锦赛时的他，他的不羁让我感叹：少年当如此！</p>
+<p>塞尔比，最强人类。他像魔戒中的人类国王，在顶级球手中展现的天赋并不耀眼，但是将人类的智慧发挥到了极致。精密的计算和精确的执行，让他成为了最强80后。</p>
+<p>希金斯，就如同他的外号一样，老巫师。他的智慧蕴含着某种神秘色彩，仿佛来自于某个神明的赏赐。他在2011世锦赛的关键翻袋就是其球风的最好诠释。</p>
+<p>火箭奥沙利文，侠客第一。他就像武功第一的江湖高手，其技艺融百家之长，无法用派别去界定。他在技术上已臻至化境，正在向上追寻“道”。</p>
+<h2 id="岔题"><a href="#岔题" class="headerlink" title="岔题"></a>岔题</h2><p>附带一段刘桂莲对于塞尔比的评价：关于马克塞尔比口碑两级反转的原因，很简单，时代变了，我们对于英雄的定义也开始变了，在好高骛远找不着北的时候，更崇尚无所不能的超能力，当潮水褪去，真正需要自己面对生活的时候，才发现那些理应我们每个人身上都拥有，但普遍缺失的优秀品质有多可贵，比如身处困境的坚持到底，突破极限的跌倒重起，亦或者简单廉价的爱和勇气。</p>
+<p>逆境之时，我们需要向塞尔比学习，认识已有信息，分析解构问题，精确执行方案，以及最重要的——始终保持着对自己、对美好的信念。</p>
+]]></content>
+      <categories>
+        <category>体育</category>
+      </categories>
+      <tags>
+        <tag>斯诺克</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>夏日所感</title>
+    <url>/2025/07/06/%E5%A4%8F%E6%97%A5%E6%89%80%E6%84%9F/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250709/EJab/5734X4300/%E9%BB%91%E4%BA%91%E9%87%91%E5%90%BB_compressed.jpg?10" alt="黑云金吻250709"></p>
+<p>Dark clouds become heaven’s flowers when kissed by light.</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>诗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网易云的后门</title>
+    <url>/2025/06/19/%E7%BD%91%E6%98%93%E4%BA%91%E7%9A%84%E5%90%8E%E9%97%A8/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250619/B5eO/2020X1124/%E5%A4%8F%E5%A4%A9%E7%9A%84%E4%BA%91250619.jpg" alt="夏天的云250619"></p>
+<blockquote>
+<p>夏天的云: )</p>
+</blockquote>
+<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>今天特别想听王心凌的《梦的光点》，但是Spotify因为地区冲突不能用了，网易云又没有版权。一时间怒上心头，就不信没有办法越过这点限制。上网搜集一番，真有方案。</p>
+<h1 id="后门"><a href="#后门" class="headerlink" title="后门"></a>后门</h1><p>众所周知，网易云由于没有某热门歌手的版权而丧失了大量用户，但是其实也有留下后门。</p>
+<p>在电脑端上打开网易云音乐-我的音乐云盘，将准备好的歌曲文件上传到云盘中。<strong>那么这首歌就和其他有版权没什么两样了，既可以多端播放，也可以收藏到歌单中</strong>。而且对于网易云曾经&#x2F;现在有版权的歌曲，如《梦的光点》，网易云会根据歌曲名<strong>自动匹配歌词、甚至还有以前的评论</strong>，如果信息没有匹配或匹配错误，也可以在手机端音乐网盘中，点击歌曲详情选择“网盘歌曲信息匹配纠正”。</p>
+<p>遗憾的是，jay的歌曲匹配不到歌词，只能听曲。</p>
+<p>另本人正在用的<a href="https://flac.life/">无损音乐下载网站</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>节日的仪式感</title>
+    <url>/2025/01/06/%E8%8A%82%E6%97%A5%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F/</url>
+    <content><![CDATA[<p>正值新年，我的内心有一种奇特的感觉，那些日期以2024开头的事情，不论好与坏，不论实际上有多近，都已经翻篇。仿佛2024年已变成题干，而2025年才是我要书写的答案。</p>
+<p>这或许就是节日的正面意义之一吧。节日将生活分成一个一个小段，事情无论喜怒哀乐只能影响前一个阶段，我们总是以一种崭新的姿态去迎接未来。</p>
+<p>写于2025-1-1</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>节日</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>赤壁赋</title>
+    <url>/2024/11/10/%E8%B5%A4%E5%A3%81%E8%B5%8B/</url>
+    <content><![CDATA[<p>壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。少焉，月出于东山之上，徘徊于斗牛之间。白露横江，水光接天。纵一苇之所如，凌万顷之茫然。浩浩乎如冯虚御风，而不知其所止；飘飘乎如遗世独立，羽化而登仙。</p>
+<p>于是饮酒乐甚，扣舷而歌之。歌曰：“桂棹兮兰桨，击空明兮溯流光。渺渺兮予怀，望美人兮天一方。”客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。舞幽壑之潜蛟，泣孤舟之嫠妇。</p>
+<p>苏子愀然，正襟危坐而问客曰：“何为其然也？”客曰：“‘月明星稀，乌鹊南飞’，此非曹孟德之诗乎？西望夏口，东望武昌，山川相缪，郁乎苍苍，此非孟德之困于周郎者乎？方其破荆州，下江陵，顺流而东也，舳舻千里，旌旗蔽空，酾酒临江，横槊赋诗，固一世之雄也，而今安在哉？况吾与子渔樵于江渚之上，侣鱼虾而友麋鹿，驾一叶之扁舟，举匏樽以相属。寄蜉蝣于天地，渺沧海之一粟。哀吾生之须臾，羡长江之无穷。挟飞仙以遨游，抱明月而长终。知不可乎骤得，托遗响于悲风。”</p>
+<p>苏子曰：“客亦知夫水与月乎？逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也。盖将自其变者而观之，则天地曾不能以一瞬；自其不变者而观之，则物与我皆无尽也，而又何羡乎！且夫天地之间，物各有主，苟非吾之所有，虽一毫而莫取。惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭。是造物者之无尽藏也，而吾与子之所共适。”</p>
+<p>客喜而笑，洗盏更酌。肴核既尽，杯盘狼籍。相与枕藉乎舟中，不知东方之既白。</p>
+]]></content>
+      <categories>
+        <category>诗词</category>
+      </categories>
+  </entry>
+</search>
