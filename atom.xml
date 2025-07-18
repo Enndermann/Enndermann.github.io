@@ -6,7 +6,7 @@
   <link href="https://enndermann.github.io/atom.xml" rel="self"/>
   
   <link href="https://enndermann.github.io/"/>
-  <updated>2025-07-14T08:12:43.410Z</updated>
+  <updated>2025-07-18T07:02:05.570Z</updated>
   <id>https://enndermann.github.io/</id>
   
   <author>
@@ -17,9 +17,55 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>者也开发文档</title>
+    <link href="https://enndermann.github.io/2025/07/18/%E8%80%85%E4%B9%9F%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/"/>
+    <id>https://enndermann.github.io/2025/07/18/%E8%80%85%E4%B9%9F%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/</id>
+    <published>2025-07-18T05:50:27.000Z</published>
+    <updated>2025-07-18T07:02:05.570Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="者也-ZheYe-知乎美化插件开发文档"><a href="#者也-ZheYe-知乎美化插件开发文档" class="headerlink" title="者也 (ZheYe) - 知乎美化插件开发文档"></a>者也 (ZheYe) - 知乎美化插件开发文档</h1><h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1. 简介"></a>1. 简介</h2><p>“者也” (ZheYe) 是一款第三方的油猴（Tampermonkey）用户脚本，旨在美化知乎网站的用户界面。 这款插件通过引入渐变背景、毛玻璃质感的卡片式设计、胶囊按钮等现代化UI元素，为用户提供更具沉浸感和美感的浏览体验。</p><p>插件由两个核心脚本组成，分别针对知乎的首页和回答页进行优化。</p><ul><li><strong>作者:</strong> Enderman</li><li><strong>许可证:</strong> MIT</li></ul><h2 id="2-功能特性"><a href="#2-功能特性" class="headerlink" title="2. 功能特性"></a>2. 功能特性</h2><p>“者也” 插件对知乎的两个主要使用场景——首页信息流和问题回答页面——进行了全面的视觉升级。</p><h3 id="2-1-首页美化-者也HomePage-1-0-user-js"><a href="#2-1-首页美化-者也HomePage-1-0-user-js" class="headerlink" title="2.1. 首页美化 (者也HomePage-1.0.user.js)"></a>2.1. 首页美化 (<code>者也HomePage-1.0.user.js</code>)</h3><p>此脚本专用于美化知乎的域名根目录（即首页）。</p><ul><li><strong>渐变背景</strong>: 将默认的白色背景替换为优雅的白色系渐变色 <code>(linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%))</code>，并且背景图在滚动时固定，视觉效果更佳。</li><li><strong>毛玻璃UI</strong>: 首页的核心元素，如顶部导航栏、信息流卡片和侧边栏，都采用了半透明的毛玻璃效果，增加了页面的层次感和现代感。</li><li><strong>胶囊式导航标签</strong>: 将“推荐”、“关注”、“热榜”等导航标签改造为圆润的胶囊形状。激活的标签会根据分类（如推荐为蓝色，关注为绿色）显示不同的高亮颜色和阴影，清晰且富有活力。</li><li><strong>卡片式信息流</strong>: 每一条信息流项目都以独立的圆角卡片承载。卡片具有柔和的阴影，鼠标悬浮时会有轻微的上浮和放大效果，提供了积极的视觉反馈。</li><li><strong>居中布局</strong>: 主内容区域（信息流）被设置为居中布局，使用户视线更聚焦。</li></ul><h3 id="2-2-回答页美化-者也AnswerPage-1-0-user-js"><a href="#2-2-回答页美化-者也AnswerPage-1-0-user-js" class="headerlink" title="2.2. 回答页美化 (者也AnswerPage-1.0.user.js)"></a>2.2. 回答页美化 (<code>者也AnswerPage-1.0.user.js</code>)</h3><p>此脚本专用于美化知乎的问题回答页面 (<code>https://www.zhihu.com/question/*</code>)。</p><ul><li><strong>沉浸式问题标题</strong>: 问题标题栏会在页面向下滚动时固定在顶部（吸顶效果），并附带轻微的毛玻璃背景，方便用户随时回顾问题。</li><li><strong>卡片式回答</strong>: 每个回答都被设计成一个独立的圆角毛玻璃卡片。这种设计不仅美观，也让不同回答之间的界限更清晰，易于阅读。</li><li><strong>现代化UI控件</strong>:<ul><li>问题下方的“写回答”、“邀请回答”等按钮被设计为胶囊形状。</li><li>回答卡片内的“关注”按钮被重新设计并移动到卡片的右上角，样式同样为胶囊形，更加醒目。</li></ul></li><li><strong>专注阅读体验</strong>: 默认隐藏了页面右侧的边栏，让主内容区（问题与回答）能够居中显示，帮助用户专注于阅读。</li><li><strong>自定义宽度</strong>: 脚本内预留了配置项，允许用户方便地调整回答卡片的最大宽度。</li></ul><h2 id="3-安装"><a href="#3-安装" class="headerlink" title="3. 安装"></a>3. 安装</h2><p>要使用“者也”插件，您首先需要安装油猴（Tampermonkey）浏览器扩展。</p><ol><li><strong>安装油猴（Tampermonkey）</strong>:<ul><li><a href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Chrome 应用商店</a></li><li><a href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/">Firefox 附加组件</a></li><li><a href="https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd">Edge 附加组件</a></li><li>Safari 用户可从 <a href="https://www.tampermonkey.net/index.php?ext=dhdg&browser=safari">官网</a> 获取。</li></ul></li><li><strong>安装“者也”脚本</strong>:</li></ol><p>目前仅完成最初版本，后续将上传到网络。</p><h2 id="5-自定义配置"><a href="#5-自定义配置" class="headerlink" title="5. 自定义配置"></a>5. 自定义配置</h2><p>“者也”插件提供了一些简单的自定义选项。</p><h3 id="5-1-者也AnswerPage-1-0-user-js"><a href="#5-1-者也AnswerPage-1-0-user-js" class="headerlink" title="5.1. 者也AnswerPage-1.0.user.js"></a>5.1. <code>者也AnswerPage-1.0.user.js</code></h3><p>您可以轻松修改回答区域卡片的最大宽度。</p><ol><li><p>在 Tampermonkey 管理面板中，找到 <code>者也AnswerPage</code> 脚本，点击“编辑”。</p></li><li><p>在代码编辑器的头部，找到以下这行代码：</p><p>JavaScript</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const customAnswerWidth = &#x27;90%&#x27;;</span><br></pre></td></tr></table></figure></li><li><p>将 <code>&#39;90%&#39;</code> 这个值修改为您期望的宽度。您可以使用百分比（如 <code>&#39;80%&#39;</code>）或固定的像素值（如 <code>&#39;900px&#39;</code>）。</p></li><li><p>按下 <code>Ctrl + S</code> 保存脚本。刷新知乎问题页面即可看到变化。</p></li></ol><h3 id="5-2-者也HomePage-1-0-user-js"><a href="#5-2-者也HomePage-1-0-user-js" class="headerlink" title="5.2. 者也HomePage-1.0.user.js"></a>5.2. <code>者也HomePage-1.0.user.js</code></h3><p>首页脚本同样允许自定义。例如，您可以修改背景的渐变色。</p><ol><li><p>在 Tampermonkey 管理面板中，找到 <code>者也HomePage</code> 脚本，点击“编辑”。</p></li><li><p>在代码编辑器中找到定义背景色的常量：</p><p>JavaScript</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const whiteGradient = &#x27;linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)&#x27;;</span><br></pre></td></tr></table></figure></li><li><p>将其中的 <code>linear-gradient</code> 值替换为您喜欢的任何 CSS 背景样式。</p></li><li><p>保存脚本后，刷新知乎首页即可预览效果。</p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;者也-ZheYe-知乎美化插件开发文档&quot;&gt;&lt;a href=&quot;#者也-ZheYe-知乎美化插件开发文档&quot; class=&quot;headerlink&quot; title=&quot;者也 (ZheYe) - 知乎美化插件开发文档&quot;&gt;&lt;/a&gt;者也 (ZheYe) - 知乎美化插件开发文档&lt;/</summary>
+      
+    
+    
+    
+    <category term="开发" scheme="https://enndermann.github.io/categories/%E5%BC%80%E5%8F%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>周记25-07-18</title>
+    <link href="https://enndermann.github.io/2025/07/15/%E5%91%A8%E8%AE%B025-07-21/"/>
+    <id>https://enndermann.github.io/2025/07/15/%E5%91%A8%E8%AE%B025-07-21/</id>
+    <published>2025-07-15T02:03:08.000Z</published>
+    <updated>2025-07-18T07:02:25.948Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Cherry-Studio"><a href="#Cherry-Studio" class="headerlink" title="Cherry Studio"></a>Cherry Studio</h2><p>支持多服务商集成的 AI 对话客户端。输入服务商的API key即可使用，基于AI模型还可以使用对话、绘图、翻译、知识库、MCP等功能。</p><p>官网：<a href="https://www.cherry-ai.com/">https://www.cherry-ai.com/</a></p><h2 id="SearXNG"><a href="#SearXNG" class="headerlink" title="SearXNG"></a>SearXNG</h2><p>注重隐私、可定制的元搜索引擎。优点是免费、集成多个搜索引擎的结果，使用下来效果还是很不错的。目前已经替换为主力搜素。</p><p>相似的项目有Libre Search，但是使用较低质的节点访问时，网页会弹出人机验证，降低了访问速度，而SearXNG就没有这个问题。</p><p>官网：<a href="https://searx.bndkt.io/">https://searx.bndkt.io/</a></p><h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="Firefox系加载网页怎么那么慢？"><a href="#Firefox系加载网页怎么那么慢？" class="headerlink" title="Firefox系加载网页怎么那么慢？"></a>Firefox系加载网页怎么那么慢？</h2><p>上篇文章中提到我从chrome更换到了zen，实际使用中，zen加载网页总是比chrome慢一丢丢，到周二那会，国内国外的网站更是一个也登不上去，但是chrome却可以正常使用。这难道是firefox的问题？</p><p>上网搜才发现firefox默认的DoH在国内访问不快，并且也有可能解析到国外的服务器，导致访问很不稳定。</p><p>解决方案其实很简单：在浏览器设置里搜索“DNS”，将“基于HTTPS的DNS启用策略”设置为关闭即可。</p><h2 id="设置默认搜索引擎"><a href="#设置默认搜索引擎" class="headerlink" title="设置默认搜索引擎"></a>设置默认搜索引擎</h2><p>在搜索引擎中搜索任意关键字，查看搜索页面的网址，将网址中的关键字替换为<code>%s</code>。打开浏览器搜索引擎设置界面，添加引擎。以SearXNG为例，在添加搜索引擎的网址处输入<code>https://searx.bndkt.io/search?q=%s</code>即可。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;有趣的项目&quot;&gt;&lt;a href=&quot;#有趣的项目&quot; class=&quot;headerlink&quot; title=&quot;有趣的项目&quot;&gt;&lt;/a&gt;有趣的项目&lt;/h1&gt;&lt;h2 id=&quot;Cherry-Studio&quot;&gt;&lt;a href=&quot;#Cherry-Studio&quot; class=&quot;header</summary>
+      
+    
+    
+    
+    <category term="周报" scheme="https://enndermann.github.io/categories/%E5%91%A8%E6%8A%A5/"/>
+    
+    
+    <category term="推荐" scheme="https://enndermann.github.io/tags/%E6%8E%A8%E8%8D%90/"/>
+    
+  </entry>
+  
+  <entry>
     <title>周报25-07-11</title>
-    <link href="https://enndermann.github.io/2025/07/11/%E5%91%A8%E6%8A%A5250711/"/>
-    <id>https://enndermann.github.io/2025/07/11/%E5%91%A8%E6%8A%A5250711/</id>
+    <link href="https://enndermann.github.io/2025/07/11/%E5%91%A8%E6%8A%A525-07-11/"/>
+    <id>https://enndermann.github.io/2025/07/11/%E5%91%A8%E6%8A%A525-07-11/</id>
     <published>2025-07-11T05:31:47.000Z</published>
     <updated>2025-07-14T08:12:43.410Z</updated>
     
@@ -113,11 +159,11 @@
   </entry>
   
   <entry>
-    <title>周刊-25.06.10</title>
-    <link href="https://enndermann.github.io/2025/06/10/%E5%91%A8%E5%88%8A250610/"/>
-    <id>https://enndermann.github.io/2025/06/10/%E5%91%A8%E5%88%8A250610/</id>
+    <title>周刊25-06-10</title>
+    <link href="https://enndermann.github.io/2025/06/10/%E5%91%A8%E5%88%8A25-06-10/"/>
+    <id>https://enndermann.github.io/2025/06/10/%E5%91%A8%E5%88%8A25-06-10/</id>
     <published>2025-06-10T10:32:48.000Z</published>
-    <updated>2025-06-29T02:42:28.529Z</updated>
+    <updated>2025-07-15T02:03:47.319Z</updated>
     
     <content type="html"><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>新开一个系列，记录每周发现的新鲜事物</p><h1 id="25-06-10"><a href="#25-06-10" class="headerlink" title="25.06.10"></a>25.06.10</h1><h2 id="Zlibrary"><a href="#Zlibrary" class="headerlink" title="Zlibrary"></a>Zlibrary</h2><p>网址就不贴了。Zlib真的是对我影响深远的一个网站之一，极大地降低了我获取图书资源的难度，这或许就是知识平权的最好体现吧。</p><h2 id="全球光污染地图"><a href="#全球光污染地图" class="headerlink" title="全球光污染地图"></a>全球光污染地图</h2><p><a href="https://www.darkmap.cn/">这个网站</a>很有意思，据说许多天文爱好者就是看这个地图找合适的观星点的。看了一下，至少我这里是看不到太多星星了。</p><h2 id="中国历史地图集"><a href="#中国历史地图集" class="headerlink" title="中国历史地图集"></a>中国历史地图集</h2><p><a href="http://www.ccamc.co/chinese_historical_map/">中国历史地图集</a>是一个将谭其骧主编的同名地图集数字化的网站。谭图貌似在历史地图界有着相当高的地位。这个网站在我看一些历史书时棒了许多忙了。</p><h2 id="默沙东诊疗手册大众版"><a href="#默沙东诊疗手册大众版" class="headerlink" title="默沙东诊疗手册大众版"></a>默沙东诊疗手册大众版</h2><p><a href="https://www.msdmanuals.cn/home">默沙东诊疗手册大众版</a>是一个医学科普网站，感觉很权威的样子，而且搜索十分友好。对于我这样的医学小白来说太需要一个靠谱的日常医疗手册了。</p><h2 id="IPSOS"><a href="#IPSOS" class="headerlink" title="IPSOS"></a>IPSOS</h2><p><a href="https://www.ipsos.com/zh-cn#">益普索</a>，一家用户洞察与策略咨询公司，张vv推荐的研报机构！</p><h2 id="LINUX-DO"><a href="#LINUX-DO" class="headerlink" title="LINUX DO"></a>LINUX DO</h2><p>“<strong>真诚</strong>、<strong>友善</strong>、<strong>团结</strong>、<strong>专业</strong>，共建你我引以为荣之社区”是<a href="linux.do">这家论坛</a>的座右铭。实际上干货量是很多的，尤其是关于AI的资讯十分及时，还有一些瞎折腾的教程也很有意思。</p><h2 id="quicker"><a href="#quicker" class="headerlink" title="quicker"></a>quicker</h2><p><a href="https://getquicker.net/https://getquicker.net/">quicker</a>是一款指尖工具箱，可以创建或导入各种各样有意思的脚本。我常用的脚本有长截图、破除网页复制限制和模拟打字粘贴（后两者不知道帮我逃过了多少大学中形式主义的任务。感谢quicker。</p><h2 id="FuckZHS"><a href="#FuckZHS" class="headerlink" title="FuckZHS"></a>FuckZHS</h2><p><a href="https://github.com/VermiIIi0n/fuckZHS">FuckZHS</a>是一个Github开源项目，可以看到这个名字十分具有侵略性。它可以挂在后台帮我们刷智慧树课程，也曾帮了我的大忙，遗憾的是该项目没有前端界面。感谢FuckZHS。</p><h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><p><a href="https://typoraio.cn/">Typora</a> is a simple yet powerful Markdown reader.正如官网介绍的那样，Typora的简洁快速、对Markdown和$LaTex$的支持是它成为我常用编辑器的重要原因。</p><h2 id="PiliPlus"><a href="#PiliPlus" class="headerlink" title="PiliPlus"></a>PiliPlus</h2><p><a href="https://github.com/bggRGjQaUbCoE/PiliPlus">PiliPlus</a>是一个B站的安卓第三方客户端，本人正在使用，感觉PiliPlus的推荐质量要比原生B站高那么一些，并且还支持根据时长、关键词屏蔽视频，再加上更加简洁的界面、无广告、快速的响应，让我爱不释手。</p><p>累了，暂时就这些，持续更新~</p><h1 id="25-06-18"><a href="#25-06-18" class="headerlink" title="25.06.18"></a>25.06.18</h1><h2 id="GKD"><a href="#GKD" class="headerlink" title="GKD"></a>GKD</h2><p><a href="https://gkd.li/">GKD</a>是一款基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用。如果觉得每次打开京东淘宝b站要等两秒钟广告很心烦，而且乐意折腾，GKD是一个好的选择。<br>不过我在实际使用过程中，尽管给了GKD自启动的权限，但是它在后台经常退出，目前没找到办法。</p><h2 id="阿里巴巴矢量图标库"><a href="#阿里巴巴矢量图标库" class="headerlink" title="阿里巴巴矢量图标库"></a>阿里巴巴矢量图标库</h2><p><a href="https://www.iconfont.cn/">https://www.iconfont.cn/</a><br>免费，素材数量多，素材导出格式多，制作PPT时的好帮手。</p><h2 id="秘塔AI搜索"><a href="#秘塔AI搜索" class="headerlink" title="秘塔AI搜索"></a>秘塔AI搜索</h2><p><a href="https://metaso.cn/">秘塔</a>是一个国产AI搜索引擎，是我在查选修课资料时发现的。相比于chatgpt，豆包等通用大模型的搜索能力，幻觉更少，而且引用质量更高。更重要的是一天有100次免费次数，很爽好吧。</p><h2 id="Gemini-Pro"><a href="#Gemini-Pro" class="headerlink" title="Gemini Pro"></a>Gemini Pro</h2><p>最近折腾着通过了谷歌的学生优惠，可以享受一年半的Gemini Pro。Gemini 2.5 pro的性能真的很强大，不论是上下文的容量、文章的逻辑性、代码能力还是推理能力，横向对比grok，chatgpt，豆包都是一流的，我在期末周也是爽用了一把 。</p>]]></content>
     

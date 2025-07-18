@@ -158,13 +158,13 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">17</span>
+          <span class="site-state-item-count">19</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
@@ -203,7 +203,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://enndermann.github.io/2025/07/11/%E5%91%A8%E6%8A%A5250711/">
+    <link itemprop="mainEntityOfPage" href="https://enndermann.github.io/2025/07/18/%E8%80%85%E4%B9%9F%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -221,7 +221,274 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/07/11/%E5%91%A8%E6%8A%A5250711/" class="post-title-link" itemprop="url">周报25-07-11</a>
+          <a href="/2025/07/18/%E8%80%85%E4%B9%9F%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/" class="post-title-link" itemprop="url">者也开发文档</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2025-07-18 13:50:27 / 修改时间：15:02:05" itemprop="dateCreated datePublished" datetime="2025-07-18T13:50:27+08:00">2025-07-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%BC%80%E5%8F%91/" itemprop="url" rel="index"><span itemprop="name">开发</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>1.1k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>4 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="者也-ZheYe-知乎美化插件开发文档"><a href="#者也-ZheYe-知乎美化插件开发文档" class="headerlink" title="者也 (ZheYe) - 知乎美化插件开发文档"></a>者也 (ZheYe) - 知乎美化插件开发文档</h1><h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1. 简介"></a>1. 简介</h2><p>“者也” (ZheYe) 是一款第三方的油猴（Tampermonkey）用户脚本，旨在美化知乎网站的用户界面。 这款插件通过引入渐变背景、毛玻璃质感的卡片式设计、胶囊按钮等现代化UI元素，为用户提供更具沉浸感和美感的浏览体验。</p>
+<p>插件由两个核心脚本组成，分别针对知乎的首页和回答页进行优化。</p>
+<ul>
+<li><strong>作者:</strong> Enderman</li>
+<li><strong>许可证:</strong> MIT</li>
+</ul>
+<h2 id="2-功能特性"><a href="#2-功能特性" class="headerlink" title="2. 功能特性"></a>2. 功能特性</h2><p>“者也” 插件对知乎的两个主要使用场景——首页信息流和问题回答页面——进行了全面的视觉升级。</p>
+<h3 id="2-1-首页美化-者也HomePage-1-0-user-js"><a href="#2-1-首页美化-者也HomePage-1-0-user-js" class="headerlink" title="2.1. 首页美化 (者也HomePage-1.0.user.js)"></a>2.1. 首页美化 (<code>者也HomePage-1.0.user.js</code>)</h3><p>此脚本专用于美化知乎的域名根目录（即首页）。</p>
+<ul>
+<li><strong>渐变背景</strong>: 将默认的白色背景替换为优雅的白色系渐变色 <code>(linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%))</code>，并且背景图在滚动时固定，视觉效果更佳。</li>
+<li><strong>毛玻璃UI</strong>: 首页的核心元素，如顶部导航栏、信息流卡片和侧边栏，都采用了半透明的毛玻璃效果，增加了页面的层次感和现代感。</li>
+<li><strong>胶囊式导航标签</strong>: 将“推荐”、“关注”、“热榜”等导航标签改造为圆润的胶囊形状。激活的标签会根据分类（如推荐为蓝色，关注为绿色）显示不同的高亮颜色和阴影，清晰且富有活力。</li>
+<li><strong>卡片式信息流</strong>: 每一条信息流项目都以独立的圆角卡片承载。卡片具有柔和的阴影，鼠标悬浮时会有轻微的上浮和放大效果，提供了积极的视觉反馈。</li>
+<li><strong>居中布局</strong>: 主内容区域（信息流）被设置为居中布局，使用户视线更聚焦。</li>
+</ul>
+<h3 id="2-2-回答页美化-者也AnswerPage-1-0-user-js"><a href="#2-2-回答页美化-者也AnswerPage-1-0-user-js" class="headerlink" title="2.2. 回答页美化 (者也AnswerPage-1.0.user.js)"></a>2.2. 回答页美化 (<code>者也AnswerPage-1.0.user.js</code>)</h3><p>此脚本专用于美化知乎的问题回答页面 (<code>https://www.zhihu.com/question/*</code>)。</p>
+<ul>
+<li><strong>沉浸式问题标题</strong>: 问题标题栏会在页面向下滚动时固定在顶部（吸顶效果），并附带轻微的毛玻璃背景，方便用户随时回顾问题。</li>
+<li><strong>卡片式回答</strong>: 每个回答都被设计成一个独立的圆角毛玻璃卡片。这种设计不仅美观，也让不同回答之间的界限更清晰，易于阅读。</li>
+<li><strong>现代化UI控件</strong>:<ul>
+<li>问题下方的“写回答”、“邀请回答”等按钮被设计为胶囊形状。</li>
+<li>回答卡片内的“关注”按钮被重新设计并移动到卡片的右上角，样式同样为胶囊形，更加醒目。</li>
+</ul>
+</li>
+<li><strong>专注阅读体验</strong>: 默认隐藏了页面右侧的边栏，让主内容区（问题与回答）能够居中显示，帮助用户专注于阅读。</li>
+<li><strong>自定义宽度</strong>: 脚本内预留了配置项，允许用户方便地调整回答卡片的最大宽度。</li>
+</ul>
+<h2 id="3-安装"><a href="#3-安装" class="headerlink" title="3. 安装"></a>3. 安装</h2><p>要使用“者也”插件，您首先需要安装油猴（Tampermonkey）浏览器扩展。</p>
+<ol>
+<li><strong>安装油猴（Tampermonkey）</strong>:<ul>
+<li><a target="_blank" rel="noopener" href="https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo">Chrome 应用商店</a></li>
+<li><a target="_blank" rel="noopener" href="https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/">Firefox 附加组件</a></li>
+<li><a target="_blank" rel="noopener" href="https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd">Edge 附加组件</a></li>
+<li>Safari 用户可从 <a target="_blank" rel="noopener" href="https://www.tampermonkey.net/index.php?ext=dhdg&browser=safari">官网</a> 获取。</li>
+</ul>
+</li>
+<li><strong>安装“者也”脚本</strong>:</li>
+</ol>
+<p>目前仅完成最初版本，后续将上传到网络。</p>
+<h2 id="5-自定义配置"><a href="#5-自定义配置" class="headerlink" title="5. 自定义配置"></a>5. 自定义配置</h2><p>“者也”插件提供了一些简单的自定义选项。</p>
+<h3 id="5-1-者也AnswerPage-1-0-user-js"><a href="#5-1-者也AnswerPage-1-0-user-js" class="headerlink" title="5.1. 者也AnswerPage-1.0.user.js"></a>5.1. <code>者也AnswerPage-1.0.user.js</code></h3><p>您可以轻松修改回答区域卡片的最大宽度。</p>
+<ol>
+<li><p>在 Tampermonkey 管理面板中，找到 <code>者也AnswerPage</code> 脚本，点击“编辑”。</p>
+</li>
+<li><p>在代码编辑器的头部，找到以下这行代码：</p>
+<p>JavaScript</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const customAnswerWidth = &#x27;90%&#x27;;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将 <code>&#39;90%&#39;</code> 这个值修改为您期望的宽度。您可以使用百分比（如 <code>&#39;80%&#39;</code>）或固定的像素值（如 <code>&#39;900px&#39;</code>）。</p>
+</li>
+<li><p>按下 <code>Ctrl + S</code> 保存脚本。刷新知乎问题页面即可看到变化。</p>
+</li>
+</ol>
+<h3 id="5-2-者也HomePage-1-0-user-js"><a href="#5-2-者也HomePage-1-0-user-js" class="headerlink" title="5.2. 者也HomePage-1.0.user.js"></a>5.2. <code>者也HomePage-1.0.user.js</code></h3><p>首页脚本同样允许自定义。例如，您可以修改背景的渐变色。</p>
+<ol>
+<li><p>在 Tampermonkey 管理面板中，找到 <code>者也HomePage</code> 脚本，点击“编辑”。</p>
+</li>
+<li><p>在代码编辑器中找到定义背景色的常量：</p>
+<p>JavaScript</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">const whiteGradient = &#x27;linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)&#x27;;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>将其中的 <code>linear-gradient</code> 值替换为您喜欢的任何 CSS 背景样式。</p>
+</li>
+<li><p>保存脚本后，刷新知乎首页即可预览效果。</p>
+</li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://enndermann.github.io/2025/07/15/%E5%91%A8%E8%AE%B025-07-21/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Enderman">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Babel">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Babel">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/07/15/%E5%91%A8%E8%AE%B025-07-21/" class="post-title-link" itemprop="url">周记25-07-18</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-07-15 10:03:08" itemprop="dateCreated datePublished" datetime="2025-07-15T10:03:08+08:00">2025-07-15</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2025-07-18 15:02:25" itemprop="dateModified" datetime="2025-07-18T15:02:25+08:00">2025-07-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%91%A8%E6%8A%A5/" itemprop="url" rel="index"><span itemprop="name">周报</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>410</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Cherry-Studio"><a href="#Cherry-Studio" class="headerlink" title="Cherry Studio"></a>Cherry Studio</h2><p>支持多服务商集成的 AI 对话客户端。输入服务商的API key即可使用，基于AI模型还可以使用对话、绘图、翻译、知识库、MCP等功能。</p>
+<p>官网：<a target="_blank" rel="noopener" href="https://www.cherry-ai.com/">https://www.cherry-ai.com/</a></p>
+<h2 id="SearXNG"><a href="#SearXNG" class="headerlink" title="SearXNG"></a>SearXNG</h2><p>注重隐私、可定制的元搜索引擎。优点是免费、集成多个搜索引擎的结果，使用下来效果还是很不错的。目前已经替换为主力搜素。</p>
+<p>相似的项目有Libre Search，但是使用较低质的节点访问时，网页会弹出人机验证，降低了访问速度，而SearXNG就没有这个问题。</p>
+<p>官网：<a target="_blank" rel="noopener" href="https://searx.bndkt.io/">https://searx.bndkt.io/</a></p>
+<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="Firefox系加载网页怎么那么慢？"><a href="#Firefox系加载网页怎么那么慢？" class="headerlink" title="Firefox系加载网页怎么那么慢？"></a>Firefox系加载网页怎么那么慢？</h2><p>上篇文章中提到我从chrome更换到了zen，实际使用中，zen加载网页总是比chrome慢一丢丢，到周二那会，国内国外的网站更是一个也登不上去，但是chrome却可以正常使用。这难道是firefox的问题？</p>
+<p>上网搜才发现firefox默认的DoH在国内访问不快，并且也有可能解析到国外的服务器，导致访问很不稳定。</p>
+<p>解决方案其实很简单：在浏览器设置里搜索“DNS”，将“基于HTTPS的DNS启用策略”设置为关闭即可。</p>
+<h2 id="设置默认搜索引擎"><a href="#设置默认搜索引擎" class="headerlink" title="设置默认搜索引擎"></a>设置默认搜索引擎</h2><p>在搜索引擎中搜索任意关键字，查看搜索页面的网址，将网址中的关键字替换为<code>%s</code>。打开浏览器搜索引擎设置界面，添加引擎。以SearXNG为例，在添加搜索引擎的网址处输入<code>https://searx.bndkt.io/search?q=%s</code>即可。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://enndermann.github.io/2025/07/11/%E5%91%A8%E6%8A%A525-07-11/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Enderman">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Babel">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | Babel">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/07/11/%E5%91%A8%E6%8A%A525-07-11/" class="post-title-link" itemprop="url">周报25-07-11</a>
         </h2>
 
         <div class="post-meta-container">
@@ -765,7 +1032,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://enndermann.github.io/2025/06/10/%E5%91%A8%E5%88%8A250610/">
+    <link itemprop="mainEntityOfPage" href="https://enndermann.github.io/2025/06/10/%E5%91%A8%E5%88%8A25-06-10/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -783,7 +1050,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/06/10/%E5%91%A8%E5%88%8A250610/" class="post-title-link" itemprop="url">周刊-25.06.10</a>
+          <a href="/2025/06/10/%E5%91%A8%E5%88%8A25-06-10/" class="post-title-link" itemprop="url">周刊25-06-10</a>
         </h2>
 
         <div class="post-meta-container">
@@ -801,7 +1068,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-06-29 10:42:28" itemprop="dateModified" datetime="2025-06-29T10:42:28+08:00">2025-06-29</time>
+      <time title="修改时间：2025-07-15 10:03:47" itemprop="dateModified" datetime="2025-07-15T10:03:47+08:00">2025-07-15</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -1233,197 +1500,6 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://enndermann.github.io/2025/01/26/%E5%8F%B0%E7%90%83%E7%9A%84%E5%BF%83%E6%B3%95/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Enderman">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Babel">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Babel">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/01/26/%E5%8F%B0%E7%90%83%E7%9A%84%E5%BF%83%E6%B3%95/" class="post-title-link" itemprop="url">台球的心法</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2025-01-26 01:07:56 / 修改时间：01:43:58" itemprop="dateCreated datePublished" datetime="2025-01-26T01:07:56+08:00">2025-01-26</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E4%BD%93%E8%82%B2/" itemprop="url" rel="index"><span itemprop="name">体育</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>449</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>2 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>最近我的台球技术有了阶段性的提升，甚至在误打误撞之下完成了人生中的第一杆清台。提升的原因不在台球之中，而在台球之外——在于对身体和心态的调控。</p>
-<p>从第一性原理出发，将母球以预想的状态击出，关键在于出杆的平直，如何做到出杆平直呢？关键在于让身体处于一个最佳的姿态，能够将球杆笔直地送出。调整两脚连线与出杆方向之间的夹角，找到最舒服和放松的状态，确保主视眼、手架、握杆手臂的方向以及球杆的方向在一条直线上。这是技术层面的基础，也是稳定发挥的前提。</p>
-<p>然而，将客观条件调整到最优后，能否真正发挥出来，还取决于心法。在不击球的时候，需要做好规划，思考链接的顺序、球形的难点、下一球的杆法与力道。而当俯身准备击球时，心中只需专注于力度和打点，注意力在母球和目标球上切换，确保出杆方向与母球、假想球连线一致。至于之前的规划、球能否进袋等杂念，统统要抛之脑后。</p>
-<p>其实人生的心法和台球的心法并无二致，都可以总结为“谋定后动，动则忘忧”。我自己常常就是吃着碗里的看着锅里的，总是让过去的遗憾和未来的焦虑降低了行动的效率。留专门的时间做好长期和短期的规划，真正开始行动时，暂时放下过去和未来，集中注意力完成当下的规划即可。</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://enndermann.github.io/2025/01/22/blog20250122/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Enderman">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Babel">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Babel">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/01/22/blog20250122/" class="post-title-link" itemprop="url">Blog250122</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2025-01-22 01:00:32 / 修改时间：01:02:49" itemprop="dateCreated datePublished" datetime="2025-01-22T01:00:32+08:00">2025-01-22</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%87%AA%E6%88%91%E8%A7%82%E5%AF%9F/" itemprop="url" rel="index"><span itemprop="name">自我观察</span></a>
-        </span>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>18</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>死并非生的对立面，而作为生的一部分永存。</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
@@ -1447,13 +1523,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">11k</span>
+    <span title="站点总字数">12k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">39 分钟</span>
+    <span title="站点阅读时长">45 分钟</span>
   </span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
