@@ -169,7 +169,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-count">12</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -231,9 +231,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
-      
 
-      <time title="创建时间：2025-07-18 13:50:27 / 修改时间：15:02:05" itemprop="dateCreated datePublished" datetime="2025-07-18T13:50:27+08:00">2025-07-18</time>
+      <time title="创建时间：2025-07-18 13:50:27" itemprop="dateCreated datePublished" datetime="2025-07-18T13:50:27+08:00">2025-07-18</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2025-07-19 09:05:22" itemprop="dateModified" datetime="2025-07-19T09:05:22+08:00">2025-07-19</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -270,14 +276,15 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="者也-ZheYe-知乎美化插件开发文档"><a href="#者也-ZheYe-知乎美化插件开发文档" class="headerlink" title="者也 (ZheYe) - 知乎美化插件开发文档"></a>者也 (ZheYe) - 知乎美化插件开发文档</h1><h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1. 简介"></a>1. 简介</h2><p>“者也” (ZheYe) 是一款第三方的油猴（Tampermonkey）用户脚本，旨在美化知乎网站的用户界面。 这款插件通过引入渐变背景、毛玻璃质感的卡片式设计、胶囊按钮等现代化UI元素，为用户提供更具沉浸感和美感的浏览体验。</p>
+          <h1 id="者也-ZheYe-知乎美化插件开发文档"><a href="#者也-ZheYe-知乎美化插件开发文档" class="headerlink" title="者也 (ZheYe) - 知乎美化插件开发文档"></a>者也 (ZheYe) - 知乎美化插件开发文档</h1><h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1. 简介"></a>1. 简介</h2><p>“者也” (ZheYe) 是一款第三方的油猴（Tampermonkey）用户脚本，旨在美化知乎网站的用户界面。 这款插件通过引入渐变背景、毛玻璃质感的卡片式设计、胶囊按钮等现代化UI元素，为用户提供更具美感的浏览体验，同时帮助用户更容易地聚焦在内容本身。</p>
 <p>插件由两个核心脚本组成，分别针对知乎的首页和回答页进行优化。</p>
 <ul>
-<li><strong>作者:</strong> Enderman</li>
+<li><strong>作者:</strong> <code>Enderman</code></li>
 <li><strong>许可证:</strong> MIT</li>
 </ul>
 <h2 id="2-功能特性"><a href="#2-功能特性" class="headerlink" title="2. 功能特性"></a>2. 功能特性</h2><p>“者也” 插件对知乎的两个主要使用场景——首页信息流和问题回答页面——进行了全面的视觉升级。</p>
-<h3 id="2-1-首页美化-者也HomePage-1-0-user-js"><a href="#2-1-首页美化-者也HomePage-1-0-user-js" class="headerlink" title="2.1. 首页美化 (者也HomePage-1.0.user.js)"></a>2.1. 首页美化 (<code>者也HomePage-1.0.user.js</code>)</h3><p>此脚本专用于美化知乎的域名根目录（即首页）。</p>
+<h3 id="2-1-首页美化-者也HomePage-1-0-user-js"><a href="#2-1-首页美化-者也HomePage-1-0-user-js" class="headerlink" title="2.1. 首页美化 (者也HomePage-1.0.user.js)"></a>2.1. 首页美化 (<code>者也HomePage-1.0.user.js</code>)</h3><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/31M3/2302X1252/%E8%80%85%E4%B9%9F1.0Homepage.png?60" alt="者也1.0HomePage"></p>
+<p>此脚本专用于美化知乎的域名根目录（即首页）。</p>
 <ul>
 <li><strong>渐变背景</strong>: 将默认的白色背景替换为优雅的白色系渐变色 <code>(linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%))</code>，并且背景图在滚动时固定，视觉效果更佳。</li>
 <li><strong>毛玻璃UI</strong>: 首页的核心元素，如顶部导航栏、信息流卡片和侧边栏，都采用了半透明的毛玻璃效果，增加了页面的层次感和现代感。</li>
@@ -285,7 +292,9 @@
 <li><strong>卡片式信息流</strong>: 每一条信息流项目都以独立的圆角卡片承载。卡片具有柔和的阴影，鼠标悬浮时会有轻微的上浮和放大效果，提供了积极的视觉反馈。</li>
 <li><strong>居中布局</strong>: 主内容区域（信息流）被设置为居中布局，使用户视线更聚焦。</li>
 </ul>
-<h3 id="2-2-回答页美化-者也AnswerPage-1-0-user-js"><a href="#2-2-回答页美化-者也AnswerPage-1-0-user-js" class="headerlink" title="2.2. 回答页美化 (者也AnswerPage-1.0.user.js)"></a>2.2. 回答页美化 (<code>者也AnswerPage-1.0.user.js</code>)</h3><p>此脚本专用于美化知乎的问题回答页面 (<code>https://www.zhihu.com/question/*</code>)。</p>
+<h3 id="2-2-回答页美化-者也AnswerPage-1-0-user-js"><a href="#2-2-回答页美化-者也AnswerPage-1-0-user-js" class="headerlink" title="2.2. 回答页美化 (者也AnswerPage-1.0.user.js)"></a>2.2. 回答页美化 (<code>者也AnswerPage-1.0.user.js</code>)</h3><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/N87X/2559X1356/%E8%80%85%E4%B9%9F1.0AnwserPage2.png?60" alt="者也1.0AnwserPage2"></p>
+<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/gxpl/2559X1365/%E8%80%85%E4%B9%9F1.0AnwserPage1.png?60" alt="者也1.0AnwserPage1"></p>
+<p>此脚本专用于美化知乎的问题回答页面 (<code>https://www.zhihu.com/question/*</code>)。</p>
 <ul>
 <li><strong>沉浸式问题标题</strong>: 问题标题栏会在页面向下滚动时固定在顶部（吸顶效果），并附带轻微的毛玻璃背景，方便用户随时回顾问题。</li>
 <li><strong>卡片式回答</strong>: 每个回答都被设计成一个独立的圆角毛玻璃卡片。这种设计不仅美观，也让不同回答之间的界限更清晰，易于阅读。</li>
@@ -308,7 +317,7 @@
 </li>
 <li><strong>安装“者也”脚本</strong>:</li>
 </ol>
-<p>目前仅完成最初版本，后续将上传到网络。</p>
+<p>最初版本仅供个人使用，成熟后将上传至网络。</p>
 <h2 id="5-自定义配置"><a href="#5-自定义配置" class="headerlink" title="5. 自定义配置"></a>5. 自定义配置</h2><p>“者也”插件提供了一些简单的自定义选项。</p>
 <h3 id="5-1-者也AnswerPage-1-0-user-js"><a href="#5-1-者也AnswerPage-1-0-user-js" class="headerlink" title="5.1. 者也AnswerPage-1.0.user.js"></a>5.1. <code>者也AnswerPage-1.0.user.js</code></h3><p>您可以轻松修改回答区域卡片的最大宽度。</p>
 <ol>
@@ -380,7 +389,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/07/15/%E5%91%A8%E8%AE%B025-07-21/" class="post-title-link" itemprop="url">周记25-07-18</a>
+          <a href="/2025/07/15/%E5%91%A8%E8%AE%B025-07-21/" class="post-title-link" itemprop="url">周记25-07-19</a>
         </h2>
 
         <div class="post-meta-container">
@@ -398,7 +407,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2025-07-18 15:02:25" itemprop="dateModified" datetime="2025-07-18T15:02:25+08:00">2025-07-18</time>
+      <time title="修改时间：2025-07-19 09:18:40" itemprop="dateModified" datetime="2025-07-19T09:18:40+08:00">2025-07-19</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -417,14 +426,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>410</span>
+      <span>681</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
+      <span>2 分钟</span>
     </span>
 </div>
 
@@ -435,15 +444,29 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Cherry-Studio"><a href="#Cherry-Studio" class="headerlink" title="Cherry Studio"></a>Cherry Studio</h2><p>支持多服务商集成的 AI 对话客户端。输入服务商的API key即可使用，基于AI模型还可以使用对话、绘图、翻译、知识库、MCP等功能。</p>
+          <p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/2n1Z/1080X1000/%E5%B0%8F%E9%B9%8F%E8%BD%A6%E6%9C%BA.jpg?60" alt="小鹏车机"></p>
+<blockquote>
+<p>小鹏的车机给我一种用力过猛的感觉。为了追求简约、科技感，车子所有的调节按钮都被浓缩到中控大屏上，但实际上按钮图标很小，而且选择树很复杂。我要关闭对头吹的空调，捣鼓半天才在一个三级菜单中找到。像车子这种天天到处跑的东西，还是更注重功能性一点吧。</p>
+</blockquote>
+<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Cherry-Studio"><a href="#Cherry-Studio" class="headerlink" title="Cherry Studio"></a>Cherry Studio</h2><p>支持多服务商集成的 AI 对话客户端。输入服务商的API key即可使用，基于AI模型还可以使用对话、绘图、翻译、知识库、MCP等功能。</p>
 <p>官网：<a target="_blank" rel="noopener" href="https://www.cherry-ai.com/">https://www.cherry-ai.com/</a></p>
 <h2 id="SearXNG"><a href="#SearXNG" class="headerlink" title="SearXNG"></a>SearXNG</h2><p>注重隐私、可定制的元搜索引擎。优点是免费、集成多个搜索引擎的结果，使用下来效果还是很不错的。目前已经替换为主力搜素。</p>
 <p>相似的项目有Libre Search，但是使用较低质的节点访问时，网页会弹出人机验证，降低了访问速度，而SearXNG就没有这个问题。</p>
 <p>官网：<a target="_blank" rel="noopener" href="https://searx.bndkt.io/">https://searx.bndkt.io/</a></p>
+<h2 id="PING0"><a href="#PING0" class="headerlink" title="PING0"></a>PING0</h2><p>一个IP检测网站，可以用来查看梯子节点的IP质量。</p>
+<p>官网：<a target="_blank" rel="noopener" href="https://ping0.cc/">https://ping0.cc/</a></p>
+<h2 id="流浪图床"><a href="#流浪图床" class="headerlink" title="流浪图床"></a>流浪图床</h2><p>一家免费图床，个人曾经使用一段时间，体验不错。</p>
+<p>官网：<a target="_blank" rel="noopener" href="https://p.sda1.dev/">https://p.sda1.dev/</a></p>
 <h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="Firefox系加载网页怎么那么慢？"><a href="#Firefox系加载网页怎么那么慢？" class="headerlink" title="Firefox系加载网页怎么那么慢？"></a>Firefox系加载网页怎么那么慢？</h2><p>上篇文章中提到我从chrome更换到了zen，实际使用中，zen加载网页总是比chrome慢一丢丢，到周二那会，国内国外的网站更是一个也登不上去，但是chrome却可以正常使用。这难道是firefox的问题？</p>
 <p>上网搜才发现firefox默认的DoH在国内访问不快，并且也有可能解析到国外的服务器，导致访问很不稳定。</p>
 <p>解决方案其实很简单：在浏览器设置里搜索“DNS”，将“基于HTTPS的DNS启用策略”设置为关闭即可。</p>
-<h2 id="设置默认搜索引擎"><a href="#设置默认搜索引擎" class="headerlink" title="设置默认搜索引擎"></a>设置默认搜索引擎</h2><p>在搜索引擎中搜索任意关键字，查看搜索页面的网址，将网址中的关键字替换为<code>%s</code>。打开浏览器搜索引擎设置界面，添加引擎。以SearXNG为例，在添加搜索引擎的网址处输入<code>https://searx.bndkt.io/search?q=%s</code>即可。</p>
+<h2 id="设置默认搜索引擎"><a href="#设置默认搜索引擎" class="headerlink" title="设置默认搜索引擎"></a>设置默认搜索引擎</h2><ol>
+<li>在搜索引擎中搜索任意关键字，查看搜索页面的网址，将网址中的关键字替换为<code>%s</code>。</li>
+<li>打开浏览器搜索引擎设置界面，添加引擎。</li>
+<li>以<code>SearXNG</code>为例，在添加搜索引擎的网址处输入<code>https://searx.bndkt.io/search?q=%s</code>即可。</li>
+</ol>
+<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="提问的智慧"><a href="#提问的智慧" class="headerlink" title="提问的智慧"></a>提问的智慧</h2><p>我一直认为”语言的边界就是思想的边界“。这篇教程从要不要提问、提问的方式方法、对答案的解读以及人际沟通的技巧等方面阐述了自己的见解。我觉得很适合给刚上大学的我看。</p>
+<p>链接：<a target="_blank" rel="noopener" href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md</a></p>
 
       
     </div>
@@ -1523,13 +1546,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">12k</span>
+    <span title="站点总字数">13k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">45 分钟</span>
+    <span title="站点阅读时长">46 分钟</span>
   </span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
