@@ -20,18 +20,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Blog250122</title>
-    <url>/2025/01/22/blog20250122/</url>
-    <content><![CDATA[<p>死并非生的对立面，而作为生的一部分永存。</p>
-]]></content>
-      <categories>
-        <category>自我观察</category>
-      </categories>
-      <tags>
-        <tag>失去</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Welcome to 2025</title>
     <url>/2024/12/31/Welcome_to_2025/</url>
     <content><![CDATA[<p>2024年很长，长到每一天我都有好多话要讲。</p>
@@ -198,6 +186,18 @@
       </tags>
   </entry>
   <entry>
+    <title>Blog250122</title>
+    <url>/2025/01/22/blog20250122/</url>
+    <content><![CDATA[<p>死并非生的对立面，而作为生的一部分永存。</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>失去</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo-next字体更换</title>
     <url>/2024/12/16/hexo-next%E5%AD%97%E4%BD%93%E6%9B%B4%E6%8D%A2/</url>
     <content><![CDATA[<p>Next主题原生的字体是Microsoft YaHei，我觉得霞鹜文楷在屏显上更好看一些，于是展开了一番折腾。</p>
@@ -259,18 +259,19 @@
       </categories>
   </entry>
   <entry>
-    <title>台球的心法</title>
-    <url>/2025/01/26/%E5%8F%B0%E7%90%83%E7%9A%84%E5%BF%83%E6%B3%95/</url>
-    <content><![CDATA[<p>最近我的台球技术有了阶段性的提升，甚至在误打误撞之下完成了人生中的第一杆清台。提升的原因不在台球之中，而在台球之外——在于对身体和心态的调控。</p>
-<p>从第一性原理出发，将母球以预想的状态击出，关键在于出杆的平直，如何做到出杆平直呢？关键在于让身体处于一个最佳的姿态，能够将球杆笔直地送出。调整两脚连线与出杆方向之间的夹角，找到最舒服和放松的状态，确保主视眼、手架、握杆手臂的方向以及球杆的方向在一条直线上。这是技术层面的基础，也是稳定发挥的前提。</p>
-<p>然而，将客观条件调整到最优后，能否真正发挥出来，还取决于心法。在不击球的时候，需要做好规划，思考链接的顺序、球形的难点、下一球的杆法与力道。而当俯身准备击球时，心中只需专注于力度和打点，注意力在母球和目标球上切换，确保出杆方向与母球、假想球连线一致。至于之前的规划、球能否进袋等杂念，统统要抛之脑后。</p>
-<p>其实人生的心法和台球的心法并无二致，都可以总结为“谋定后动，动则忘忧”。我自己常常就是吃着碗里的看着锅里的，总是让过去的遗憾和未来的焦虑降低了行动的效率。留专门的时间做好长期和短期的规划，真正开始行动时，暂时放下过去和未来，集中注意力完成当下的规划即可。</p>
+    <title>做事情的状态</title>
+    <url>/2024/12/21/%E5%81%9A%E4%BA%8B%E6%83%85%E7%9A%84%E7%8A%B6%E6%80%81/</url>
+    <content><![CDATA[<p>我发现我做事情的状态可以分为三种：满血状态，残血状态和机械状态。</p>
+<p><strong>满血状态</strong>是精力体力最好的状态，一般是休息结束或者运动后。此时大脑可以很好地梳理目前并行的所有的任务，做出合理的统筹，也可以专心做某件事。这时候时候做一些需要丰富联想的事，比如创造，理解，规划等等。</p>
+<p><strong>残血状态</strong>是精力体力下滑的状态。脑海中还会有好多任务泡泡围着我转圈，但是我已经没法雨露均沾了，一般是东敲一榔头西敲一榔头，没什么。既然这样就不要再勉强自己了，可以搞点小爱好，找人撩骚啊，打球啊，逛论坛，倒腾软件啊什么的。</p>
+<p><strong>机械状态</strong>是精力体力快要见底的状态，是三者里最好玩的。在疲劳的状态下，脑子无法再想杂七杂八的事情，只能单线程思考，碰巧就可以将注意力集中到一件事上，效率反而得到提升。一般11点过后进入深夜，我就进入了机械状态。机械状态特别适合对付那种死难死难或者特耗精力的任务，比如搞好博客的配置，调好模型的参数。我深有体悟的原因是，最近一个万字报告就是两个深夜肝出来的，博客界面也是熬夜配好的。</p>
+<p>弄清楚自己的状态，我们就可以“哄”着这个时不时就犯懒摆烂的脑子，因状态制宜地做事情啦</p>
 ]]></content>
       <categories>
-        <category>体育</category>
+        <category>自我观察</category>
       </categories>
       <tags>
-        <tag>心法</tag>
+        <tag>时间管理</tag>
       </tags>
   </entry>
   <entry>
@@ -301,53 +302,18 @@
       </tags>
   </entry>
   <entry>
-    <title>做事情的状态</title>
-    <url>/2024/12/21/%E5%81%9A%E4%BA%8B%E6%83%85%E7%9A%84%E7%8A%B6%E6%80%81/</url>
-    <content><![CDATA[<p>我发现我做事情的状态可以分为三种：满血状态，残血状态和机械状态。</p>
-<p><strong>满血状态</strong>是精力体力最好的状态，一般是休息结束或者运动后。此时大脑可以很好地梳理目前并行的所有的任务，做出合理的统筹，也可以专心做某件事。这时候时候做一些需要丰富联想的事，比如创造，理解，规划等等。</p>
-<p><strong>残血状态</strong>是精力体力下滑的状态。脑海中还会有好多任务泡泡围着我转圈，但是我已经没法雨露均沾了，一般是东敲一榔头西敲一榔头，没什么。既然这样就不要再勉强自己了，可以搞点小爱好，找人撩骚啊，打球啊，逛论坛，倒腾软件啊什么的。</p>
-<p><strong>机械状态</strong>是精力体力快要见底的状态，是三者里最好玩的。在疲劳的状态下，脑子无法再想杂七杂八的事情，只能单线程思考，碰巧就可以将注意力集中到一件事上，效率反而得到提升。一般11点过后进入深夜，我就进入了机械状态。机械状态特别适合对付那种死难死难或者特耗精力的任务，比如搞好博客的配置，调好模型的参数。我深有体悟的原因是，最近一个万字报告就是两个深夜肝出来的，博客界面也是熬夜配好的。</p>
-<p>弄清楚自己的状态，我们就可以“哄”着这个时不时就犯懒摆烂的脑子，因状态制宜地做事情啦</p>
+    <title>台球的心法</title>
+    <url>/2025/01/26/%E5%8F%B0%E7%90%83%E7%9A%84%E5%BF%83%E6%B3%95/</url>
+    <content><![CDATA[<p>最近我的台球技术有了阶段性的提升，甚至在误打误撞之下完成了人生中的第一杆清台。提升的原因不在台球之中，而在台球之外——在于对身体和心态的调控。</p>
+<p>从第一性原理出发，将母球以预想的状态击出，关键在于出杆的平直，如何做到出杆平直呢？关键在于让身体处于一个最佳的姿态，能够将球杆笔直地送出。调整两脚连线与出杆方向之间的夹角，找到最舒服和放松的状态，确保主视眼、手架、握杆手臂的方向以及球杆的方向在一条直线上。这是技术层面的基础，也是稳定发挥的前提。</p>
+<p>然而，将客观条件调整到最优后，能否真正发挥出来，还取决于心法。在不击球的时候，需要做好规划，思考链接的顺序、球形的难点、下一球的杆法与力道。而当俯身准备击球时，心中只需专注于力度和打点，注意力在母球和目标球上切换，确保出杆方向与母球、假想球连线一致。至于之前的规划、球能否进袋等杂念，统统要抛之脑后。</p>
+<p>其实人生的心法和台球的心法并无二致，都可以总结为“谋定后动，动则忘忧”。我自己常常就是吃着碗里的看着锅里的，总是让过去的遗憾和未来的焦虑降低了行动的效率。留专门的时间做好长期和短期的规划，真正开始行动时，暂时放下过去和未来，集中注意力完成当下的规划即可。</p>
 ]]></content>
       <categories>
-        <category>自我观察</category>
+        <category>体育</category>
       </categories>
       <tags>
-        <tag>时间管理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>周记25-07-19</title>
-    <url>/2025/07/15/%E5%91%A8%E8%AE%B025-07-21/</url>
-    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/2n1Z/1080X1000/%E5%B0%8F%E9%B9%8F%E8%BD%A6%E6%9C%BA.jpg?60" alt="小鹏车机"></p>
-<blockquote>
-<p>小鹏的车机给我一种用力过猛的感觉。为了追求简约、科技感，车子所有的调节按钮都被浓缩到中控大屏上，但实际上按钮图标很小，而且选择树很复杂。我要关闭对头吹的空调，捣鼓半天才在一个三级菜单中找到。像车子这种天天到处跑的东西，还是更注重功能性一点吧。</p>
-</blockquote>
-<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Cherry-Studio"><a href="#Cherry-Studio" class="headerlink" title="Cherry Studio"></a>Cherry Studio</h2><p>支持多服务商集成的 AI 对话客户端。输入服务商的API key即可使用，基于AI模型还可以使用对话、绘图、翻译、知识库、MCP等功能。</p>
-<p>官网：<a href="https://www.cherry-ai.com/">https://www.cherry-ai.com/</a></p>
-<h2 id="SearXNG"><a href="#SearXNG" class="headerlink" title="SearXNG"></a>SearXNG</h2><p>注重隐私、可定制的元搜索引擎。优点是免费、集成多个搜索引擎的结果，使用下来效果还是很不错的。目前已经替换为主力搜素。</p>
-<p>相似的项目有Libre Search，但是使用较低质的节点访问时，网页会弹出人机验证，降低了访问速度，而SearXNG就没有这个问题。</p>
-<p>官网：<a href="https://searx.bndkt.io/">https://searx.bndkt.io/</a></p>
-<h2 id="PING0"><a href="#PING0" class="headerlink" title="PING0"></a>PING0</h2><p>一个IP检测网站，可以用来查看梯子节点的IP质量。</p>
-<p>官网：<a href="https://ping0.cc/">https://ping0.cc/</a></p>
-<h2 id="流浪图床"><a href="#流浪图床" class="headerlink" title="流浪图床"></a>流浪图床</h2><p>一家免费图床，个人曾经使用一段时间，体验不错。</p>
-<p>官网：<a href="https://p.sda1.dev/">https://p.sda1.dev/</a></p>
-<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="Firefox系加载网页怎么那么慢？"><a href="#Firefox系加载网页怎么那么慢？" class="headerlink" title="Firefox系加载网页怎么那么慢？"></a>Firefox系加载网页怎么那么慢？</h2><p>上篇文章中提到我从chrome更换到了zen，实际使用中，zen加载网页总是比chrome慢一丢丢，到周二那会，国内国外的网站更是一个也登不上去，但是chrome却可以正常使用。这难道是firefox的问题？</p>
-<p>上网搜才发现firefox默认的DoH在国内访问不快，并且也有可能解析到国外的服务器，导致访问很不稳定。</p>
-<p>解决方案其实很简单：在浏览器设置里搜索“DNS”，将“基于HTTPS的DNS启用策略”设置为关闭即可。</p>
-<h2 id="设置默认搜索引擎"><a href="#设置默认搜索引擎" class="headerlink" title="设置默认搜索引擎"></a>设置默认搜索引擎</h2><ol>
-<li>在搜索引擎中搜索任意关键字，查看搜索页面的网址，将网址中的关键字替换为<code>%s</code>。</li>
-<li>打开浏览器搜索引擎设置界面，添加引擎。</li>
-<li>以<code>SearXNG</code>为例，在添加搜索引擎的网址处输入<code>https://searx.bndkt.io/search?q=%s</code>即可。</li>
-</ol>
-<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="提问的智慧"><a href="#提问的智慧" class="headerlink" title="提问的智慧"></a>提问的智慧</h2><p>我一直认为”语言的边界就是思想的边界“。这篇教程从要不要提问、提问的方式方法、对答案的解读以及人际沟通的技巧等方面阐述了自己的见解。我觉得很适合给刚上大学的我看。</p>
-<p>链接：<a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md</a></p>
-]]></content>
-      <categories>
-        <category>周报</category>
-      </categories>
-      <tags>
-        <tag>推荐</tag>
+        <tag>心法</tag>
       </tags>
   </entry>
   <entry>
@@ -397,34 +363,37 @@
       </tags>
   </entry>
   <entry>
-    <title>夏日所感</title>
-    <url>/2025/07/06/%E5%A4%8F%E6%97%A5%E6%89%80%E6%84%9F/</url>
-    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250709/EJab/5734X4300/%E9%BB%91%E4%BA%91%E9%87%91%E5%90%BB_compressed.jpg?10" alt="黑云金吻250709"></p>
-<p>Dark clouds become heaven’s flowers when kissed by light.</p>
+    <title>周记25-07-19</title>
+    <url>/2025/07/15/%E5%91%A8%E8%AE%B025-07-21/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/2n1Z/1080X1000/%E5%B0%8F%E9%B9%8F%E8%BD%A6%E6%9C%BA.jpg?40" alt="小鹏车机"></p>
+<blockquote>
+<p>小鹏的车机给我一种用力过猛的感觉。为了追求简约、科技感，车子所有的调节按钮都被浓缩到中控大屏上，但实际上按钮图标很小，而且选择树很复杂。我要关闭对头吹的空调，捣鼓半天才在一个三级菜单中找到。像车子这种天天到处跑的东西，还是更注重功能性一点吧。</p>
+</blockquote>
+<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Cherry-Studio"><a href="#Cherry-Studio" class="headerlink" title="Cherry Studio"></a>Cherry Studio</h2><p>支持多服务商集成的 AI 对话客户端。输入服务商的API key即可使用，基于AI模型还可以使用对话、绘图、翻译、知识库、MCP等功能。</p>
+<p>官网：<a href="https://www.cherry-ai.com/">https://www.cherry-ai.com/</a></p>
+<h2 id="SearXNG"><a href="#SearXNG" class="headerlink" title="SearXNG"></a>SearXNG</h2><p>注重隐私、可定制的元搜索引擎。优点是免费、集成多个搜索引擎的结果，使用下来效果还是很不错的。目前已经替换为主力搜素。</p>
+<p>相似的项目有Libre Search，但是使用较低质的节点访问时，网页会弹出人机验证，降低了访问速度，而SearXNG就没有这个问题。</p>
+<p>官网：<a href="https://searx.bndkt.io/">https://searx.bndkt.io/</a></p>
+<h2 id="PING0"><a href="#PING0" class="headerlink" title="PING0"></a>PING0</h2><p>一个IP检测网站，可以用来查看梯子节点的IP质量。</p>
+<p>官网：<a href="https://ping0.cc/">https://ping0.cc/</a></p>
+<h2 id="流浪图床"><a href="#流浪图床" class="headerlink" title="流浪图床"></a>流浪图床</h2><p>一家免费图床，个人曾经使用一段时间，体验不错。</p>
+<p>官网：<a href="https://p.sda1.dev/">https://p.sda1.dev/</a></p>
+<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="Firefox系加载网页怎么那么慢？"><a href="#Firefox系加载网页怎么那么慢？" class="headerlink" title="Firefox系加载网页怎么那么慢？"></a>Firefox系加载网页怎么那么慢？</h2><p>上篇文章中提到我从chrome更换到了zen，实际使用中，zen加载网页总是比chrome慢一丢丢，到周二那会，国内国外的网站更是一个也登不上去，但是chrome却可以正常使用。这难道是firefox的问题？</p>
+<p>上网搜才发现firefox默认的DoH在国内访问不快，并且也有可能解析到国外的服务器，导致访问很不稳定。</p>
+<p>解决方案其实很简单：在浏览器设置里搜索“DNS”，将“基于HTTPS的DNS启用策略”设置为关闭即可。</p>
+<h2 id="设置默认搜索引擎"><a href="#设置默认搜索引擎" class="headerlink" title="设置默认搜索引擎"></a>设置默认搜索引擎</h2><ol>
+<li>在搜索引擎中搜索任意关键字，查看搜索页面的网址，将网址中的关键字替换为<code>%s</code>。</li>
+<li>打开浏览器搜索引擎设置界面，添加引擎。</li>
+<li>以<code>SearXNG</code>为例，在添加搜索引擎的网址处输入<code>https://searx.bndkt.io/search?q=%s</code>即可。</li>
+</ol>
+<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="提问的智慧"><a href="#提问的智慧" class="headerlink" title="提问的智慧"></a>提问的智慧</h2><p>我一直认为”语言的边界就是思想的边界“。这篇教程从要不要提问、提问的方式方法、对答案的解读以及人际沟通的技巧等方面阐述了自己的见解。我觉得很适合给刚上大学的我看。</p>
+<p>链接：<a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md</a></p>
 ]]></content>
       <categories>
-        <category>自我观察</category>
+        <category>周报</category>
       </categories>
       <tags>
-        <tag>诗</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>斯诺克英雄榜</title>
-    <url>/2024/12/04/%E6%96%AF%E8%AF%BA%E5%85%8B%E8%8B%B1%E9%9B%84%E6%A6%9C/</url>
-    <content><![CDATA[<p>说说我对几位斯诺克球员的观感。</p>
-<p>小特，草原雄鹰，侠客第二，是我最中情的球员。他飘逸的球风如同雄鹰在草原上的一声长啸。我尤其喜欢11年世锦赛时的他，他的不羁让我感叹：少年当如此！</p>
-<p>塞尔比，最强人类。他像魔戒中的人类国王，在顶级球手中展现的天赋并不耀眼，但是将人类的智慧发挥到了极致。精密的计算和精确的执行，让他成为了最强80后。</p>
-<p>希金斯，就如同他的外号一样，老巫师。他的智慧蕴含着某种神秘色彩，仿佛来自于某个神明的赏赐。他在2011世锦赛的关键翻袋就是其球风的最好诠释。</p>
-<p>火箭奥沙利文，侠客第一。他就像武功第一的江湖高手，其技艺融百家之长，无法用派别去界定。他在技术上已臻至化境，正在向上追寻“道”。</p>
-<h2 id="岔题"><a href="#岔题" class="headerlink" title="岔题"></a>岔题</h2><p>附带一段刘桂莲对于塞尔比的评价：关于马克塞尔比口碑两级反转的原因，很简单，时代变了，我们对于英雄的定义也开始变了，在好高骛远找不着北的时候，更崇尚无所不能的超能力，当潮水褪去，真正需要自己面对生活的时候，才发现那些理应我们每个人身上都拥有，但普遍缺失的优秀品质有多可贵，比如身处困境的坚持到底，突破极限的跌倒重起，亦或者简单廉价的爱和勇气。</p>
-<p>逆境之时，我们需要向塞尔比学习，认识已有信息，分析解构问题，精确执行方案，以及最重要的——始终保持着对自己、对美好的信念。</p>
-]]></content>
-      <categories>
-        <category>体育</category>
-      </categories>
-      <tags>
-        <tag>斯诺克</tag>
+        <tag>推荐</tag>
       </tags>
   </entry>
   <entry>
@@ -500,6 +469,37 @@
       </tags>
   </entry>
   <entry>
+    <title>夏日所感</title>
+    <url>/2025/07/06/%E5%A4%8F%E6%97%A5%E6%89%80%E6%84%9F/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250709/EJab/5734X4300/%E9%BB%91%E4%BA%91%E9%87%91%E5%90%BB_compressed.jpg?10" alt="黑云金吻250709"></p>
+<p>Dark clouds become heaven’s flowers when kissed by light.</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>诗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>斯诺克英雄榜</title>
+    <url>/2024/12/04/%E6%96%AF%E8%AF%BA%E5%85%8B%E8%8B%B1%E9%9B%84%E6%A6%9C/</url>
+    <content><![CDATA[<p>说说我对几位斯诺克球员的观感。</p>
+<p>小特，草原雄鹰，侠客第二，是我最中情的球员。他飘逸的球风如同雄鹰在草原上的一声长啸。我尤其喜欢11年世锦赛时的他，他的不羁让我感叹：少年当如此！</p>
+<p>塞尔比，最强人类。他像魔戒中的人类国王，在顶级球手中展现的天赋并不耀眼，但是将人类的智慧发挥到了极致。精密的计算和精确的执行，让他成为了最强80后。</p>
+<p>希金斯，就如同他的外号一样，老巫师。他的智慧蕴含着某种神秘色彩，仿佛来自于某个神明的赏赐。他在2011世锦赛的关键翻袋就是其球风的最好诠释。</p>
+<p>火箭奥沙利文，侠客第一。他就像武功第一的江湖高手，其技艺融百家之长，无法用派别去界定。他在技术上已臻至化境，正在向上追寻“道”。</p>
+<h2 id="岔题"><a href="#岔题" class="headerlink" title="岔题"></a>岔题</h2><p>附带一段刘桂莲对于塞尔比的评价：关于马克塞尔比口碑两级反转的原因，很简单，时代变了，我们对于英雄的定义也开始变了，在好高骛远找不着北的时候，更崇尚无所不能的超能力，当潮水褪去，真正需要自己面对生活的时候，才发现那些理应我们每个人身上都拥有，但普遍缺失的优秀品质有多可贵，比如身处困境的坚持到底，突破极限的跌倒重起，亦或者简单廉价的爱和勇气。</p>
+<p>逆境之时，我们需要向塞尔比学习，认识已有信息，分析解构问题，精确执行方案，以及最重要的——始终保持着对自己、对美好的信念。</p>
+]]></content>
+      <categories>
+        <category>体育</category>
+      </categories>
+      <tags>
+        <tag>斯诺克</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>节日的仪式感</title>
     <url>/2025/01/06/%E8%8A%82%E6%97%A5%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F/</url>
     <content><![CDATA[<p>正值新年，我的内心有一种奇特的感觉，那些日期以2024开头的事情，不论好与坏，不论实际上有多近，都已经翻篇。仿佛2024年已变成题干，而2025年才是我要书写的答案。</p>
@@ -523,7 +523,7 @@
 <li><strong>许可证:</strong> MIT</li>
 </ul>
 <h2 id="2-功能特性"><a href="#2-功能特性" class="headerlink" title="2. 功能特性"></a>2. 功能特性</h2><p>“者也” 插件对知乎的两个主要使用场景——首页信息流和问题回答页面——进行了全面的视觉升级。</p>
-<h3 id="2-1-首页美化-者也HomePage-1-0-user-js"><a href="#2-1-首页美化-者也HomePage-1-0-user-js" class="headerlink" title="2.1. 首页美化 (者也HomePage-1.0.user.js)"></a>2.1. 首页美化 (<code>者也HomePage-1.0.user.js</code>)</h3><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/31M3/2302X1252/%E8%80%85%E4%B9%9F1.0Homepage.png?60" alt="者也1.0HomePage"></p>
+<h3 id="2-1-首页美化-者也HomePage-1-0-user-js"><a href="#2-1-首页美化-者也HomePage-1-0-user-js" class="headerlink" title="2.1. 首页美化 (者也HomePage-1.0.user.js)"></a>2.1. 首页美化 (<code>者也HomePage-1.0.user.js</code>)</h3><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/31M3/2302X1252/%E8%80%85%E4%B9%9F1.0Homepage.png?30" alt="者也1.0HomePage"></p>
 <p>此脚本专用于美化知乎的域名根目录（即首页）。</p>
 <ul>
 <li><strong>渐变背景</strong>: 将默认的白色背景替换为优雅的白色系渐变色 <code>(linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%))</code>，并且背景图在滚动时固定，视觉效果更佳。</li>
@@ -532,8 +532,8 @@
 <li><strong>卡片式信息流</strong>: 每一条信息流项目都以独立的圆角卡片承载。卡片具有柔和的阴影，鼠标悬浮时会有轻微的上浮和放大效果，提供了积极的视觉反馈。</li>
 <li><strong>居中布局</strong>: 主内容区域（信息流）被设置为居中布局，使用户视线更聚焦。</li>
 </ul>
-<h3 id="2-2-回答页美化-者也AnswerPage-1-0-user-js"><a href="#2-2-回答页美化-者也AnswerPage-1-0-user-js" class="headerlink" title="2.2. 回答页美化 (者也AnswerPage-1.0.user.js)"></a>2.2. 回答页美化 (<code>者也AnswerPage-1.0.user.js</code>)</h3><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/N87X/2559X1356/%E8%80%85%E4%B9%9F1.0AnwserPage2.png?60" alt="者也1.0AnwserPage2"></p>
-<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/gxpl/2559X1365/%E8%80%85%E4%B9%9F1.0AnwserPage1.png?60" alt="者也1.0AnwserPage1"></p>
+<h3 id="2-2-回答页美化-者也AnswerPage-1-0-user-js"><a href="#2-2-回答页美化-者也AnswerPage-1-0-user-js" class="headerlink" title="2.2. 回答页美化 (者也AnswerPage-1.0.user.js)"></a>2.2. 回答页美化 (<code>者也AnswerPage-1.0.user.js</code>)</h3><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/N87X/2559X1356/%E8%80%85%E4%B9%9F1.0AnwserPage2.png?30" alt="者也1.0AnwserPage2"></p>
+<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/gxpl/2559X1365/%E8%80%85%E4%B9%9F1.0AnwserPage1.png?30" alt="者也1.0AnwserPage1"></p>
 <p>此脚本专用于美化知乎的问题回答页面 (<code>https://www.zhihu.com/question/*</code>)。</p>
 <ul>
 <li><strong>沉浸式问题标题</strong>: 问题标题栏会在页面向下滚动时固定在顶部（吸顶效果），并附带轻微的毛玻璃背景，方便用户随时回顾问题。</li>
@@ -594,6 +594,19 @@
       </tags>
   </entry>
   <entry>
+    <title>赤壁赋</title>
+    <url>/2024/11/10/%E8%B5%A4%E5%A3%81%E8%B5%8B/</url>
+    <content><![CDATA[<p>壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。少焉，月出于东山之上，徘徊于斗牛之间。白露横江，水光接天。纵一苇之所如，凌万顷之茫然。浩浩乎如冯虚御风，而不知其所止；飘飘乎如遗世独立，羽化而登仙。</p>
+<p>于是饮酒乐甚，扣舷而歌之。歌曰：“桂棹兮兰桨，击空明兮溯流光。渺渺兮予怀，望美人兮天一方。”客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。舞幽壑之潜蛟，泣孤舟之嫠妇。</p>
+<p>苏子愀然，正襟危坐而问客曰：“何为其然也？”客曰：“‘月明星稀，乌鹊南飞’，此非曹孟德之诗乎？西望夏口，东望武昌，山川相缪，郁乎苍苍，此非孟德之困于周郎者乎？方其破荆州，下江陵，顺流而东也，舳舻千里，旌旗蔽空，酾酒临江，横槊赋诗，固一世之雄也，而今安在哉？况吾与子渔樵于江渚之上，侣鱼虾而友麋鹿，驾一叶之扁舟，举匏樽以相属。寄蜉蝣于天地，渺沧海之一粟。哀吾生之须臾，羡长江之无穷。挟飞仙以遨游，抱明月而长终。知不可乎骤得，托遗响于悲风。”</p>
+<p>苏子曰：“客亦知夫水与月乎？逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也。盖将自其变者而观之，则天地曾不能以一瞬；自其不变者而观之，则物与我皆无尽也，而又何羡乎！且夫天地之间，物各有主，苟非吾之所有，虽一毫而莫取。惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭。是造物者之无尽藏也，而吾与子之所共适。”</p>
+<p>客喜而笑，洗盏更酌。肴核既尽，杯盘狼籍。相与枕藉乎舟中，不知东方之既白。</p>
+]]></content>
+      <categories>
+        <category>诗词</category>
+      </categories>
+  </entry>
+  <entry>
     <title>网易云的后门</title>
     <url>/2025/06/19/%E7%BD%91%E6%98%93%E4%BA%91%E7%9A%84%E5%90%8E%E9%97%A8/</url>
     <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250619/B5eO/2020X1124/%E5%A4%8F%E5%A4%A9%E7%9A%84%E4%BA%91250619.jpg" alt="夏天的云250619"></p>
@@ -612,18 +625,5 @@
       <tags>
         <tag>音乐</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>赤壁赋</title>
-    <url>/2024/11/10/%E8%B5%A4%E5%A3%81%E8%B5%8B/</url>
-    <content><![CDATA[<p>壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。少焉，月出于东山之上，徘徊于斗牛之间。白露横江，水光接天。纵一苇之所如，凌万顷之茫然。浩浩乎如冯虚御风，而不知其所止；飘飘乎如遗世独立，羽化而登仙。</p>
-<p>于是饮酒乐甚，扣舷而歌之。歌曰：“桂棹兮兰桨，击空明兮溯流光。渺渺兮予怀，望美人兮天一方。”客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。舞幽壑之潜蛟，泣孤舟之嫠妇。</p>
-<p>苏子愀然，正襟危坐而问客曰：“何为其然也？”客曰：“‘月明星稀，乌鹊南飞’，此非曹孟德之诗乎？西望夏口，东望武昌，山川相缪，郁乎苍苍，此非孟德之困于周郎者乎？方其破荆州，下江陵，顺流而东也，舳舻千里，旌旗蔽空，酾酒临江，横槊赋诗，固一世之雄也，而今安在哉？况吾与子渔樵于江渚之上，侣鱼虾而友麋鹿，驾一叶之扁舟，举匏樽以相属。寄蜉蝣于天地，渺沧海之一粟。哀吾生之须臾，羡长江之无穷。挟飞仙以遨游，抱明月而长终。知不可乎骤得，托遗响于悲风。”</p>
-<p>苏子曰：“客亦知夫水与月乎？逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也。盖将自其变者而观之，则天地曾不能以一瞬；自其不变者而观之，则物与我皆无尽也，而又何羡乎！且夫天地之间，物各有主，苟非吾之所有，虽一毫而莫取。惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭。是造物者之无尽藏也，而吾与子之所共适。”</p>
-<p>客喜而笑，洗盏更酌。肴核既尽，杯盘狼籍。相与枕藉乎舟中，不知东方之既白。</p>
-]]></content>
-      <categories>
-        <category>诗词</category>
-      </categories>
   </entry>
 </search>
