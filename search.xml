@@ -43,6 +43,52 @@
       </categories>
   </entry>
   <entry>
+    <title>有感</title>
+    <url>/2025/01/22/blog20250122/</url>
+    <content><![CDATA[<p>死并非生的对立面，而作为生的一部分永存。</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>诗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo-next字体更换</title>
+    <url>/2024/12/16/hexo-next%E5%AD%97%E4%BD%93%E6%9B%B4%E6%8D%A2/</url>
+    <content><![CDATA[<p>Next主题原生的字体是Microsoft YaHei，我觉得霞鹜文楷在屏显上更好看一些，于是展开了一番折腾。</p>
+<h1 id="Font配置"><a href="#Font配置" class="headerlink" title="Font配置"></a>Font配置</h1><p>字体有关的设置都在themes&#x2F;next&#x2F;_config.yml中，默认配置如下：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span></span><br><span class="line">  <span class="attr">host:</span> </span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font options:</span></span><br><span class="line">  <span class="comment"># `external: true` will load this font family from `host` above.</span></span><br><span class="line">  <span class="comment"># `family: Times New Roman`. Without any quotes.</span></span><br><span class="line">  <span class="comment"># `size: x.x`. Use `em` as unit. Default: 1 (16px)</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Global font settings used for all elements inside &lt;body&gt;.</span></span><br><span class="line">  <span class="attr">global:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Lato</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for site title (.site-title).</span></span><br><span class="line">  <span class="attr">title:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for headlines (&lt;h1&gt; to &lt;h6&gt;).</span></span><br><span class="line">  <span class="attr">headings:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for posts (.post-body).</span></span><br><span class="line">  <span class="attr">posts:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for &lt;code&gt; and code blocks.</span></span><br><span class="line">  <span class="attr">codes:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br></pre></td></tr></table></figure>
+
+<p>为了自定义配置，需要将<code>enable</code>设置为<code>True</code>，NexT 开放了 5 个特定范围的字体设定，他们是：</p>
+<ul>
+<li>global字体：定义的字体将在全站范围使用</li>
+<li>title字体：站点标题所使用的字体</li>
+<li>headlines字体：文章内标题的字体（h1, h2, h3, h4, h5, h6）</li>
+<li>posts字体：文章正文所使用的字体</li>
+<li>codes字体： 代码块所使用的字体</li>
+</ul>
+<p>各项所指定的字体为首选字体，若不可用，则使用内部默认字体。我们在配置时，在<code>family</code>下添加我们在google fonts挑选的字体比如LXGW WenKai、Noto Serif SC即可。</p>
+<blockquote>
+<p>在博客页面对某段文字点击检查，font-family即为配置的字体，比如我博客正文的<code>font-family：LXGW WenKai, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif</code>，假如没有在CDN中找到LXGW WenKai，浏览器就会依次尝试加载后面的字体。</p>
+</blockquote>
+<p>Next默认从fonts.googleapis.com中加载字体，然而在国内该链接可能不稳定，NexT 通过设置 <code>font.host</code> 来支持字体库的自定义 URL。国内有大佬搭建了fonts.googleapis.com的镜像站点：&#x2F;&#x2F;fonts.loli.net。</p>
+<h1 id="CDN配置"><a href="#CDN配置" class="headerlink" title="CDN配置"></a>CDN配置</h1><p>一般来说到这里就没问题了，但是在我完成上述配置之后字体没有改变。这是因为Next默认的CDN无法连接，需要更换CDN。</p>
+<p>CDN的相关配置在themes&#x2F;next&#x2F;_config.ym的<code>vendors</code>项中。其中<code>internal</code>为Next内部字体的CDN，<code>plugins</code>为第三方插件的CDN。Next给出的选择有local（默认CDN）、jsdelivr、unpkg、cdnjs、custom，如果要选择第三方CDN就添加<code>custom</code>并在<code>custom_cdn_url</code>这里添加相应的URL。（注意提示：如果使用的是最新版本的NexT，将<code>internal</code>设置为<code>local</code>。博主这里选择的CDN是unpkg。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="comment"># The CDN provider of NexT internal scripts.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs | custom</span></span><br><span class="line">  <span class="comment"># Warning: If you are using the latest master branch of NexT, please set `internal: local`</span></span><br><span class="line">  <span class="comment"># internal: local</span></span><br><span class="line">  <span class="attr">internal:</span> <span class="string">local</span></span><br><span class="line">  <span class="comment"># The default CDN provider of third-party plugins.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs | custom</span></span><br><span class="line">  <span class="comment"># Dependencies for `plugins: local`: https://github.com/next-theme/plugins</span></span><br><span class="line">  <span class="comment"># plugins: cdnjs</span></span><br><span class="line">  <span class="attr">plugins:</span> <span class="string">unpkg</span></span><br><span class="line">  <span class="comment"># Custom CDN URL</span></span><br><span class="line">  <span class="comment"># For example:</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://cdn.jsdelivr.net/npm/$&#123;npm_name&#125;@$&#123;version&#125;/$&#123;minified&#125;</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://cdnjs.cloudflare.com/ajax/libs/$&#123;cdnjs_name&#125;/$&#123;version&#125;/$&#123;cdnjs_file&#125;</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://lib.baomitu.com/$&#123;cdnjs_name&#125;/$&#123;version&#125;/$&#123;cdnjs_file&#125;</span></span><br><span class="line">  <span class="attr">custom_cdn_url:</span></span><br></pre></td></tr></table></figure>
+
+<p>本教程将持续更新~</p>
+<h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><p><a href="https://theme-next.js.org/">官方文档</a></p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>blog</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>git学习笔记</title>
     <url>/2025/07/10/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>我与Git相识已久，大学中我接触了各路大神的代码仓库，现在使用的不少工具都是<code>Github</code>上的开源项目。但是我对构建代码仓库的基础技术——Git却是一窍不通。以下是我学习<code>selierlin</code><a href="https://selierlin.github.io/git-recipes/#/">高质量Git教程</a>的笔记。</p>
@@ -186,52 +232,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Blog250122</title>
-    <url>/2025/01/22/blog20250122/</url>
-    <content><![CDATA[<p>死并非生的对立面，而作为生的一部分永存。</p>
-]]></content>
-      <categories>
-        <category>自我观察</category>
-      </categories>
-      <tags>
-        <tag>失去</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo-next字体更换</title>
-    <url>/2024/12/16/hexo-next%E5%AD%97%E4%BD%93%E6%9B%B4%E6%8D%A2/</url>
-    <content><![CDATA[<p>Next主题原生的字体是Microsoft YaHei，我觉得霞鹜文楷在屏显上更好看一些，于是展开了一番折腾。</p>
-<h1 id="Font配置"><a href="#Font配置" class="headerlink" title="Font配置"></a>Font配置</h1><p>字体有关的设置都在themes&#x2F;next&#x2F;_config.yml中，默认配置如下：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span></span><br><span class="line">  <span class="attr">host:</span> </span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font options:</span></span><br><span class="line">  <span class="comment"># `external: true` will load this font family from `host` above.</span></span><br><span class="line">  <span class="comment"># `family: Times New Roman`. Without any quotes.</span></span><br><span class="line">  <span class="comment"># `size: x.x`. Use `em` as unit. Default: 1 (16px)</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Global font settings used for all elements inside &lt;body&gt;.</span></span><br><span class="line">  <span class="attr">global:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Lato</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for site title (.site-title).</span></span><br><span class="line">  <span class="attr">title:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for headlines (&lt;h1&gt; to &lt;h6&gt;).</span></span><br><span class="line">  <span class="attr">headings:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for posts (.post-body).</span></span><br><span class="line">  <span class="attr">posts:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for &lt;code&gt; and code blocks.</span></span><br><span class="line">  <span class="attr">codes:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br></pre></td></tr></table></figure>
-
-<p>为了自定义配置，需要将<code>enable</code>设置为<code>True</code>，NexT 开放了 5 个特定范围的字体设定，他们是：</p>
-<ul>
-<li>global字体：定义的字体将在全站范围使用</li>
-<li>title字体：站点标题所使用的字体</li>
-<li>headlines字体：文章内标题的字体（h1, h2, h3, h4, h5, h6）</li>
-<li>posts字体：文章正文所使用的字体</li>
-<li>codes字体： 代码块所使用的字体</li>
-</ul>
-<p>各项所指定的字体为首选字体，若不可用，则使用内部默认字体。我们在配置时，在<code>family</code>下添加我们在google fonts挑选的字体比如LXGW WenKai、Noto Serif SC即可。</p>
-<blockquote>
-<p>在博客页面对某段文字点击检查，font-family即为配置的字体，比如我博客正文的<code>font-family：LXGW WenKai, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif</code>，假如没有在CDN中找到LXGW WenKai，浏览器就会依次尝试加载后面的字体。</p>
-</blockquote>
-<p>Next默认从fonts.googleapis.com中加载字体，然而在国内该链接可能不稳定，NexT 通过设置 <code>font.host</code> 来支持字体库的自定义 URL。国内有大佬搭建了fonts.googleapis.com的镜像站点：&#x2F;&#x2F;fonts.loli.net。</p>
-<h1 id="CDN配置"><a href="#CDN配置" class="headerlink" title="CDN配置"></a>CDN配置</h1><p>一般来说到这里就没问题了，但是在我完成上述配置之后字体没有改变。这是因为Next默认的CDN无法连接，需要更换CDN。</p>
-<p>CDN的相关配置在themes&#x2F;next&#x2F;_config.ym的<code>vendors</code>项中。其中<code>internal</code>为Next内部字体的CDN，<code>plugins</code>为第三方插件的CDN。Next给出的选择有local（默认CDN）、jsdelivr、unpkg、cdnjs、custom，如果要选择第三方CDN就添加<code>custom</code>并在<code>custom_cdn_url</code>这里添加相应的URL。（注意提示：如果使用的是最新版本的NexT，将<code>internal</code>设置为<code>local</code>。博主这里选择的CDN是unpkg。</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="comment"># The CDN provider of NexT internal scripts.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs | custom</span></span><br><span class="line">  <span class="comment"># Warning: If you are using the latest master branch of NexT, please set `internal: local`</span></span><br><span class="line">  <span class="comment"># internal: local</span></span><br><span class="line">  <span class="attr">internal:</span> <span class="string">local</span></span><br><span class="line">  <span class="comment"># The default CDN provider of third-party plugins.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs | custom</span></span><br><span class="line">  <span class="comment"># Dependencies for `plugins: local`: https://github.com/next-theme/plugins</span></span><br><span class="line">  <span class="comment"># plugins: cdnjs</span></span><br><span class="line">  <span class="attr">plugins:</span> <span class="string">unpkg</span></span><br><span class="line">  <span class="comment"># Custom CDN URL</span></span><br><span class="line">  <span class="comment"># For example:</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://cdn.jsdelivr.net/npm/$&#123;npm_name&#125;@$&#123;version&#125;/$&#123;minified&#125;</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://cdnjs.cloudflare.com/ajax/libs/$&#123;cdnjs_name&#125;/$&#123;version&#125;/$&#123;cdnjs_file&#125;</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://lib.baomitu.com/$&#123;cdnjs_name&#125;/$&#123;version&#125;/$&#123;cdnjs_file&#125;</span></span><br><span class="line">  <span class="attr">custom_cdn_url:</span></span><br></pre></td></tr></table></figure>
-
-<p>本教程将持续更新~</p>
-<h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><p><a href="https://theme-next.js.org/">官方文档</a></p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>blog</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>积极一点</title>
     <url>/2025/04/18/newday/</url>
     <content><![CDATA[<p>归去来兮，田园将芜胡不归？既自以心为形役，奚惆怅而独悲？悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟遥遥以轻飏，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。</p>
@@ -240,7 +240,7 @@
         <category>自我观察</category>
       </categories>
       <tags>
-        <tag>失去</tag>
+        <tag>诗</tag>
       </tags>
   </entry>
   <entry>
@@ -260,21 +260,6 @@
       </tags>
   </entry>
   <entry>
-    <title>关于写文章磕磕巴巴和零零散散</title>
-    <url>/2024/12/06/%E5%85%B3%E4%BA%8E%E5%86%99%E6%96%87%E7%AB%A0%E7%A3%95%E7%A3%95%E5%B7%B4%E5%B7%B4%E5%92%8C%E9%9B%B6%E9%9B%B6%E6%95%A3%E6%95%A3/</url>
-    <content><![CDATA[<p>大一大二的时候，写文章对我来说异常费劲。往往觉得心里头有万千感想，可真到打开笔记时，我却一个字都憋不出来。好不容易写完了一篇，再看的时候，文章也显得零零散散、没有主题，阅读的成本极高。</p>
-<p>现在上述的情况有了改观，我来分享一下我的几点感悟。</p>
-<h2 id="写文章之前先定好文章的主题"><a href="#写文章之前先定好文章的主题" class="headerlink" title="写文章之前先定好文章的主题"></a>写文章之前先定好文章的主题</h2><p>如何让文章头到尾都围绕着一个核心展开呢？最简单的方法是先拟标题，之后每写一个章节都对着标题琢磨：这段文字是为主题服务的吗？将它放在什么位置最合理呢？写每个段落的时候，也要琢磨有没有脱离本章节的主题。</p>
-<p>定主题有两个好处。一是可以让文章立意明确，读者一下字就可以get到重点；二是可以让自己行文更加流畅，通过思考“我把这件事讲清楚了吗”来确保应写尽写。</p>
-<h2 id="锤炼文字–从简单到完备"><a href="#锤炼文字–从简单到完备" class="headerlink" title="锤炼文字–从简单到完备"></a>锤炼文字–从简单到完备</h2><p>我以前写文章有个毛病：写一句话得从许多角度去思考表述的正确性，于是花老长时间憋出来一个大长句，挂着一堆定状语和从句。这个毛病有两方面的坏处：一是在修饰语容易过量，造成逻辑的冗余，也增加了阅读的难度。二是如果太过于专注单句的完备性，可能会造成单句与主题的脱钩。</p>
-<p>后来我的办法是什么呢？有想法了先用不那么精确的语言写一个主题句，并且围绕主题句可以进行一些散乱的扩写，确保把idea诞生在脑海中的热乎劲全部记录下来。等到第一感受记录下来了，再重构段落、锤炼文字，就不会再偏离自己的初心了。</p>
-<p>所谓“文以载道”，语言是思想的载体。唯有语言更加准确，思维才能得到更好的表达。</p>
-]]></content>
-      <categories>
-        <category>写作</category>
-      </categories>
-  </entry>
-  <entry>
     <title>台球的心法</title>
     <url>/2025/01/26/%E5%8F%B0%E7%90%83%E7%9A%84%E5%BF%83%E6%B3%95/</url>
     <content><![CDATA[<p>最近我的台球技术有了阶段性的提升，甚至在误打误撞之下完成了人生中的第一杆清台。提升的原因不在台球之中，而在台球之外——在于对身体和心态的调控。</p>
@@ -288,6 +273,21 @@
       <tags>
         <tag>心法</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>关于写文章磕磕巴巴和零零散散</title>
+    <url>/2024/12/06/%E5%85%B3%E4%BA%8E%E5%86%99%E6%96%87%E7%AB%A0%E7%A3%95%E7%A3%95%E5%B7%B4%E5%B7%B4%E5%92%8C%E9%9B%B6%E9%9B%B6%E6%95%A3%E6%95%A3/</url>
+    <content><![CDATA[<p>大一大二的时候，写文章对我来说异常费劲。往往觉得心里头有万千感想，可真到打开笔记时，我却一个字都憋不出来。好不容易写完了一篇，再看的时候，文章也显得零零散散、没有主题，阅读的成本极高。</p>
+<p>现在上述的情况有了改观，我来分享一下我的几点感悟。</p>
+<h2 id="写文章之前先定好文章的主题"><a href="#写文章之前先定好文章的主题" class="headerlink" title="写文章之前先定好文章的主题"></a>写文章之前先定好文章的主题</h2><p>如何让文章头到尾都围绕着一个核心展开呢？最简单的方法是先拟标题，之后每写一个章节都对着标题琢磨：这段文字是为主题服务的吗？将它放在什么位置最合理呢？写每个段落的时候，也要琢磨有没有脱离本章节的主题。</p>
+<p>定主题有两个好处。一是可以让文章立意明确，读者一下字就可以get到重点；二是可以让自己行文更加流畅，通过思考“我把这件事讲清楚了吗”来确保应写尽写。</p>
+<h2 id="锤炼文字–从简单到完备"><a href="#锤炼文字–从简单到完备" class="headerlink" title="锤炼文字–从简单到完备"></a>锤炼文字–从简单到完备</h2><p>我以前写文章有个毛病：写一句话得从许多角度去思考表述的正确性，于是花老长时间憋出来一个大长句，挂着一堆定状语和从句。这个毛病有两方面的坏处：一是在修饰语容易过量，造成逻辑的冗余，也增加了阅读的难度。二是如果太过于专注单句的完备性，可能会造成单句与主题的脱钩。</p>
+<p>后来我的办法是什么呢？有想法了先用不那么精确的语言写一个主题句，并且围绕主题句可以进行一些散乱的扩写，确保把idea诞生在脑海中的热乎劲全部记录下来。等到第一感受记录下来了，再重构段落、锤炼文字，就不会再偏离自己的初心了。</p>
+<p>所谓“文以载道”，语言是思想的载体。唯有语言更加准确，思维才能得到更好的表达。</p>
+]]></content>
+      <categories>
+        <category>写作</category>
+      </categories>
   </entry>
   <entry>
     <title>周刊25-06-10</title>
@@ -514,24 +514,6 @@
       </tags>
   </entry>
   <entry>
-    <title>斯诺克英雄榜</title>
-    <url>/2024/12/04/%E6%96%AF%E8%AF%BA%E5%85%8B%E8%8B%B1%E9%9B%84%E6%A6%9C/</url>
-    <content><![CDATA[<p>说说我对几位斯诺克球员的观感。</p>
-<p>小特，草原雄鹰，侠客第二，是我最中情的球员。他飘逸的球风如同雄鹰在草原上的一声长啸。我尤其喜欢11年世锦赛时的他，他的不羁让我感叹：少年当如此！</p>
-<p>塞尔比，最强人类。他像魔戒中的人类国王，在顶级球手中展现的天赋并不耀眼，但是将人类的智慧发挥到了极致。精密的计算和精确的执行，让他成为了最强80后。</p>
-<p>希金斯，就如同他的外号一样，老巫师。他的智慧蕴含着某种神秘色彩，仿佛来自于某个神明的赏赐。他在2011世锦赛的关键翻袋就是其球风的最好诠释。</p>
-<p>火箭奥沙利文，侠客第一。他就像武功第一的江湖高手，其技艺融百家之长，无法用派别去界定。他在技术上已臻至化境，正在向上追寻“道”。</p>
-<h2 id="岔题"><a href="#岔题" class="headerlink" title="岔题"></a>岔题</h2><p>附带一段刘桂莲对于塞尔比的评价：关于马克塞尔比口碑两级反转的原因，很简单，时代变了，我们对于英雄的定义也开始变了，在好高骛远找不着北的时候，更崇尚无所不能的超能力，当潮水褪去，真正需要自己面对生活的时候，才发现那些理应我们每个人身上都拥有，但普遍缺失的优秀品质有多可贵，比如身处困境的坚持到底，突破极限的跌倒重起，亦或者简单廉价的爱和勇气。</p>
-<p>逆境之时，我们需要向塞尔比学习，认识已有信息，分析解构问题，精确执行方案，以及最重要的——始终保持着对自己、对美好的信念。</p>
-]]></content>
-      <categories>
-        <category>体育</category>
-      </categories>
-      <tags>
-        <tag>斯诺克</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>网易云的后门</title>
     <url>/2025/06/19/%E7%BD%91%E6%98%93%E4%BA%91%E7%9A%84%E5%90%8E%E9%97%A8/</url>
     <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250619/B5eO/2020X1124/%E5%A4%8F%E5%A4%A9%E7%9A%84%E4%BA%91250619.jpg" alt="夏天的云250619"></p>
@@ -632,6 +614,19 @@
       </tags>
   </entry>
   <entry>
+    <title>赤壁赋</title>
+    <url>/2024/11/10/%E8%B5%A4%E5%A3%81%E8%B5%8B/</url>
+    <content><![CDATA[<p>壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。少焉，月出于东山之上，徘徊于斗牛之间。白露横江，水光接天。纵一苇之所如，凌万顷之茫然。浩浩乎如冯虚御风，而不知其所止；飘飘乎如遗世独立，羽化而登仙。</p>
+<p>于是饮酒乐甚，扣舷而歌之。歌曰：“桂棹兮兰桨，击空明兮溯流光。渺渺兮予怀，望美人兮天一方。”客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。舞幽壑之潜蛟，泣孤舟之嫠妇。</p>
+<p>苏子愀然，正襟危坐而问客曰：“何为其然也？”客曰：“‘月明星稀，乌鹊南飞’，此非曹孟德之诗乎？西望夏口，东望武昌，山川相缪，郁乎苍苍，此非孟德之困于周郎者乎？方其破荆州，下江陵，顺流而东也，舳舻千里，旌旗蔽空，酾酒临江，横槊赋诗，固一世之雄也，而今安在哉？况吾与子渔樵于江渚之上，侣鱼虾而友麋鹿，驾一叶之扁舟，举匏樽以相属。寄蜉蝣于天地，渺沧海之一粟。哀吾生之须臾，羡长江之无穷。挟飞仙以遨游，抱明月而长终。知不可乎骤得，托遗响于悲风。”</p>
+<p>苏子曰：“客亦知夫水与月乎？逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也。盖将自其变者而观之，则天地曾不能以一瞬；自其不变者而观之，则物与我皆无尽也，而又何羡乎！且夫天地之间，物各有主，苟非吾之所有，虽一毫而莫取。惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭。是造物者之无尽藏也，而吾与子之所共适。”</p>
+<p>客喜而笑，洗盏更酌。肴核既尽，杯盘狼籍。相与枕藉乎舟中，不知东方之既白。</p>
+]]></content>
+      <categories>
+        <category>诗词</category>
+      </categories>
+  </entry>
+  <entry>
     <title>节日的仪式感</title>
     <url>/2025/01/06/%E8%8A%82%E6%97%A5%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F/</url>
     <content><![CDATA[<p>正值新年，我的内心有一种奇特的感觉，那些日期以2024开头的事情，不论好与坏，不论实际上有多近，都已经翻篇。仿佛2024年已变成题干，而2025年才是我要书写的答案。</p>
@@ -644,18 +639,5 @@
       <tags>
         <tag>节日</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>赤壁赋</title>
-    <url>/2024/11/10/%E8%B5%A4%E5%A3%81%E8%B5%8B/</url>
-    <content><![CDATA[<p>壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。少焉，月出于东山之上，徘徊于斗牛之间。白露横江，水光接天。纵一苇之所如，凌万顷之茫然。浩浩乎如冯虚御风，而不知其所止；飘飘乎如遗世独立，羽化而登仙。</p>
-<p>于是饮酒乐甚，扣舷而歌之。歌曰：“桂棹兮兰桨，击空明兮溯流光。渺渺兮予怀，望美人兮天一方。”客有吹洞箫者，倚歌而和之。其声呜呜然，如怨如慕，如泣如诉；余音袅袅，不绝如缕。舞幽壑之潜蛟，泣孤舟之嫠妇。</p>
-<p>苏子愀然，正襟危坐而问客曰：“何为其然也？”客曰：“‘月明星稀，乌鹊南飞’，此非曹孟德之诗乎？西望夏口，东望武昌，山川相缪，郁乎苍苍，此非孟德之困于周郎者乎？方其破荆州，下江陵，顺流而东也，舳舻千里，旌旗蔽空，酾酒临江，横槊赋诗，固一世之雄也，而今安在哉？况吾与子渔樵于江渚之上，侣鱼虾而友麋鹿，驾一叶之扁舟，举匏樽以相属。寄蜉蝣于天地，渺沧海之一粟。哀吾生之须臾，羡长江之无穷。挟飞仙以遨游，抱明月而长终。知不可乎骤得，托遗响于悲风。”</p>
-<p>苏子曰：“客亦知夫水与月乎？逝者如斯，而未尝往也；盈虚者如彼，而卒莫消长也。盖将自其变者而观之，则天地曾不能以一瞬；自其不变者而观之，则物与我皆无尽也，而又何羡乎！且夫天地之间，物各有主，苟非吾之所有，虽一毫而莫取。惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭。是造物者之无尽藏也，而吾与子之所共适。”</p>
-<p>客喜而笑，洗盏更酌。肴核既尽，杯盘狼籍。相与枕藉乎舟中，不知东方之既白。</p>
-]]></content>
-      <categories>
-        <category>诗词</category>
-      </categories>
   </entry>
 </search>
