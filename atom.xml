@@ -6,7 +6,7 @@
   <link href="https://enndermann.github.io/atom.xml" rel="self"/>
   
   <link href="https://enndermann.github.io/"/>
-  <updated>2025-07-19T02:08:32.805Z</updated>
+  <updated>2025-07-25T06:36:29.323Z</updated>
   <id>https://enndermann.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>周刊25-07-25</title>
+    <link href="https://enndermann.github.io/2025/07/24/%E5%91%A8%E5%88%8A25-07-25/"/>
+    <id>https://enndermann.github.io/2025/07/24/%E5%91%A8%E5%88%8A25-07-25/</id>
+    <published>2025-07-24T02:22:17.000Z</published>
+    <updated>2025-07-25T06:36:29.323Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="雀乐"><a href="#雀乐" class="headerlink" title="雀乐"></a>雀乐</h2><p>最近陷入歌荒了，网易云的日推似乎陷入了一种公式化的循环，都是平淡如水的主歌+朗朗上口的副歌，通过反差让人记住。这种结构初听会感到惊艳，但是很快就会让人审美疲劳。<br>就在这种荒芜中，我发现了雀乐。它以一种期刊的方式推荐音乐，每一期都有特定的主题，如风格、国别、情感等等。推荐曲目中小众歌曲居多，风格鲜明。如果陷入了套路音乐的泥沼，不妨来这里探寻一些新鲜的声音。</p><p>官网：<a href="https://www.indie.cn/">https://www.indie.cn</a></p><h1 id="draw-io"><a href="#draw-io" class="headerlink" title="draw.io"></a>draw.io</h1><p>一个流程图绘制工具，打开网站即可使用，数据在本地储存。优势是快捷、免费、功能丰富、安全。</p><p>其实<code>draw.io</code>我已经使用了几年了，今天同事看到我画的流程图，问我是用什么专业软件画的。我说只不过是一个简单的网站。才想起来推荐这款好用的工具。</p><p>官网：<a href="https://app.diagrams.net/%EF%BC%88%E6%88%96%E8%80%85%E7%9B%B4%E6%8E%A5%E5%9C%A8%E5%9C%B0%E5%9D%80%E6%A0%8F%E8%BE%93%E5%85%A5%60draw.io%60%E5%B0%B1%E5%8F%AF%E4%BB%A5%EF%BC%89">https://app.diagrams.net/（或者直接在地址栏输入`draw.io`就可以）</a></p><h2 id="AsPoem"><a href="#AsPoem" class="headerlink" title="AsPoem"></a><code>AsPoem</code></h2><p>现代化诗词学习网站，一个更加注重 <strong>UI和阅读体验</strong> 的诗词网站。</p><p><img src="https://camo.githubusercontent.com/8950a6993c8d6096390ad2a38c4aed2ac88503903d8c04678b1a061df46b599a/68747470733a2f2f692e696d6775722e636f6d2f577a6265754e482e706e67" alt="AsPoem"></p><p>官网：<a href="https://aspoem.com/zh-Hans">https://aspoem.com/zh-Hans</a></p><h2 id="Chinese-Poetry"><a href="#Chinese-Poetry" class="headerlink" title="Chinese-Poetry"></a>Chinese-Poetry</h2><p>最全的中华古典文集数据库，包含 5.5 万首唐诗、26 万首宋诗、2.1 万首宋词和其他古典文集。诗人包括唐宋两朝近 1.4 万古诗人，和两宋时期 1.5 千古词人。</p><blockquote><p><strong>为什么要做这个仓库?</strong>  古诗是中华民族乃至全世界的瑰宝，我们应该传承下去，虽然有古典文集，但大多数人并没有拥有这些书籍。从某种意义上来说，这些庞大的文集离我们是有一定距离的。而电子版方便拷贝，所以此开源数据库诞生了。此数据库通过 JSON 格式分发，可以让你很方便的开始你的项目。</p></blockquote><p>官网：<a href="https://github.com/chinese-poetry/chinese-poetry">https://github.com/chinese-poetry/chinese-poetry</a></p><h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="在Word中高效进行论文排版的技巧合集"><a href="#在Word中高效进行论文排版的技巧合集" class="headerlink" title="在Word中高效进行论文排版的技巧合集"></a>在Word中高效进行论文排版的技巧合集</h2><p>使用Word撰写各类文本是我们日常中的高发需求，但前后格式冲突、手动调整格式的低效等排版方面的问题，是不少人的困扰。这篇文章介绍了设置样式、引用、目录等排版技巧，用好这些技巧可以让排版效率和美观度更进一步。</p><p>链接：<a href="https://linux.do/t/topic/776875">https://linux.do/t/topic/776875</a></p><h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="typora-vue-theme"><a href="#typora-vue-theme" class="headerlink" title="typora-vue-theme"></a><code>typora-vue-theme</code></h2><p>之前有介绍<code>Typora</code>这款好用的markdown编辑器，<code>Vue Theme</code>是第三方开发者为其开发的主题，简约美观。顾名思义，这款主题是仿照<code>Vue</code>文档的样式设计的。</p><p>项目地址：<a href="https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md">https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md</a></p><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250725/Xhjz/2559X1366/vue_for_typora.png" alt="vue-for-typora"></p><h2 id="歌词翻译Prompt"><a href="#歌词翻译Prompt" class="headerlink" title="歌词翻译Prompt"></a>歌词翻译Prompt</h2><p>对LRC格式的歌词进行高质量翻译，力求在确保歌词的准确性的同时，深度挖掘并还原歌词的情感和意境，同时具备音韵美，达到高质量译文水准。</p><p>我用该提示词在Gemini 2.5 Pro上测试了一下，效果很不错。</p><p>提示词链接：<a href="https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/">https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;有趣的项目&quot;&gt;&lt;a href=&quot;#有趣的项目&quot; class=&quot;headerlink&quot; title=&quot;有趣的项目&quot;&gt;&lt;/a&gt;有趣的项目&lt;/h1&gt;&lt;h2 id=&quot;雀乐&quot;&gt;&lt;a href=&quot;#雀乐&quot; class=&quot;headerlink&quot; title=&quot;雀乐&quot;&gt;&lt;/a&gt;雀</summary>
+      
+    
+    
+    
+    <category term="周刊" scheme="https://enndermann.github.io/categories/%E5%91%A8%E5%88%8A/"/>
+    
+    
+    <category term="推荐" scheme="https://enndermann.github.io/tags/%E6%8E%A8%E8%8D%90/"/>
+    
+  </entry>
   
   <entry>
     <title>者也开发文档</title>
@@ -41,11 +65,11 @@
   </entry>
   
   <entry>
-    <title>周记25-07-19</title>
-    <link href="https://enndermann.github.io/2025/07/15/%E5%91%A8%E8%AE%B025-07-21/"/>
-    <id>https://enndermann.github.io/2025/07/15/%E5%91%A8%E8%AE%B025-07-21/</id>
+    <title>周刊25-07-19</title>
+    <link href="https://enndermann.github.io/2025/07/15/%E5%91%A8%E5%88%8A25-07-19/"/>
+    <id>https://enndermann.github.io/2025/07/15/%E5%91%A8%E5%88%8A25-07-19/</id>
     <published>2025-07-15T02:03:08.000Z</published>
-    <updated>2025-07-19T02:08:12.868Z</updated>
+    <updated>2025-07-24T02:23:47.684Z</updated>
     
     <content type="html"><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/2n1Z/1080X1000/%E5%B0%8F%E9%B9%8F%E8%BD%A6%E6%9C%BA.jpg?40" alt="小鹏车机"></p><blockquote><p>小鹏的车机给我一种用力过猛的感觉。为了追求简约、科技感，车子所有的调节按钮都被浓缩到中控大屏上，但实际上按钮图标很小，而且选择树很复杂。我要关闭对头吹的空调，捣鼓半天才在一个三级菜单中找到。像车子这种天天到处跑的东西，还是更注重功能性一点吧。</p></blockquote><h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Cherry-Studio"><a href="#Cherry-Studio" class="headerlink" title="Cherry Studio"></a>Cherry Studio</h2><p>支持多服务商集成的 AI 对话客户端。输入服务商的API key即可使用，基于AI模型还可以使用对话、绘图、翻译、知识库、MCP等功能。</p><p>官网：<a href="https://www.cherry-ai.com/">https://www.cherry-ai.com/</a></p><h2 id="SearXNG"><a href="#SearXNG" class="headerlink" title="SearXNG"></a>SearXNG</h2><p>注重隐私、可定制的元搜索引擎。优点是免费、集成多个搜索引擎的结果，使用下来效果还是很不错的。目前已经替换为主力搜素。</p><p>相似的项目有Libre Search，但是使用较低质的节点访问时，网页会弹出人机验证，降低了访问速度，而SearXNG就没有这个问题。</p><p>官网：<a href="https://searx.bndkt.io/">https://searx.bndkt.io/</a></p><h2 id="PING0"><a href="#PING0" class="headerlink" title="PING0"></a>PING0</h2><p>一个IP检测网站，可以用来查看梯子节点的IP质量。</p><p>官网：<a href="https://ping0.cc/">https://ping0.cc/</a></p><h2 id="流浪图床"><a href="#流浪图床" class="headerlink" title="流浪图床"></a>流浪图床</h2><p>一家免费图床，个人曾经使用一段时间，体验不错。</p><p>官网：<a href="https://p.sda1.dev/">https://p.sda1.dev/</a></p><h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="Firefox系加载网页怎么那么慢？"><a href="#Firefox系加载网页怎么那么慢？" class="headerlink" title="Firefox系加载网页怎么那么慢？"></a>Firefox系加载网页怎么那么慢？</h2><p>上篇文章中提到我从chrome更换到了zen，实际使用中，zen加载网页总是比chrome慢一丢丢，到周二那会，国内国外的网站更是一个也登不上去，但是chrome却可以正常使用。这难道是firefox的问题？</p><p>上网搜才发现firefox默认的DoH在国内访问不快，并且也有可能解析到国外的服务器，导致访问很不稳定。</p><p>解决方案其实很简单：在浏览器设置里搜索“DNS”，将“基于HTTPS的DNS启用策略”设置为关闭即可。</p><h2 id="设置默认搜索引擎"><a href="#设置默认搜索引擎" class="headerlink" title="设置默认搜索引擎"></a>设置默认搜索引擎</h2><ol><li>在搜索引擎中搜索任意关键字，查看搜索页面的网址，将网址中的关键字替换为<code>%s</code>。</li><li>打开浏览器搜索引擎设置界面，添加引擎。</li><li>以<code>SearXNG</code>为例，在添加搜索引擎的网址处输入<code>https://searx.bndkt.io/search?q=%s</code>即可。</li></ol><h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="提问的智慧"><a href="#提问的智慧" class="headerlink" title="提问的智慧"></a>提问的智慧</h2><p>我一直认为”语言的边界就是思想的边界“。这篇教程从要不要提问、提问的方式方法、对答案的解读以及人际沟通的技巧等方面阐述了自己的见解。我觉得很适合给刚上大学的我看。</p><p>链接：<a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md</a></p>]]></content>
     
@@ -57,7 +81,7 @@
     
     
     
-    <category term="周报" scheme="https://enndermann.github.io/categories/%E5%91%A8%E6%8A%A5/"/>
+    <category term="周刊" scheme="https://enndermann.github.io/categories/%E5%91%A8%E5%88%8A/"/>
     
     
     <category term="推荐" scheme="https://enndermann.github.io/tags/%E6%8E%A8%E8%8D%90/"/>
@@ -65,13 +89,13 @@
   </entry>
   
   <entry>
-    <title>周报25-07-11</title>
-    <link href="https://enndermann.github.io/2025/07/11/%E5%91%A8%E6%8A%A525-07-11/"/>
-    <id>https://enndermann.github.io/2025/07/11/%E5%91%A8%E6%8A%A525-07-11/</id>
+    <title>周刊25-07-11</title>
+    <link href="https://enndermann.github.io/2025/07/11/%E5%91%A8%E5%88%8A25-07-11/"/>
+    <id>https://enndermann.github.io/2025/07/11/%E5%91%A8%E5%88%8A25-07-11/</id>
     <published>2025-07-11T05:31:47.000Z</published>
-    <updated>2025-07-14T08:12:43.410Z</updated>
+    <updated>2025-07-25T06:37:05.463Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="记事"><a href="#记事" class="headerlink" title="记事"></a>记事</h1><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250712/182o/700X875/%E6%9C%AB%E5%BD%B1%E5%A8%98.jpg?40" alt="末影娘"></p><blockquote><p>末影娘~</p></blockquote><p>台风拉尼娜靠近，酷暑渐消，云朵也变得有婀娜多姿起来。</p><p>这周开始实习了。在上班的约束下，生活变得规律起来——准时起床睡觉、准时上厕所、准时吃饭，同时我也惊讶自己一天可以干这么多事。规律带来效率呀。</p><h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Zen浏览器"><a href="#Zen浏览器" class="headerlink" title="Zen浏览器"></a>Zen浏览器</h2><p>我尝试将主力浏览器从<code>Chrome</code>更换到了<code>Zen</code>，主要原因是<code>Zen</code>实在太好看了。高度自定义的界面、流畅的动画、毛玻璃主题让我难以拒绝，而且<code>Zen</code>基于<code>FireFox</code>开发，插件生态也很丰富，从<code>Chrome</code>导出密码、书签也不是很费事。暂且用着看吧。</p><p>官网：<a href="https://zen-browser.app/">https://zen-browser.app/</a></p><h2 id="screenity"><a href="#screenity" class="headerlink" title="screenity"></a>screenity</h2><p>开源、免费、私密的录频软件。</p><p>官网：<a href="https://screenity.io/en/">https://screenity.io/en/</a></p><h2 id="visustin"><a href="#visustin" class="headerlink" title="visustin"></a>visustin</h2><p>流程图生成器，支持多种编程语言。</p><p>官网：<a href="https://www.aivosto.com/visustin-zh-hans.html">https://www.aivosto.com/visustin-zh-hans.html</a></p><h2 id="chinese-internet-is-dead"><a href="#chinese-internet-is-dead" class="headerlink" title="chinese-internet-is-dead"></a>chinese-internet-is-dead</h2><p>零误伤的网站黑名单，由作者手动维护。可以添加到<code>AdBlock</code>等广告屏蔽插件的自定义规则中。</p><p>官网：<a href="https://github.com/obgnail/chinese-internet-is-dead">https://github.com/obgnail/chinese-internet-is-dead</a></p><h2 id="Veusz"><a href="#Veusz" class="headerlink" title="Veusz"></a>Veusz</h2><p><code>Veusz</code>是一款具有图形用户界面的科学绘图和图形程序，用于生成适合科研论文的 2D 和 3D 图表。此外，它也可作为包导入<code>python</code>程序。它支持矢量图和位图输出，包括PDF、Postscript、SVG 和 EMF。</p><p>官网：<a href="https://veusz.github.io/">https://veusz.github.io/</a></p><h2 id="Windhawk"><a href="#Windhawk" class="headerlink" title="Windhawk"></a>Windhawk</h2><p>自定义windows UI。里边包含了大量的mod，我主要使用它美化Windows资源管理器和通知栏的UI。</p><p>官网：<a href="https://windhawk.net/">https://windhawk.net/</a></p><h2 id="inputshare"><a href="#inputshare" class="headerlink" title="inputshare"></a>inputshare</h2><p><strong>输入流转</strong>——能够让你的安卓设备通过有线&#x2F;无线的方式和电脑<strong>共享键鼠</strong>。</p><p>官网：<a href="https://github.com/InputShare/InputShare/">https://github.com/InputShare/InputShare/</a></p><h2 id="BetterNCM"><a href="#BetterNCM" class="headerlink" title="BetterNCM"></a>BetterNCM</h2><p><code>BetterNCM</code>是一个由一群热爱网易云音乐的云村村友开发的 PC 版网易云音乐扩展工具，可以提供非常丰富的自定义功能扩展增强能力。不过由于开发者迁移到了QQ音乐，网易云版本疏于维护，现在安装略嫌麻烦。</p><p>首先从<a href="https://github.com/std-microblock/chromatic/releases/tag/1.3.4">旧项目地址</a>下载<code>BetterNCMII.dll</code>文件，重命名为<code>msimg32.dll</code>，放入网易云音乐的根目录中。重新打开网易云客户端，可以看到右上角出现了一个网易云的小图标，这就是插件的入口。</p><p>但是对于最新版本的网易云，插件只有少数几个，为了有更多的插件可供选择。需要安装<code>Downgrade</code>插件将网易云回退到<code>2.10.13</code>版本。这样就可以安装各种第三方的插件了。</p><p>我是安装了一个主题，一个修改歌曲信息共享协议的插件，以及一个修改播放界面的插件。效果让我很欣喜。</p><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250712/LIib/1626X1107/%E6%96%B0%E7%BD%91%E6%98%93%E4%BA%91%E6%88%AA%E5%9B%BE.png?20" alt="网易云截图"></p><h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="更换微软输入法的候选窗口字体"><a href="#更换微软输入法的候选窗口字体" class="headerlink" title="更换微软输入法的候选窗口字体"></a>更换微软输入法的候选窗口字体</h2><p>按<code>Win+R</code>，输入<code>regedit</code>进入注册表，在<code>HKEY_CURRENT_USER\Software\Microsoft\InputMethod\CandidateWindow\CHS\1</code>路径下找到<code>FontStyle</code>变量，双击编辑。默认值为<code>13.50pt;Regular;;Microsoft YaHei UI</code>共四项：</p><ol><li>第一项<strong>字体大小</strong>（小：11.25pt；中：13.50pt；大：15.00pt；特大：18.00pt）可自定义数值</li><li>第二项<strong>字形</strong>（常规：Regular；粗体：Bold；细体：light）不可以设置斜体Italic</li><li>第三项为空</li><li>第四项<strong>字体名称</strong>（<code>MIcrosoft YaHei UI</code>，宋体，等线，仿宋，楷体，黑体）可自定义已安装字体</li></ol><h2 id="使用Everything进行文件传输"><a href="#使用Everything进行文件传输" class="headerlink" title="使用Everything进行文件传输"></a>使用Everything进行文件传输</h2><p>众所周知，<code>everything</code>的文件功能非常强大，但是它也可以通过创建HTTP&#x2F;FTP服务器的方式进行文件传输。</p><p>打开<code>everything</code>-工具-选项-HTTP服务器，点击“启动HTTP服务器“，“绑定到接口”设置为本机IP地址，再设置端口，点击应用。<strong>同一局域网</strong>中的设备就可以访问<code>IP地址:端口</code>下载主机中的文件了。</p><p>待探索的功能包括传输安全性的设置和共享文件夹的设置。</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="记事"><a href="#记事" class="headerlink" title="记事"></a>记事</h1><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250712/182o/700X875/%E6%9C%AB%E5%BD%B1%E5%A8%98.jpg?40" alt="末影娘"></p><blockquote><p>末影娘~</p></blockquote><p>台风拉尼娜靠近，酷暑渐消，云朵也变得有婀娜多姿起来。</p><p>这周开始实习了。在上班的约束下，生活变得规律起来——准时起床睡觉、准时上厕所、准时吃饭，同时我也惊讶自己一天可以干这么多事。规律带来效率呀。</p><h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Zen浏览器"><a href="#Zen浏览器" class="headerlink" title="Zen浏览器"></a>Zen浏览器</h2><p>我尝试将主力浏览器从<code>Chrome</code>更换到了<code>Zen</code>，主要原因是<code>Zen</code>实在太好看了。高度自定义的界面、流畅的动画、毛玻璃主题让我难以拒绝，而且<code>Zen</code>基于<code>FireFox</code>开发，插件生态也很丰富，从<code>Chrome</code>导出密码、书签也不是很费事。暂且用着看吧。</p><p>官网：<a href="https://zen-browser.app/">https://zen-browser.app/</a></p><h2 id="screenity"><a href="#screenity" class="headerlink" title="screenity"></a>screenity</h2><p>开源、免费、私密的录频软件。</p><p>官网：<a href="https://screenity.io/en/">https://screenity.io/en/</a></p><h2 id="visustin"><a href="#visustin" class="headerlink" title="visustin"></a>visustin</h2><p>流程图生成器，支持多种编程语言。</p><p>官网：<a href="https://www.aivosto.com/visustin-zh-hans.html">https://www.aivosto.com/visustin-zh-hans.html</a></p><h2 id="chinese-internet-is-dead"><a href="#chinese-internet-is-dead" class="headerlink" title="chinese-internet-is-dead"></a>chinese-internet-is-dead</h2><p>零误伤的网站黑名单，由作者手动维护。可以添加到<code>AdBlock</code>等广告屏蔽插件的自定义规则中。</p><p>官网：<a href="https://github.com/obgnail/chinese-internet-is-dead">https://github.com/obgnail/chinese-internet-is-dead</a></p><h2 id="Veusz"><a href="#Veusz" class="headerlink" title="Veusz"></a>Veusz</h2><p><code>Veusz</code>是一款具有图形用户界面的科学绘图和图形程序，用于生成适合科研论文的 2D 和 3D 图表。此外，它也可作为包导入<code>python</code>程序。它支持矢量图和位图输出，包括PDF、Postscript、SVG 和 EMF。</p><p>官网：<a href="https://veusz.github.io/">https://veusz.github.io/</a></p><h2 id="Windhawk"><a href="#Windhawk" class="headerlink" title="Windhawk"></a>Windhawk</h2><p>自定义windows UI。里边包含了大量的mod，我主要使用它美化Windows资源管理器和通知栏的UI。</p><p>官网：<a href="https://windhawk.net/">https://windhawk.net/</a></p><h2 id="inputshare"><a href="#inputshare" class="headerlink" title="inputshare"></a>inputshare</h2><p><strong>输入流转</strong>——能够让你的安卓设备通过有线&#x2F;无线的方式和电脑<strong>共享键鼠</strong>。</p><p>官网：<a href="https://github.com/InputShare/InputShare/">https://github.com/InputShare/InputShare/</a></p><h2 id="BetterNCM"><a href="#BetterNCM" class="headerlink" title="BetterNCM"></a>BetterNCM</h2><p><code>BetterNCM</code>是一个由一群热爱网易云音乐的云村村友开发的 PC 版网易云音乐扩展工具，可以提供非常丰富的自定义功能扩展增强能力。不过由于开发者迁移到了QQ音乐，网易云版本疏于维护，现在安装略嫌麻烦。</p><p>首先从<a href="https://github.com/std-microblock/chromatic/releases/tag/1.3.4">旧项目地址</a>下载<code>BetterNCMII.dll</code>文件，重命名为<code>msimg32.dll</code>，放入网易云音乐的根目录中。重新打开网易云客户端，可以看到右上角出现了一个网易云的小图标，这就是插件的入口。</p><p>但是对于最新版本的网易云，插件只有少数几个，为了有更多的插件可供选择。需要安装<code>Downgrade</code>插件将网易云回退到<code>2.10.13</code>版本。这样就可以安装各种第三方的插件了。</p><p>我是安装了一个主题，一个修改歌曲信息共享协议的插件，以及一个修改播放界面的插件。</p><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250712/LIib/1626X1107/%E6%96%B0%E7%BD%91%E6%98%93%E4%BA%91%E6%88%AA%E5%9B%BE.png?20" alt="网易云截图"></p><h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="更换微软输入法的候选窗口字体"><a href="#更换微软输入法的候选窗口字体" class="headerlink" title="更换微软输入法的候选窗口字体"></a>更换微软输入法的候选窗口字体</h2><p>按<code>Win+R</code>，输入<code>regedit</code>进入注册表，在<code>HKEY_CURRENT_USER\Software\Microsoft\InputMethod\CandidateWindow\CHS\1</code>路径下找到<code>FontStyle</code>变量，双击编辑。默认值为<code>13.50pt;Regular;;Microsoft YaHei UI</code>共四项：</p><ol><li>第一项<strong>字体大小</strong>（小：11.25pt；中：13.50pt；大：15.00pt；特大：18.00pt）可自定义数值</li><li>第二项<strong>字形</strong>（常规：Regular；粗体：Bold；细体：light）不可以设置斜体Italic</li><li>第三项为空</li><li>第四项<strong>字体名称</strong>（<code>MIcrosoft YaHei UI</code>，宋体，等线，仿宋，楷体，黑体）可自定义已安装字体</li></ol><h2 id="使用Everything进行文件传输"><a href="#使用Everything进行文件传输" class="headerlink" title="使用Everything进行文件传输"></a>使用Everything进行文件传输</h2><p>众所周知，<code>everything</code>的文件功能非常强大，但是它也可以通过创建HTTP&#x2F;FTP服务器的方式进行文件传输。</p><p>打开<code>everything</code>-工具-选项-HTTP服务器，点击“启动HTTP服务器“，“绑定到接口”设置为本机IP地址，再设置端口，点击应用。<strong>同一局域网</strong>中的设备就可以访问<code>IP地址:端口</code>下载主机中的文件了。</p><p>待探索的功能包括传输安全性的设置和共享文件夹的设置。</p>]]></content>
     
     
       
@@ -81,7 +105,7 @@
     
     
     
-    <category term="周报" scheme="https://enndermann.github.io/categories/%E5%91%A8%E6%8A%A5/"/>
+    <category term="周刊" scheme="https://enndermann.github.io/categories/%E5%91%A8%E5%88%8A/"/>
     
     
     <category term="推荐" scheme="https://enndermann.github.io/tags/%E6%8E%A8%E8%8D%90/"/>
