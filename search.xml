@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>RSS订阅教程</title>
-    <url>/2025/05/12/RSS%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>简易信息聚合（RSS）是一种基于XML的标准，在互联网上被广泛采用的内容包装和投递协议。本文中我将聊一聊为什么使用RSS以及如何通过RSS订阅本博客。</p>
-<h1 id="为什么要使用RSS"><a href="#为什么要使用RSS" class="headerlink" title="为什么要使用RSS"></a>为什么要使用RSS</h1><p>首先说一说普遍的意义，RSS可以提高信息获取效率。</p>
-<p>我不时通过抖音、b站、知乎等平台的推送获取信息，但是一般刷四五条才能看到感兴趣的信息。随着使用时间越来越长，兴趣基本被耗光了，但是之前那套滑动手指-获得快感的反射已经在脑海中建立，于是我麻木地重复着这套动作，重复得筋疲力竭。</p>
-<p>RSS就像这些平台的关注页面，它迫使你仅从亲自筛选过的信息源中获取信息，与平台的不同点在于：平台关注页面的信息源是封闭生态中的创作者，而RSS的信息源则是广阔的互联网世界（理论上互联网上的信息源都可以使用RSS订阅）。</p>
-<p>再者，RSS只会提取信息源中的标题、正文信息，再将其显示在阅读器统一的UI中，因此我们不必被不同网站五花八门的UI所干扰。</p>
-<p>对我个人而言，我只是想让移动端可以更方便地访问我的博客，毕竟移动端的网页访问体验不是很好。</p>
-<h1 id="如何通过RSS订阅本博客"><a href="#如何通过RSS订阅本博客" class="headerlink" title="如何通过RSS订阅本博客"></a>如何通过RSS订阅本博客</h1><p>市面上有许多阅读器，包括移动端orPC端，开源or收费，不同UI风格的。在安卓端博主推荐一款精致小巧的开源RSS阅读器——<a href="https://github.com/Ashinch/ReadYou">ReadYou</a>，点开链接后，径直往下滑看一看到一个”GET IT ON GitHub”，点击后选择最新版本的apk文件下载即可。</p>
-<p>安装并打开ReadYou后，点击右上角加号，输入博客的RSS订阅地址<a href="https://enndermann.github.io/atom.xml%EF%BC%8C%E7%82%B9%E5%87%BB%E6%90%9C%E7%B4%A2%E5%B0%B1%E5%A4%A7%E5%8A%9F%E5%91%8A%E6%88%90%E4%BA%86%E3%80%82">https://enndermann.github.io/atom.xml，点击搜索就大功告成了。</a></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>RSS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Welcome to 2025</title>
     <url>/2024/12/31/Welcome_to_2025/</url>
     <content><![CDATA[<p>2024年很长，长到每一天我都有好多话要讲。</p>
@@ -41,6 +22,25 @@
       <categories>
         <category>年度</category>
       </categories>
+  </entry>
+  <entry>
+    <title>RSS订阅教程</title>
+    <url>/2025/05/12/RSS%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>简易信息聚合（RSS）是一种基于XML的标准，在互联网上被广泛采用的内容包装和投递协议。本文中我将聊一聊为什么使用RSS以及如何通过RSS订阅本博客。</p>
+<h1 id="为什么要使用RSS"><a href="#为什么要使用RSS" class="headerlink" title="为什么要使用RSS"></a>为什么要使用RSS</h1><p>首先说一说普遍的意义，RSS可以提高信息获取效率。</p>
+<p>我不时通过抖音、b站、知乎等平台的推送获取信息，但是一般刷四五条才能看到感兴趣的信息。随着使用时间越来越长，兴趣基本被耗光了，但是之前那套滑动手指-获得快感的反射已经在脑海中建立，于是我麻木地重复着这套动作，重复得筋疲力竭。</p>
+<p>RSS就像这些平台的关注页面，它迫使你仅从亲自筛选过的信息源中获取信息，与平台的不同点在于：平台关注页面的信息源是封闭生态中的创作者，而RSS的信息源则是广阔的互联网世界（理论上互联网上的信息源都可以使用RSS订阅）。</p>
+<p>再者，RSS只会提取信息源中的标题、正文信息，再将其显示在阅读器统一的UI中，因此我们不必被不同网站五花八门的UI所干扰。</p>
+<p>对我个人而言，我只是想让移动端可以更方便地访问我的博客，毕竟移动端的网页访问体验不是很好。</p>
+<h1 id="如何通过RSS订阅本博客"><a href="#如何通过RSS订阅本博客" class="headerlink" title="如何通过RSS订阅本博客"></a>如何通过RSS订阅本博客</h1><p>市面上有许多阅读器，包括移动端orPC端，开源or收费，不同UI风格的。在安卓端博主推荐一款精致小巧的开源RSS阅读器——<a href="https://github.com/Ashinch/ReadYou">ReadYou</a>，点开链接后，径直往下滑看一看到一个”GET IT ON GitHub”，点击后选择最新版本的apk文件下载即可。</p>
+<p>安装并打开ReadYou后，点击右上角加号，输入博客的RSS订阅地址<a href="https://enndermann.github.io/atom.xml%EF%BC%8C%E7%82%B9%E5%87%BB%E6%90%9C%E7%B4%A2%E5%B0%B1%E5%A4%A7%E5%8A%9F%E5%91%8A%E6%88%90%E4%BA%86%E3%80%82">https://enndermann.github.io/atom.xml，点击搜索就大功告成了。</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RSS</tag>
+      </tags>
   </entry>
   <entry>
     <title>有感</title>
@@ -198,16 +198,53 @@
       </tags>
   </entry>
   <entry>
-    <title>积极一点</title>
-    <url>/2025/04/18/newday/</url>
-    <content><![CDATA[<p>归去来兮，田园将芜胡不归？既自以心为形役，奚惆怅而独悲？悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟遥遥以轻飏，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。</p>
+    <title>hexo-next字体更换</title>
+    <url>/2024/12/16/hexo-next%E5%AD%97%E4%BD%93%E6%9B%B4%E6%8D%A2/</url>
+    <content><![CDATA[<p>Next主题原生的字体是Microsoft YaHei，我觉得霞鹜文楷在屏显上更好看一些，于是展开了一番折腾。</p>
+<h1 id="Font配置"><a href="#Font配置" class="headerlink" title="Font配置"></a>Font配置</h1><p>字体有关的设置都在themes&#x2F;next&#x2F;_config.yml中，默认配置如下：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span></span><br><span class="line">  <span class="attr">host:</span> </span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font options:</span></span><br><span class="line">  <span class="comment"># `external: true` will load this font family from `host` above.</span></span><br><span class="line">  <span class="comment"># `family: Times New Roman`. Without any quotes.</span></span><br><span class="line">  <span class="comment"># `size: x.x`. Use `em` as unit. Default: 1 (16px)</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Global font settings used for all elements inside &lt;body&gt;.</span></span><br><span class="line">  <span class="attr">global:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Lato</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for site title (.site-title).</span></span><br><span class="line">  <span class="attr">title:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for headlines (&lt;h1&gt; to &lt;h6&gt;).</span></span><br><span class="line">  <span class="attr">headings:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for posts (.post-body).</span></span><br><span class="line">  <span class="attr">posts:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for &lt;code&gt; and code blocks.</span></span><br><span class="line">  <span class="attr">codes:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br></pre></td></tr></table></figure>
+
+<p>为了自定义配置，需要将<code>enable</code>设置为<code>True</code>，NexT 开放了 5 个特定范围的字体设定，他们是：</p>
+<ul>
+<li>global字体：定义的字体将在全站范围使用</li>
+<li>title字体：站点标题所使用的字体</li>
+<li>headlines字体：文章内标题的字体（h1, h2, h3, h4, h5, h6）</li>
+<li>posts字体：文章正文所使用的字体</li>
+<li>codes字体： 代码块所使用的字体</li>
+</ul>
+<p>各项所指定的字体为首选字体，若不可用，则使用内部默认字体。我们在配置时，在<code>family</code>下添加我们在google fonts挑选的字体比如LXGW WenKai、Noto Serif SC即可。</p>
+<blockquote>
+<p>在博客页面对某段文字点击检查，font-family即为配置的字体，比如我博客正文的<code>font-family：LXGW WenKai, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif</code>，假如没有在CDN中找到LXGW WenKai，浏览器就会依次尝试加载后面的字体。</p>
+</blockquote>
+<p>Next默认从fonts.googleapis.com中加载字体，然而在国内该链接可能不稳定，NexT 通过设置 <code>font.host</code> 来支持字体库的自定义 URL。国内有大佬搭建了fonts.googleapis.com的镜像站点：&#x2F;&#x2F;fonts.loli.net。</p>
+<h1 id="CDN配置"><a href="#CDN配置" class="headerlink" title="CDN配置"></a>CDN配置</h1><p>一般来说到这里就没问题了，但是在我完成上述配置之后字体没有改变。这是因为Next默认的CDN无法连接，需要更换CDN。</p>
+<p>CDN的相关配置在themes&#x2F;next&#x2F;_config.ym的<code>vendors</code>项中。其中<code>internal</code>为Next内部字体的CDN，<code>plugins</code>为第三方插件的CDN。Next给出的选择有local（默认CDN）、jsdelivr、unpkg、cdnjs、custom，如果要选择第三方CDN就添加<code>custom</code>并在<code>custom_cdn_url</code>这里添加相应的URL。（注意提示：如果使用的是最新版本的NexT，将<code>internal</code>设置为<code>local</code>。博主这里选择的CDN是unpkg。</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="comment"># The CDN provider of NexT internal scripts.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs | custom</span></span><br><span class="line">  <span class="comment"># Warning: If you are using the latest master branch of NexT, please set `internal: local`</span></span><br><span class="line">  <span class="comment"># internal: local</span></span><br><span class="line">  <span class="attr">internal:</span> <span class="string">local</span></span><br><span class="line">  <span class="comment"># The default CDN provider of third-party plugins.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs | custom</span></span><br><span class="line">  <span class="comment"># Dependencies for `plugins: local`: https://github.com/next-theme/plugins</span></span><br><span class="line">  <span class="comment"># plugins: cdnjs</span></span><br><span class="line">  <span class="attr">plugins:</span> <span class="string">unpkg</span></span><br><span class="line">  <span class="comment"># Custom CDN URL</span></span><br><span class="line">  <span class="comment"># For example:</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://cdn.jsdelivr.net/npm/$&#123;npm_name&#125;@$&#123;version&#125;/$&#123;minified&#125;</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://cdnjs.cloudflare.com/ajax/libs/$&#123;cdnjs_name&#125;/$&#123;version&#125;/$&#123;cdnjs_file&#125;</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://lib.baomitu.com/$&#123;cdnjs_name&#125;/$&#123;version&#125;/$&#123;cdnjs_file&#125;</span></span><br><span class="line">  <span class="attr">custom_cdn_url:</span></span><br></pre></td></tr></table></figure>
+
+<p>本教程将持续更新~</p>
+<h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><p><a href="https://theme-next.js.org/">官方文档</a></p>
 ]]></content>
       <categories>
-        <category>自我观察</category>
+        <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>诗</tag>
+        <tag>blog</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>关于写文章磕磕巴巴和零零散散</title>
+    <url>/2024/12/06/%E5%85%B3%E4%BA%8E%E5%86%99%E6%96%87%E7%AB%A0%E7%A3%95%E7%A3%95%E5%B7%B4%E5%B7%B4%E5%92%8C%E9%9B%B6%E9%9B%B6%E6%95%A3%E6%95%A3/</url>
+    <content><![CDATA[<p>大一大二的时候，写文章对我来说异常费劲。往往觉得心里头有万千感想，可真到打开笔记时，我却一个字都憋不出来。好不容易写完了一篇，再看的时候，文章也显得零零散散、没有主题，阅读的成本极高。</p>
+<p>现在上述的情况有了改观，我来分享一下我的几点感悟。</p>
+<h2 id="写文章之前先定好文章的主题"><a href="#写文章之前先定好文章的主题" class="headerlink" title="写文章之前先定好文章的主题"></a>写文章之前先定好文章的主题</h2><p>如何让文章头到尾都围绕着一个核心展开呢？最简单的方法是先拟标题，之后每写一个章节都对着标题琢磨：这段文字是为主题服务的吗？将它放在什么位置最合理呢？写每个段落的时候，也要琢磨有没有脱离本章节的主题。</p>
+<p>定主题有两个好处。一是可以让文章立意明确，读者一下字就可以get到重点；二是可以让自己行文更加流畅，通过思考“我把这件事讲清楚了吗”来确保应写尽写。</p>
+<h2 id="锤炼文字–从简单到完备"><a href="#锤炼文字–从简单到完备" class="headerlink" title="锤炼文字–从简单到完备"></a>锤炼文字–从简单到完备</h2><p>我以前写文章有个毛病：写一句话得从许多角度去思考表述的正确性，于是花老长时间憋出来一个大长句，挂着一堆定状语和从句。这个毛病有两方面的坏处：一是在修饰语容易过量，造成逻辑的冗余，也增加了阅读的难度。二是如果太过于专注单句的完备性，可能会造成单句与主题的脱钩。</p>
+<p>后来我的办法是什么呢？有想法了先用不那么精确的语言写一个主题句，并且围绕主题句可以进行一些散乱的扩写，确保把idea诞生在脑海中的热乎劲全部记录下来。等到第一感受记录下来了，再重构段落、锤炼文字，就不会再偏离自己的初心了。</p>
+<p>所谓“文以载道”，语言是思想的载体。唯有语言更加准确，思维才能得到更好的表达。</p>
+]]></content>
+      <categories>
+        <category>写作</category>
+      </categories>
   </entry>
   <entry>
     <title>做事情的状态</title>
@@ -226,19 +263,16 @@
       </tags>
   </entry>
   <entry>
-    <title>关于写文章磕磕巴巴和零零散散</title>
-    <url>/2024/12/06/%E5%85%B3%E4%BA%8E%E5%86%99%E6%96%87%E7%AB%A0%E7%A3%95%E7%A3%95%E5%B7%B4%E5%B7%B4%E5%92%8C%E9%9B%B6%E9%9B%B6%E6%95%A3%E6%95%A3/</url>
-    <content><![CDATA[<p>大一大二的时候，写文章对我来说异常费劲。往往觉得心里头有万千感想，可真到打开笔记时，我却一个字都憋不出来。好不容易写完了一篇，再看的时候，文章也显得零零散散、没有主题，阅读的成本极高。</p>
-<p>现在上述的情况有了改观，我来分享一下我的几点感悟。</p>
-<h2 id="写文章之前先定好文章的主题"><a href="#写文章之前先定好文章的主题" class="headerlink" title="写文章之前先定好文章的主题"></a>写文章之前先定好文章的主题</h2><p>如何让文章头到尾都围绕着一个核心展开呢？最简单的方法是先拟标题，之后每写一个章节都对着标题琢磨：这段文字是为主题服务的吗？将它放在什么位置最合理呢？写每个段落的时候，也要琢磨有没有脱离本章节的主题。</p>
-<p>定主题有两个好处。一是可以让文章立意明确，读者一下字就可以get到重点；二是可以让自己行文更加流畅，通过思考“我把这件事讲清楚了吗”来确保应写尽写。</p>
-<h2 id="锤炼文字–从简单到完备"><a href="#锤炼文字–从简单到完备" class="headerlink" title="锤炼文字–从简单到完备"></a>锤炼文字–从简单到完备</h2><p>我以前写文章有个毛病：写一句话得从许多角度去思考表述的正确性，于是花老长时间憋出来一个大长句，挂着一堆定状语和从句。这个毛病有两方面的坏处：一是在修饰语容易过量，造成逻辑的冗余，也增加了阅读的难度。二是如果太过于专注单句的完备性，可能会造成单句与主题的脱钩。</p>
-<p>后来我的办法是什么呢？有想法了先用不那么精确的语言写一个主题句，并且围绕主题句可以进行一些散乱的扩写，确保把idea诞生在脑海中的热乎劲全部记录下来。等到第一感受记录下来了，再重构段落、锤炼文字，就不会再偏离自己的初心了。</p>
-<p>所谓“文以载道”，语言是思想的载体。唯有语言更加准确，思维才能得到更好的表达。</p>
+    <title>积极一点</title>
+    <url>/2025/04/18/newday/</url>
+    <content><![CDATA[<p>归去来兮，田园将芜胡不归？既自以心为形役，奚惆怅而独悲？悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟遥遥以轻飏，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。</p>
 ]]></content>
       <categories>
-        <category>写作</category>
+        <category>自我观察</category>
       </categories>
+      <tags>
+        <tag>诗</tag>
+      </tags>
   </entry>
   <entry>
     <title>台球的心法</title>
@@ -317,42 +351,43 @@
       </tags>
   </entry>
   <entry>
-    <title>周刊25-07-27</title>
-    <url>/2025/07/24/%E5%91%A8%E5%88%8A25-07-27/</url>
-    <content><![CDATA[<center>锦瑟无端五十弦，一弦一柱思华年。<center>
-
-<center>庄生晓梦迷蝴蝶，望帝春心托杜鹃。<center>
-
-<center>沧海月明珠有泪，蓝田日暖玉生烟。<center>
-
-<center>此情可待成追忆，只是当时已惘然。<center>
-
-
-<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250727/3Seb/1279X1707/%E8%A5%BF%E5%B1%B1%E8%90%BD%E6%97%A5.jpg?50" alt="西山落日"></p>
+    <title>周刊25-07-11</title>
+    <url>/2025/07/11/%E5%91%A8%E5%88%8A25-07-11/</url>
+    <content><![CDATA[<h1 id="记事"><a href="#记事" class="headerlink" title="记事"></a>记事</h1><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250712/182o/700X875/%E6%9C%AB%E5%BD%B1%E5%A8%98.jpg?40" alt="末影娘"></p>
 <blockquote>
-<p>西山落日</p>
+<p>末影娘~</p>
 </blockquote>
-<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="雀乐"><a href="#雀乐" class="headerlink" title="雀乐"></a>雀乐</h2><p>最近陷入歌荒了，网易云的日推似乎陷入了一种公式化的循环，都是平淡如水的主歌+朗朗上口的副歌，通过反差让人记住。这种结构初听会感到惊艳，但是很快就会让人审美疲劳。<br>就在这种荒芜中，我发现了雀乐。它以一种期刊的方式推荐音乐，每一期都有特定的主题，如风格、国别、情感等等。推荐曲目中小众歌曲居多，风格鲜明。如果陷入了套路音乐的泥沼，不妨来这里探寻一些新鲜的声音。</p>
-<p>官网：<a href="https://www.indie.cn/">https://www.indie.cn</a></p>
-<h1 id="draw-io"><a href="#draw-io" class="headerlink" title="draw.io"></a>draw.io</h1><p>一个流程图绘制工具，打开网站即可使用，数据在本地储存。优势是快捷、免费、功能丰富、安全。</p>
-<p>其实<code>draw.io</code>我已经使用了几年了，今天同事看到我画的流程图，问我是用什么专业软件画的。我说只不过是一个简单的网站。才想起来推荐这款好用的工具。</p>
-<p>官网：<a href="https://app.diagrams.net/%EF%BC%88%E6%88%96%E8%80%85%E7%9B%B4%E6%8E%A5%E5%9C%A8%E5%9C%B0%E5%9D%80%E6%A0%8F%E8%BE%93%E5%85%A5%60draw.io%60%E5%B0%B1%E5%8F%AF%E4%BB%A5%EF%BC%89">https://app.diagrams.net/（或者直接在地址栏输入`draw.io`就可以）</a></p>
-<h2 id="AsPoem"><a href="#AsPoem" class="headerlink" title="AsPoem"></a><code>AsPoem</code></h2><p>现代化诗词学习网站，一个更加注重 <strong>UI和阅读体验</strong> 的诗词网站。</p>
-<p><img src="https://camo.githubusercontent.com/8950a6993c8d6096390ad2a38c4aed2ac88503903d8c04678b1a061df46b599a/68747470733a2f2f692e696d6775722e636f6d2f577a6265754e482e706e67" alt="AsPoem"></p>
-<p>官网：<a href="https://aspoem.com/zh-Hans">https://aspoem.com/zh-Hans</a></p>
-<h2 id="Chinese-Poetry"><a href="#Chinese-Poetry" class="headerlink" title="Chinese-Poetry"></a>Chinese-Poetry</h2><p>最全的中华古典文集数据库，包含 5.5 万首唐诗、26 万首宋诗、2.1 万首宋词和其他古典文集。诗人包括唐宋两朝近 1.4 万古诗人，和两宋时期 1.5 千古词人。</p>
-<blockquote>
-<p><strong>为什么要做这个仓库?</strong>  古诗是中华民族乃至全世界的瑰宝，我们应该传承下去，虽然有古典文集，但大多数人并没有拥有这些书籍。从某种意义上来说，这些庞大的文集离我们是有一定距离的。而电子版方便拷贝，所以此开源数据库诞生了。此数据库通过 JSON 格式分发，可以让你很方便的开始你的项目。</p>
-</blockquote>
-<p>官网：<a href="https://github.com/chinese-poetry/chinese-poetry">https://github.com/chinese-poetry/chinese-poetry</a></p>
-<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="在Word中高效进行论文排版的技巧合集"><a href="#在Word中高效进行论文排版的技巧合集" class="headerlink" title="在Word中高效进行论文排版的技巧合集"></a>在Word中高效进行论文排版的技巧合集</h2><p>使用Word撰写各类文本是我们日常中的高发需求，但前后格式冲突、手动调整格式的低效等排版方面的问题，是不少人的困扰。这篇文章介绍了设置样式、引用、目录等排版技巧，用好这些技巧可以让排版效率和美观度更进一步。</p>
-<p>链接：<a href="https://linux.do/t/topic/776875">https://linux.do/t/topic/776875</a></p>
-<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="typora-vue-theme"><a href="#typora-vue-theme" class="headerlink" title="typora-vue-theme"></a><code>typora-vue-theme</code></h2><p>之前有介绍<code>Typora</code>这款好用的markdown编辑器，<code>Vue Theme</code>是第三方开发者为其开发的主题，简约美观。顾名思义，这款主题是仿照<code>Vue</code>文档的样式设计的。</p>
-<p>项目地址：<a href="https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md">https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md</a></p>
-<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250725/Xhjz/2559X1366/vue_for_typora.png" alt="vue-for-typora"></p>
-<h2 id="歌词翻译Prompt"><a href="#歌词翻译Prompt" class="headerlink" title="歌词翻译Prompt"></a>歌词翻译Prompt</h2><p>对LRC格式的歌词进行高质量翻译，力求在确保歌词的准确性的同时，深度挖掘并还原歌词的情感和意境，同时具备音韵美，达到高质量译文水准。</p>
-<p>我用该提示词在Gemini 2.5 Pro上测试了一下，效果很不错。</p>
-<p>提示词链接：<a href="https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/">https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/</a></p>
+<p>台风拉尼娜靠近，酷暑渐消，云朵也变得有婀娜多姿起来。</p>
+<p>这周开始实习了。在上班的约束下，生活变得规律起来——准时起床睡觉、准时上厕所、准时吃饭，同时我也惊讶自己一天可以干这么多事。规律带来效率呀。</p>
+<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Zen浏览器"><a href="#Zen浏览器" class="headerlink" title="Zen浏览器"></a>Zen浏览器</h2><p>我尝试将主力浏览器从<code>Chrome</code>更换到了<code>Zen</code>，主要原因是<code>Zen</code>实在太好看了。高度自定义的界面、流畅的动画、毛玻璃主题让我难以拒绝，而且<code>Zen</code>基于<code>FireFox</code>开发，插件生态也很丰富，从<code>Chrome</code>导出密码、书签也不是很费事。暂且用着看吧。</p>
+<p>官网：<a href="https://zen-browser.app/">https://zen-browser.app/</a></p>
+<h2 id="screenity"><a href="#screenity" class="headerlink" title="screenity"></a>screenity</h2><p>开源、免费、私密的录频软件。</p>
+<p>官网：<a href="https://screenity.io/en/">https://screenity.io/en/</a></p>
+<h2 id="visustin"><a href="#visustin" class="headerlink" title="visustin"></a>visustin</h2><p>流程图生成器，支持多种编程语言。</p>
+<p>官网：<a href="https://www.aivosto.com/visustin-zh-hans.html">https://www.aivosto.com/visustin-zh-hans.html</a></p>
+<h2 id="chinese-internet-is-dead"><a href="#chinese-internet-is-dead" class="headerlink" title="chinese-internet-is-dead"></a>chinese-internet-is-dead</h2><p>零误伤的网站黑名单，由作者手动维护。可以添加到<code>AdBlock</code>等广告屏蔽插件的自定义规则中。</p>
+<p>官网：<a href="https://github.com/obgnail/chinese-internet-is-dead">https://github.com/obgnail/chinese-internet-is-dead</a></p>
+<h2 id="Veusz"><a href="#Veusz" class="headerlink" title="Veusz"></a>Veusz</h2><p><code>Veusz</code>是一款具有图形用户界面的科学绘图和图形程序，用于生成适合科研论文的 2D 和 3D 图表。此外，它也可作为包导入<code>python</code>程序。它支持矢量图和位图输出，包括PDF、Postscript、SVG 和 EMF。</p>
+<p>官网：<a href="https://veusz.github.io/">https://veusz.github.io/</a></p>
+<h2 id="Windhawk"><a href="#Windhawk" class="headerlink" title="Windhawk"></a>Windhawk</h2><p>自定义windows UI。里边包含了大量的mod，我主要使用它美化Windows资源管理器和通知栏的UI。</p>
+<p>官网：<a href="https://windhawk.net/">https://windhawk.net/</a></p>
+<h2 id="inputshare"><a href="#inputshare" class="headerlink" title="inputshare"></a>inputshare</h2><p><strong>输入流转</strong>——能够让你的安卓设备通过有线&#x2F;无线的方式和电脑<strong>共享键鼠</strong>。</p>
+<p>官网：<a href="https://github.com/InputShare/InputShare/">https://github.com/InputShare/InputShare/</a></p>
+<h2 id="BetterNCM"><a href="#BetterNCM" class="headerlink" title="BetterNCM"></a>BetterNCM</h2><p><code>BetterNCM</code>是一个由一群热爱网易云音乐的云村村友开发的 PC 版网易云音乐扩展工具，可以提供非常丰富的自定义功能扩展增强能力。不过由于开发者迁移到了QQ音乐，网易云版本疏于维护，现在安装略嫌麻烦。</p>
+<p>首先从<a href="https://github.com/std-microblock/chromatic/releases/tag/1.3.4">旧项目地址</a>下载<code>BetterNCMII.dll</code>文件，重命名为<code>msimg32.dll</code>，放入网易云音乐的根目录中。重新打开网易云客户端，可以看到右上角出现了一个网易云的小图标，这就是插件的入口。</p>
+<p>但是对于最新版本的网易云，插件只有少数几个，为了有更多的插件可供选择。需要安装<code>Downgrade</code>插件将网易云回退到<code>2.10.13</code>版本。这样就可以安装各种第三方的插件了。</p>
+<p>我是安装了一个主题，一个修改歌曲信息共享协议的插件，以及一个修改播放界面的插件。</p>
+<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250712/LIib/1626X1107/%E6%96%B0%E7%BD%91%E6%98%93%E4%BA%91%E6%88%AA%E5%9B%BE.png?20" alt="网易云截图"></p>
+<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="更换微软输入法的候选窗口字体"><a href="#更换微软输入法的候选窗口字体" class="headerlink" title="更换微软输入法的候选窗口字体"></a>更换微软输入法的候选窗口字体</h2><p>按<code>Win+R</code>，输入<code>regedit</code>进入注册表，在<code>HKEY_CURRENT_USER\Software\Microsoft\InputMethod\CandidateWindow\CHS\1</code>路径下找到<code>FontStyle</code>变量，双击编辑。默认值为<code>13.50pt;Regular;;Microsoft YaHei UI</code>共四项：</p>
+<ol>
+<li>第一项<strong>字体大小</strong>（小：11.25pt；中：13.50pt；大：15.00pt；特大：18.00pt）可自定义数值</li>
+<li>第二项<strong>字形</strong>（常规：Regular；粗体：Bold；细体：light）不可以设置斜体Italic</li>
+<li>第三项为空</li>
+<li>第四项<strong>字体名称</strong>（<code>MIcrosoft YaHei UI</code>，宋体，等线，仿宋，楷体，黑体）可自定义已安装字体</li>
+</ol>
+<h2 id="使用Everything进行文件传输"><a href="#使用Everything进行文件传输" class="headerlink" title="使用Everything进行文件传输"></a>使用Everything进行文件传输</h2><p>众所周知，<code>everything</code>的文件功能非常强大，但是它也可以通过创建HTTP&#x2F;FTP服务器的方式进行文件传输。</p>
+<p>打开<code>everything</code>-工具-选项-HTTP服务器，点击“启动HTTP服务器“，“绑定到接口”设置为本机IP地址，再设置端口，点击应用。<strong>同一局域网</strong>中的设备就可以访问<code>IP地址:端口</code>下载主机中的文件了。</p>
+<p>待探索的功能包括传输安全性的设置和共享文件夹的设置。</p>
 ]]></content>
       <categories>
         <category>周刊</category>
@@ -444,6 +479,49 @@
       </categories>
       <tags>
         <tag>诗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>周刊25-07-27</title>
+    <url>/2025/07/24/%E5%91%A8%E5%88%8A25-07-27/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250727/3Seb/1279X1707/%E8%A5%BF%E5%B1%B1%E8%90%BD%E6%97%A5.jpg?50" alt="西山落日"></p>
+<blockquote>
+<p>西山落日</p>
+</blockquote>
+<p align='center'>
+锦瑟无端五十弦，一弦一柱思华年。<br \>
+庄生晓梦迷蝴蝶，望帝春心托杜鹃。<br \>
+沧海月明珠有泪，蓝田日暖玉生烟。<br \>
+此情可待成追忆，只是当时已惘然。 
+</p>
+
+<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="雀乐"><a href="#雀乐" class="headerlink" title="雀乐"></a>雀乐</h2><p>最近陷入歌荒了，网易云的日推似乎陷入了一种公式化的循环，都是平淡如水的主歌+朗朗上口的副歌，通过反差让人记住。这种结构初听会感到惊艳，但是很快就会让人审美疲劳。<br>就在这种荒芜中，我发现了雀乐。它以一种期刊的方式推荐音乐，每一期都有特定的主题，如风格、国别、情感等等。推荐曲目中小众歌曲居多，风格鲜明。如果陷入了套路音乐的泥沼，不妨来这里探寻一些新鲜的声音。</p>
+<p>官网：<a href="https://www.indie.cn/">https://www.indie.cn</a></p>
+<h1 id="draw-io"><a href="#draw-io" class="headerlink" title="draw.io"></a>draw.io</h1><p>一个流程图绘制工具，打开网站即可使用，数据在本地储存。优势是快捷、免费、功能丰富、安全。</p>
+<p>其实<code>draw.io</code>我已经使用了几年了，今天同事看到我画的流程图，问我是用什么专业软件画的。我说只不过是一个简单的网站。才想起来推荐这款好用的工具。</p>
+<p>官网：<a href="https://app.diagrams.net/%EF%BC%88%E6%88%96%E8%80%85%E7%9B%B4%E6%8E%A5%E5%9C%A8%E5%9C%B0%E5%9D%80%E6%A0%8F%E8%BE%93%E5%85%A5%60draw.io%60%E5%B0%B1%E5%8F%AF%E4%BB%A5%EF%BC%89">https://app.diagrams.net/（或者直接在地址栏输入`draw.io`就可以）</a></p>
+<h2 id="AsPoem"><a href="#AsPoem" class="headerlink" title="AsPoem"></a><code>AsPoem</code></h2><p>现代化诗词学习网站，一个更加注重 <strong>UI和阅读体验</strong> 的诗词网站。</p>
+<p><img src="https://camo.githubusercontent.com/8950a6993c8d6096390ad2a38c4aed2ac88503903d8c04678b1a061df46b599a/68747470733a2f2f692e696d6775722e636f6d2f577a6265754e482e706e67" alt="AsPoem"></p>
+<p>官网：<a href="https://aspoem.com/zh-Hans">https://aspoem.com/zh-Hans</a></p>
+<h2 id="Chinese-Poetry"><a href="#Chinese-Poetry" class="headerlink" title="Chinese-Poetry"></a>Chinese-Poetry</h2><p>最全的中华古典文集数据库，包含 5.5 万首唐诗、26 万首宋诗、2.1 万首宋词和其他古典文集。诗人包括唐宋两朝近 1.4 万古诗人，和两宋时期 1.5 千古词人。</p>
+<blockquote>
+<p><strong>为什么要做这个仓库?</strong>  古诗是中华民族乃至全世界的瑰宝，我们应该传承下去，虽然有古典文集，但大多数人并没有拥有这些书籍。从某种意义上来说，这些庞大的文集离我们是有一定距离的。而电子版方便拷贝，所以此开源数据库诞生了。此数据库通过 JSON 格式分发，可以让你很方便的开始你的项目。</p>
+</blockquote>
+<p>官网：<a href="https://github.com/chinese-poetry/chinese-poetry">https://github.com/chinese-poetry/chinese-poetry</a></p>
+<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="在Word中高效进行论文排版的技巧合集"><a href="#在Word中高效进行论文排版的技巧合集" class="headerlink" title="在Word中高效进行论文排版的技巧合集"></a>在Word中高效进行论文排版的技巧合集</h2><p>使用Word撰写各类文本是我们日常中的高发需求，但前后格式冲突、手动调整格式的低效等排版方面的问题，是不少人的困扰。这篇文章介绍了设置样式、引用、目录等排版技巧，用好这些技巧可以让排版效率和美观度更进一步。</p>
+<p>链接：<a href="https://linux.do/t/topic/776875">https://linux.do/t/topic/776875</a></p>
+<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="typora-vue-theme"><a href="#typora-vue-theme" class="headerlink" title="typora-vue-theme"></a><code>typora-vue-theme</code></h2><p>之前有介绍<code>Typora</code>这款好用的markdown编辑器，<code>Vue Theme</code>是第三方开发者为其开发的主题，简约美观。顾名思义，这款主题是仿照<code>Vue</code>文档的样式设计的。</p>
+<p>项目地址：<a href="https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md">https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md</a></p>
+<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250725/Xhjz/2559X1366/vue_for_typora.png" alt="vue-for-typora"></p>
+<h2 id="歌词翻译Prompt"><a href="#歌词翻译Prompt" class="headerlink" title="歌词翻译Prompt"></a>歌词翻译Prompt</h2><p>对LRC格式的歌词进行高质量翻译，力求在确保歌词的准确性的同时，深度挖掘并还原歌词的情感和意境，同时具备音韵美，达到高质量译文水准。</p>
+<p>我用该提示词在Gemini 2.5 Pro上测试了一下，效果很不错。</p>
+<p>提示词链接：<a href="https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/">https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/</a></p>
+]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+      <tags>
+        <tag>推荐</tag>
       </tags>
   </entry>
   <entry>
@@ -547,66 +625,6 @@
       </tags>
   </entry>
   <entry>
-    <title>周刊25-07-11</title>
-    <url>/2025/07/11/%E5%91%A8%E5%88%8A25-07-11/</url>
-    <content><![CDATA[<h1 id="记事"><a href="#记事" class="headerlink" title="记事"></a>记事</h1><p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250712/182o/700X875/%E6%9C%AB%E5%BD%B1%E5%A8%98.jpg?40" alt="末影娘"></p>
-<blockquote>
-<p>末影娘~</p>
-</blockquote>
-<p>台风拉尼娜靠近，酷暑渐消，云朵也变得有婀娜多姿起来。</p>
-<p>这周开始实习了。在上班的约束下，生活变得规律起来——准时起床睡觉、准时上厕所、准时吃饭，同时我也惊讶自己一天可以干这么多事。规律带来效率呀。</p>
-<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Zen浏览器"><a href="#Zen浏览器" class="headerlink" title="Zen浏览器"></a>Zen浏览器</h2><p>我尝试将主力浏览器从<code>Chrome</code>更换到了<code>Zen</code>，主要原因是<code>Zen</code>实在太好看了。高度自定义的界面、流畅的动画、毛玻璃主题让我难以拒绝，而且<code>Zen</code>基于<code>FireFox</code>开发，插件生态也很丰富，从<code>Chrome</code>导出密码、书签也不是很费事。暂且用着看吧。</p>
-<p>官网：<a href="https://zen-browser.app/">https://zen-browser.app/</a></p>
-<h2 id="screenity"><a href="#screenity" class="headerlink" title="screenity"></a>screenity</h2><p>开源、免费、私密的录频软件。</p>
-<p>官网：<a href="https://screenity.io/en/">https://screenity.io/en/</a></p>
-<h2 id="visustin"><a href="#visustin" class="headerlink" title="visustin"></a>visustin</h2><p>流程图生成器，支持多种编程语言。</p>
-<p>官网：<a href="https://www.aivosto.com/visustin-zh-hans.html">https://www.aivosto.com/visustin-zh-hans.html</a></p>
-<h2 id="chinese-internet-is-dead"><a href="#chinese-internet-is-dead" class="headerlink" title="chinese-internet-is-dead"></a>chinese-internet-is-dead</h2><p>零误伤的网站黑名单，由作者手动维护。可以添加到<code>AdBlock</code>等广告屏蔽插件的自定义规则中。</p>
-<p>官网：<a href="https://github.com/obgnail/chinese-internet-is-dead">https://github.com/obgnail/chinese-internet-is-dead</a></p>
-<h2 id="Veusz"><a href="#Veusz" class="headerlink" title="Veusz"></a>Veusz</h2><p><code>Veusz</code>是一款具有图形用户界面的科学绘图和图形程序，用于生成适合科研论文的 2D 和 3D 图表。此外，它也可作为包导入<code>python</code>程序。它支持矢量图和位图输出，包括PDF、Postscript、SVG 和 EMF。</p>
-<p>官网：<a href="https://veusz.github.io/">https://veusz.github.io/</a></p>
-<h2 id="Windhawk"><a href="#Windhawk" class="headerlink" title="Windhawk"></a>Windhawk</h2><p>自定义windows UI。里边包含了大量的mod，我主要使用它美化Windows资源管理器和通知栏的UI。</p>
-<p>官网：<a href="https://windhawk.net/">https://windhawk.net/</a></p>
-<h2 id="inputshare"><a href="#inputshare" class="headerlink" title="inputshare"></a>inputshare</h2><p><strong>输入流转</strong>——能够让你的安卓设备通过有线&#x2F;无线的方式和电脑<strong>共享键鼠</strong>。</p>
-<p>官网：<a href="https://github.com/InputShare/InputShare/">https://github.com/InputShare/InputShare/</a></p>
-<h2 id="BetterNCM"><a href="#BetterNCM" class="headerlink" title="BetterNCM"></a>BetterNCM</h2><p><code>BetterNCM</code>是一个由一群热爱网易云音乐的云村村友开发的 PC 版网易云音乐扩展工具，可以提供非常丰富的自定义功能扩展增强能力。不过由于开发者迁移到了QQ音乐，网易云版本疏于维护，现在安装略嫌麻烦。</p>
-<p>首先从<a href="https://github.com/std-microblock/chromatic/releases/tag/1.3.4">旧项目地址</a>下载<code>BetterNCMII.dll</code>文件，重命名为<code>msimg32.dll</code>，放入网易云音乐的根目录中。重新打开网易云客户端，可以看到右上角出现了一个网易云的小图标，这就是插件的入口。</p>
-<p>但是对于最新版本的网易云，插件只有少数几个，为了有更多的插件可供选择。需要安装<code>Downgrade</code>插件将网易云回退到<code>2.10.13</code>版本。这样就可以安装各种第三方的插件了。</p>
-<p>我是安装了一个主题，一个修改歌曲信息共享协议的插件，以及一个修改播放界面的插件。</p>
-<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250712/LIib/1626X1107/%E6%96%B0%E7%BD%91%E6%98%93%E4%BA%91%E6%88%AA%E5%9B%BE.png?20" alt="网易云截图"></p>
-<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="更换微软输入法的候选窗口字体"><a href="#更换微软输入法的候选窗口字体" class="headerlink" title="更换微软输入法的候选窗口字体"></a>更换微软输入法的候选窗口字体</h2><p>按<code>Win+R</code>，输入<code>regedit</code>进入注册表，在<code>HKEY_CURRENT_USER\Software\Microsoft\InputMethod\CandidateWindow\CHS\1</code>路径下找到<code>FontStyle</code>变量，双击编辑。默认值为<code>13.50pt;Regular;;Microsoft YaHei UI</code>共四项：</p>
-<ol>
-<li>第一项<strong>字体大小</strong>（小：11.25pt；中：13.50pt；大：15.00pt；特大：18.00pt）可自定义数值</li>
-<li>第二项<strong>字形</strong>（常规：Regular；粗体：Bold；细体：light）不可以设置斜体Italic</li>
-<li>第三项为空</li>
-<li>第四项<strong>字体名称</strong>（<code>MIcrosoft YaHei UI</code>，宋体，等线，仿宋，楷体，黑体）可自定义已安装字体</li>
-</ol>
-<h2 id="使用Everything进行文件传输"><a href="#使用Everything进行文件传输" class="headerlink" title="使用Everything进行文件传输"></a>使用Everything进行文件传输</h2><p>众所周知，<code>everything</code>的文件功能非常强大，但是它也可以通过创建HTTP&#x2F;FTP服务器的方式进行文件传输。</p>
-<p>打开<code>everything</code>-工具-选项-HTTP服务器，点击“启动HTTP服务器“，“绑定到接口”设置为本机IP地址，再设置端口，点击应用。<strong>同一局域网</strong>中的设备就可以访问<code>IP地址:端口</code>下载主机中的文件了。</p>
-<p>待探索的功能包括传输安全性的设置和共享文件夹的设置。</p>
-]]></content>
-      <categories>
-        <category>周刊</category>
-      </categories>
-      <tags>
-        <tag>推荐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>节日的仪式感</title>
-    <url>/2025/01/06/%E8%8A%82%E6%97%A5%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F/</url>
-    <content><![CDATA[<p>正值新年，我的内心有一种奇特的感觉，那些日期以2024开头的事情，不论好与坏，不论实际上有多近，都已经翻篇。仿佛2024年已变成题干，而2025年才是我要书写的答案。</p>
-<p>这或许就是节日的正面意义之一吧。节日将生活分成一个一个小段，事情无论喜怒哀乐只能影响前一个阶段，我们总是以一种崭新的姿态去迎接未来。</p>
-<p>写于2025-1-1</p>
-]]></content>
-      <categories>
-        <category>自我观察</category>
-      </categories>
-      <tags>
-        <tag>节日</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>赤壁赋</title>
     <url>/2024/11/10/%E8%B5%A4%E5%A3%81%E8%B5%8B/</url>
     <content><![CDATA[<p>壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。少焉，月出于东山之上，徘徊于斗牛之间。白露横江，水光接天。纵一苇之所如，凌万顷之茫然。浩浩乎如冯虚御风，而不知其所止；飘飘乎如遗世独立，羽化而登仙。</p>
@@ -620,37 +638,17 @@
       </categories>
   </entry>
   <entry>
-    <title>hexo-next字体更换</title>
-    <url>/2024/12/16/hexo-next%E5%AD%97%E4%BD%93%E6%9B%B4%E6%8D%A2/</url>
-    <content><![CDATA[<p>Next主题原生的字体是Microsoft YaHei，我觉得霞鹜文楷在屏显上更好看一些，于是展开了一番折腾。</p>
-<h1 id="Font配置"><a href="#Font配置" class="headerlink" title="Font配置"></a>Font配置</h1><p>字体有关的设置都在themes&#x2F;next&#x2F;_config.yml中，默认配置如下：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">font:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Uri of fonts host, e.g. https://fonts.googleapis.com (Default).</span></span><br><span class="line">  <span class="attr">host:</span> </span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font options:</span></span><br><span class="line">  <span class="comment"># `external: true` will load this font family from `host` above.</span></span><br><span class="line">  <span class="comment"># `family: Times New Roman`. Without any quotes.</span></span><br><span class="line">  <span class="comment"># `size: x.x`. Use `em` as unit. Default: 1 (16px)</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Global font settings used for all elements inside &lt;body&gt;.</span></span><br><span class="line">  <span class="attr">global:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> <span class="string">Lato</span></span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for site title (.site-title).</span></span><br><span class="line">  <span class="attr">title:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for headlines (&lt;h1&gt; to &lt;h6&gt;).</span></span><br><span class="line">  <span class="attr">headings:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line">    <span class="attr">size:</span></span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for posts (.post-body).</span></span><br><span class="line">  <span class="attr">posts:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br><span class="line"></span><br><span class="line">  <span class="comment"># Font settings for &lt;code&gt; and code blocks.</span></span><br><span class="line">  <span class="attr">codes:</span></span><br><span class="line">    <span class="attr">external:</span> <span class="literal">true</span></span><br><span class="line">    <span class="attr">family:</span> </span><br></pre></td></tr></table></figure>
-
-<p>为了自定义配置，需要将<code>enable</code>设置为<code>True</code>，NexT 开放了 5 个特定范围的字体设定，他们是：</p>
-<ul>
-<li>global字体：定义的字体将在全站范围使用</li>
-<li>title字体：站点标题所使用的字体</li>
-<li>headlines字体：文章内标题的字体（h1, h2, h3, h4, h5, h6）</li>
-<li>posts字体：文章正文所使用的字体</li>
-<li>codes字体： 代码块所使用的字体</li>
-</ul>
-<p>各项所指定的字体为首选字体，若不可用，则使用内部默认字体。我们在配置时，在<code>family</code>下添加我们在google fonts挑选的字体比如LXGW WenKai、Noto Serif SC即可。</p>
-<blockquote>
-<p>在博客页面对某段文字点击检查，font-family即为配置的字体，比如我博客正文的<code>font-family：LXGW WenKai, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif</code>，假如没有在CDN中找到LXGW WenKai，浏览器就会依次尝试加载后面的字体。</p>
-</blockquote>
-<p>Next默认从fonts.googleapis.com中加载字体，然而在国内该链接可能不稳定，NexT 通过设置 <code>font.host</code> 来支持字体库的自定义 URL。国内有大佬搭建了fonts.googleapis.com的镜像站点：&#x2F;&#x2F;fonts.loli.net。</p>
-<h1 id="CDN配置"><a href="#CDN配置" class="headerlink" title="CDN配置"></a>CDN配置</h1><p>一般来说到这里就没问题了，但是在我完成上述配置之后字体没有改变。这是因为Next默认的CDN无法连接，需要更换CDN。</p>
-<p>CDN的相关配置在themes&#x2F;next&#x2F;_config.ym的<code>vendors</code>项中。其中<code>internal</code>为Next内部字体的CDN，<code>plugins</code>为第三方插件的CDN。Next给出的选择有local（默认CDN）、jsdelivr、unpkg、cdnjs、custom，如果要选择第三方CDN就添加<code>custom</code>并在<code>custom_cdn_url</code>这里添加相应的URL。（注意提示：如果使用的是最新版本的NexT，将<code>internal</code>设置为<code>local</code>。博主这里选择的CDN是unpkg。</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">vendors:</span></span><br><span class="line">  <span class="comment"># The CDN provider of NexT internal scripts.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs | custom</span></span><br><span class="line">  <span class="comment"># Warning: If you are using the latest master branch of NexT, please set `internal: local`</span></span><br><span class="line">  <span class="comment"># internal: local</span></span><br><span class="line">  <span class="attr">internal:</span> <span class="string">local</span></span><br><span class="line">  <span class="comment"># The default CDN provider of third-party plugins.</span></span><br><span class="line">  <span class="comment"># Available values: local | jsdelivr | unpkg | cdnjs | custom</span></span><br><span class="line">  <span class="comment"># Dependencies for `plugins: local`: https://github.com/next-theme/plugins</span></span><br><span class="line">  <span class="comment"># plugins: cdnjs</span></span><br><span class="line">  <span class="attr">plugins:</span> <span class="string">unpkg</span></span><br><span class="line">  <span class="comment"># Custom CDN URL</span></span><br><span class="line">  <span class="comment"># For example:</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://cdn.jsdelivr.net/npm/$&#123;npm_name&#125;@$&#123;version&#125;/$&#123;minified&#125;</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://cdnjs.cloudflare.com/ajax/libs/$&#123;cdnjs_name&#125;/$&#123;version&#125;/$&#123;cdnjs_file&#125;</span></span><br><span class="line">  <span class="comment"># custom_cdn_url: https://lib.baomitu.com/$&#123;cdnjs_name&#125;/$&#123;version&#125;/$&#123;cdnjs_file&#125;</span></span><br><span class="line">  <span class="attr">custom_cdn_url:</span></span><br></pre></td></tr></table></figure>
-
-<p>本教程将持续更新~</p>
-<h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><p><a href="https://theme-next.js.org/">官方文档</a></p>
+    <title>节日的仪式感</title>
+    <url>/2025/01/06/%E8%8A%82%E6%97%A5%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F/</url>
+    <content><![CDATA[<p>正值新年，我的内心有一种奇特的感觉，那些日期以2024开头的事情，不论好与坏，不论实际上有多近，都已经翻篇。仿佛2024年已变成题干，而2025年才是我要书写的答案。</p>
+<p>这或许就是节日的正面意义之一吧。节日将生活分成一个一个小段，事情无论喜怒哀乐只能影响前一个阶段，我们总是以一种崭新的姿态去迎接未来。</p>
+<p>写于2025-1-1</p>
 ]]></content>
       <categories>
-        <category>学习笔记</category>
+        <category>自我观察</category>
       </categories>
       <tags>
-        <tag>blog</tag>
+        <tag>节日</tag>
       </tags>
   </entry>
 </search>
