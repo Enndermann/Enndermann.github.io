@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>RSS订阅教程</title>
-    <url>/2025/05/12/RSS%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>简易信息聚合（RSS）是一种基于XML的标准，在互联网上被广泛采用的内容包装和投递协议。本文中我将聊一聊为什么使用RSS以及如何通过RSS订阅本博客。</p>
-<h1 id="为什么要使用RSS"><a href="#为什么要使用RSS" class="headerlink" title="为什么要使用RSS"></a>为什么要使用RSS</h1><p>首先说一说普遍的意义，RSS可以提高信息获取效率。</p>
-<p>我不时通过抖音、b站、知乎等平台的推送获取信息，但是一般刷四五条才能看到感兴趣的信息。随着使用时间越来越长，兴趣基本被耗光了，但是之前那套滑动手指-获得快感的反射已经在脑海中建立，于是我麻木地重复着这套动作，重复得筋疲力竭。</p>
-<p>RSS就像这些平台的关注页面，它迫使你仅从亲自筛选过的信息源中获取信息，与平台的不同点在于：平台关注页面的信息源是封闭生态中的创作者，而RSS的信息源则是广阔的互联网世界（理论上互联网上的信息源都可以使用RSS订阅）。</p>
-<p>再者，RSS只会提取信息源中的标题、正文信息，再将其显示在阅读器统一的UI中，因此我们不必被不同网站五花八门的UI所干扰。</p>
-<p>对我个人而言，我只是想让移动端可以更方便地访问我的博客，毕竟移动端的网页访问体验不是很好。</p>
-<h1 id="如何通过RSS订阅本博客"><a href="#如何通过RSS订阅本博客" class="headerlink" title="如何通过RSS订阅本博客"></a>如何通过RSS订阅本博客</h1><p>市面上有许多阅读器，包括移动端orPC端，开源or收费，不同UI风格的。在安卓端博主推荐一款精致小巧的开源RSS阅读器——<a href="https://github.com/Ashinch/ReadYou">ReadYou</a>，点开链接后，径直往下滑看一看到一个”GET IT ON GitHub”，点击后选择最新版本的apk文件下载即可。</p>
-<p>安装并打开ReadYou后，点击右上角加号，输入博客的RSS订阅地址<a href="https://enndermann.github.io/atom.xml%EF%BC%8C%E7%82%B9%E5%87%BB%E6%90%9C%E7%B4%A2%E5%B0%B1%E5%A4%A7%E5%8A%9F%E5%91%8A%E6%88%90%E4%BA%86%E3%80%82">https://enndermann.github.io/atom.xml，点击搜索就大功告成了。</a></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>RSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Welcome to 2025</title>
-    <url>/2024/12/31/Welcome_to_2025/</url>
-    <content><![CDATA[<p>2024年很长，长到每一天我都有好多话要讲。</p>
-<p>和她一起的那些瞬间，仍不断给予我力量。</p>
-<p>这个年底倒腾了博客，这里有我的所思所想。</p>
-<p>学到的一些毫无卵用的技术，偶然也带来意外的光芒。</p>
-<p>世界在变化，我的人生道阻且长。</p>
-<p>2024年也很短，短的仿佛轮回一场。</p>
-<p>内耗，矛盾，生活总是不那么理想。</p>
-<p>我已经脱离了当初自己期许的那个模样。</p>
-<p>四处寻觅，心中满是迷茫。</p>
-<p>新的一年，我许下四个愿望。</p>
-<p>一是调。调整身体，调整心态，调整自己。</p>
-<p>二是定。找到自己钟情的方向。</p>
-<p>三是思。警惕思维惯性，多多思考。</p>
-<p>四是爱。发掘爱，传递爱，感性能力也很重要。</p>
-<p>2025年，希望自己过的坦坦荡荡。</p>
-]]></content>
-      <categories>
-        <category>年度</category>
-      </categories>
-  </entry>
-  <entry>
     <title>有感</title>
     <url>/2025/01/22/blog20250122/</url>
     <content><![CDATA[<p>死并非生的对立面，而作为生的一部分永存。</p>
@@ -198,6 +156,37 @@
       </tags>
   </entry>
   <entry>
+    <title>RSS订阅教程</title>
+    <url>/2025/05/12/RSS%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>简易信息聚合（RSS）是一种基于XML的标准，在互联网上被广泛采用的内容包装和投递协议。本文中我将聊一聊为什么使用RSS以及如何通过RSS订阅本博客。</p>
+<h1 id="为什么要使用RSS"><a href="#为什么要使用RSS" class="headerlink" title="为什么要使用RSS"></a>为什么要使用RSS</h1><p>首先说一说普遍的意义，RSS可以提高信息获取效率。</p>
+<p>我不时通过抖音、b站、知乎等平台的推送获取信息，但是一般刷四五条才能看到感兴趣的信息。随着使用时间越来越长，兴趣基本被耗光了，但是之前那套滑动手指-获得快感的反射已经在脑海中建立，于是我麻木地重复着这套动作，重复得筋疲力竭。</p>
+<p>RSS就像这些平台的关注页面，它迫使你仅从亲自筛选过的信息源中获取信息，与平台的不同点在于：平台关注页面的信息源是封闭生态中的创作者，而RSS的信息源则是广阔的互联网世界（理论上互联网上的信息源都可以使用RSS订阅）。</p>
+<p>再者，RSS只会提取信息源中的标题、正文信息，再将其显示在阅读器统一的UI中，因此我们不必被不同网站五花八门的UI所干扰。</p>
+<p>对我个人而言，我只是想让移动端可以更方便地访问我的博客，毕竟移动端的网页访问体验不是很好。</p>
+<h1 id="如何通过RSS订阅本博客"><a href="#如何通过RSS订阅本博客" class="headerlink" title="如何通过RSS订阅本博客"></a>如何通过RSS订阅本博客</h1><p>市面上有许多阅读器，包括移动端orPC端，开源or收费，不同UI风格的。在安卓端博主推荐一款精致小巧的开源RSS阅读器——<a href="https://github.com/Ashinch/ReadYou">ReadYou</a>，点开链接后，径直往下滑看一看到一个”GET IT ON GitHub”，点击后选择最新版本的apk文件下载即可。</p>
+<p>安装并打开ReadYou后，点击右上角加号，输入博客的RSS订阅地址<a href="https://enndermann.github.io/atom.xml%EF%BC%8C%E7%82%B9%E5%87%BB%E6%90%9C%E7%B4%A2%E5%B0%B1%E5%A4%A7%E5%8A%9F%E5%91%8A%E6%88%90%E4%BA%86%E3%80%82">https://enndermann.github.io/atom.xml，点击搜索就大功告成了。</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>积极一点</title>
+    <url>/2025/04/18/newday/</url>
+    <content><![CDATA[<p>归去来兮，田园将芜胡不归？既自以心为形役，奚惆怅而独悲？悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟遥遥以轻飏，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>诗</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo-next字体更换</title>
     <url>/2024/12/16/hexo-next%E5%AD%97%E4%BD%93%E6%9B%B4%E6%8D%A2/</url>
     <content><![CDATA[<p>Next主题原生的字体是Microsoft YaHei，我觉得霞鹜文楷在屏显上更好看一些，于是展开了一番折腾。</p>
@@ -232,32 +221,42 @@
       </tags>
   </entry>
   <entry>
-    <title>积极一点</title>
-    <url>/2025/04/18/newday/</url>
-    <content><![CDATA[<p>归去来兮，田园将芜胡不归？既自以心为形役，奚惆怅而独悲？悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟遥遥以轻飏，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。</p>
+    <title>台球的心法</title>
+    <url>/2025/01/26/%E5%8F%B0%E7%90%83%E7%9A%84%E5%BF%83%E6%B3%95/</url>
+    <content><![CDATA[<p>最近我的台球技术有了阶段性的提升，甚至在误打误撞之下完成了人生中的第一杆清台。提升的原因不在台球之中，而在台球之外——在于对身体和心态的调控。</p>
+<p>从第一性原理出发，将母球以预想的状态击出，关键在于出杆的平直，如何做到出杆平直呢？关键在于让身体处于一个最佳的姿态，能够将球杆笔直地送出。调整两脚连线与出杆方向之间的夹角，找到最舒服和放松的状态，确保主视眼、手架、握杆手臂的方向以及球杆的方向在一条直线上。这是技术层面的基础，也是稳定发挥的前提。</p>
+<p>然而，将客观条件调整到最优后，能否真正发挥出来，还取决于心法。在不击球的时候，需要做好规划，思考链接的顺序、球形的难点、下一球的杆法与力道。而当俯身准备击球时，心中只需专注于力度和打点，注意力在母球和目标球上切换，确保出杆方向与母球、假想球连线一致。至于之前的规划、球能否进袋等杂念，统统要抛之脑后。</p>
+<p>其实人生的心法和台球的心法并无二致，都可以总结为“谋定后动，动则忘忧”。我自己常常就是吃着碗里的看着锅里的，总是让过去的遗憾和未来的焦虑降低了行动的效率。留专门的时间做好长期和短期的规划，真正开始行动时，暂时放下过去和未来，集中注意力完成当下的规划即可。</p>
 ]]></content>
       <categories>
-        <category>自我观察</category>
+        <category>体育</category>
       </categories>
       <tags>
-        <tag>诗</tag>
+        <tag>心法</tag>
       </tags>
   </entry>
   <entry>
-    <title>做事情的状态</title>
-    <url>/2024/12/21/%E5%81%9A%E4%BA%8B%E6%83%85%E7%9A%84%E7%8A%B6%E6%80%81/</url>
-    <content><![CDATA[<p>我发现我做事情的状态可以分为三种：满血状态，残血状态和机械状态。</p>
-<p><strong>满血状态</strong>是精力体力最好的状态，一般是休息结束或者运动后。此时大脑可以很好地梳理目前并行的所有的任务，做出合理的统筹，也可以专心做某件事。这时候时候做一些需要丰富联想的事，比如创造，理解，规划等等。</p>
-<p><strong>残血状态</strong>是精力体力下滑的状态。脑海中还会有好多任务泡泡围着我转圈，但是我已经没法雨露均沾了，一般是东敲一榔头西敲一榔头，没什么。既然这样就不要再勉强自己了，可以搞点小爱好，找人撩骚啊，打球啊，逛论坛，倒腾软件啊什么的。</p>
-<p><strong>机械状态</strong>是精力体力快要见底的状态，是三者里最好玩的。在疲劳的状态下，脑子无法再想杂七杂八的事情，只能单线程思考，碰巧就可以将注意力集中到一件事上，效率反而得到提升。一般11点过后进入深夜，我就进入了机械状态。机械状态特别适合对付那种死难死难或者特耗精力的任务，比如搞好博客的配置，调好模型的参数。我深有体悟的原因是，最近一个万字报告就是两个深夜肝出来的，博客界面也是熬夜配好的。</p>
-<p>弄清楚自己的状态，我们就可以“哄”着这个时不时就犯懒摆烂的脑子，因状态制宜地做事情啦</p>
+    <title>Welcome to 2025</title>
+    <url>/2024/12/31/Welcome_to_2025/</url>
+    <content><![CDATA[<p>2024年很长，长到每一天我都有好多话要讲。</p>
+<p>和她一起的那些瞬间，仍不断给予我力量。</p>
+<p>这个年底倒腾了博客，这里有我的所思所想。</p>
+<p>学到的一些毫无卵用的技术，偶然也带来意外的光芒。</p>
+<p>世界在变化，我的人生道阻且长。</p>
+<p>2024年也很短，短的仿佛轮回一场。</p>
+<p>内耗，矛盾，生活总是不那么理想。</p>
+<p>我已经脱离了当初自己期许的那个模样。</p>
+<p>四处寻觅，心中满是迷茫。</p>
+<p>新的一年，我许下四个愿望。</p>
+<p>一是调。调整身体，调整心态，调整自己。</p>
+<p>二是定。找到自己钟情的方向。</p>
+<p>三是思。警惕思维惯性，多多思考。</p>
+<p>四是爱。发掘爱，传递爱，感性能力也很重要。</p>
+<p>2025年，希望自己过的坦坦荡荡。</p>
 ]]></content>
       <categories>
-        <category>自我观察</category>
+        <category>年度</category>
       </categories>
-      <tags>
-        <tag>时间管理</tag>
-      </tags>
   </entry>
   <entry>
     <title>关于写文章磕磕巴巴和零零散散</title>
@@ -275,18 +274,46 @@
       </categories>
   </entry>
   <entry>
-    <title>台球的心法</title>
-    <url>/2025/01/26/%E5%8F%B0%E7%90%83%E7%9A%84%E5%BF%83%E6%B3%95/</url>
-    <content><![CDATA[<p>最近我的台球技术有了阶段性的提升，甚至在误打误撞之下完成了人生中的第一杆清台。提升的原因不在台球之中，而在台球之外——在于对身体和心态的调控。</p>
-<p>从第一性原理出发，将母球以预想的状态击出，关键在于出杆的平直，如何做到出杆平直呢？关键在于让身体处于一个最佳的姿态，能够将球杆笔直地送出。调整两脚连线与出杆方向之间的夹角，找到最舒服和放松的状态，确保主视眼、手架、握杆手臂的方向以及球杆的方向在一条直线上。这是技术层面的基础，也是稳定发挥的前提。</p>
-<p>然而，将客观条件调整到最优后，能否真正发挥出来，还取决于心法。在不击球的时候，需要做好规划，思考链接的顺序、球形的难点、下一球的杆法与力道。而当俯身准备击球时，心中只需专注于力度和打点，注意力在母球和目标球上切换，确保出杆方向与母球、假想球连线一致。至于之前的规划、球能否进袋等杂念，统统要抛之脑后。</p>
-<p>其实人生的心法和台球的心法并无二致，都可以总结为“谋定后动，动则忘忧”。我自己常常就是吃着碗里的看着锅里的，总是让过去的遗憾和未来的焦虑降低了行动的效率。留专门的时间做好长期和短期的规划，真正开始行动时，暂时放下过去和未来，集中注意力完成当下的规划即可。</p>
+    <title>周刊25-06-10</title>
+    <url>/2025/06/10/%E5%91%A8%E5%88%8A25-06-10/</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>新开一个系列，记录每周发现的新鲜事物</p>
+<h1 id="25-06-10"><a href="#25-06-10" class="headerlink" title="25.06.10"></a>25.06.10</h1><h2 id="Zlibrary"><a href="#Zlibrary" class="headerlink" title="Zlibrary"></a>Zlibrary</h2><p>网址就不贴了。Zlib真的是对我影响深远的一个网站之一，极大地降低了我获取图书资源的难度，这或许就是知识平权的最好体现吧。</p>
+<h2 id="全球光污染地图"><a href="#全球光污染地图" class="headerlink" title="全球光污染地图"></a>全球光污染地图</h2><p><a href="https://www.darkmap.cn/">这个网站</a>很有意思，据说许多天文爱好者就是看这个地图找合适的观星点的。看了一下，至少我这里是看不到太多星星了。</p>
+<h2 id="中国历史地图集"><a href="#中国历史地图集" class="headerlink" title="中国历史地图集"></a>中国历史地图集</h2><p><a href="http://www.ccamc.co/chinese_historical_map/">中国历史地图集</a>是一个将谭其骧主编的同名地图集数字化的网站。谭图貌似在历史地图界有着相当高的地位。这个网站在我看一些历史书时棒了许多忙了。</p>
+<h2 id="默沙东诊疗手册大众版"><a href="#默沙东诊疗手册大众版" class="headerlink" title="默沙东诊疗手册大众版"></a>默沙东诊疗手册大众版</h2><p><a href="https://www.msdmanuals.cn/home">默沙东诊疗手册大众版</a>是一个医学科普网站，感觉很权威的样子，而且搜索十分友好。对于我这样的医学小白来说太需要一个靠谱的日常医疗手册了。</p>
+<h2 id="IPSOS"><a href="#IPSOS" class="headerlink" title="IPSOS"></a>IPSOS</h2><p><a href="https://www.ipsos.com/zh-cn#">益普索</a>，一家用户洞察与策略咨询公司，张vv推荐的研报机构！</p>
+<h2 id="LINUX-DO"><a href="#LINUX-DO" class="headerlink" title="LINUX DO"></a>LINUX DO</h2><p>“<strong>真诚</strong>、<strong>友善</strong>、<strong>团结</strong>、<strong>专业</strong>，共建你我引以为荣之社区”是<a href="linux.do">这家论坛</a>的座右铭。实际上干货量是很多的，尤其是关于AI的资讯十分及时，还有一些瞎折腾的教程也很有意思。</p>
+<h2 id="quicker"><a href="#quicker" class="headerlink" title="quicker"></a>quicker</h2><p><a href="https://getquicker.net/https://getquicker.net/">quicker</a>是一款指尖工具箱，可以创建或导入各种各样有意思的脚本。我常用的脚本有长截图、破除网页复制限制和模拟打字粘贴（后两者不知道帮我逃过了多少大学中形式主义的任务。感谢quicker。</p>
+<h2 id="FuckZHS"><a href="#FuckZHS" class="headerlink" title="FuckZHS"></a>FuckZHS</h2><p><a href="https://github.com/VermiIIi0n/fuckZHS">FuckZHS</a>是一个Github开源项目，可以看到这个名字十分具有侵略性。它可以挂在后台帮我们刷智慧树课程，也曾帮了我的大忙，遗憾的是该项目没有前端界面。感谢FuckZHS。</p>
+<h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><p><a href="https://typoraio.cn/">Typora</a> is a simple yet powerful Markdown reader.正如官网介绍的那样，Typora的简洁快速、对Markdown和$LaTex$的支持是它成为我常用编辑器的重要原因。</p>
+<h2 id="PiliPlus"><a href="#PiliPlus" class="headerlink" title="PiliPlus"></a>PiliPlus</h2><p><a href="https://github.com/bggRGjQaUbCoE/PiliPlus">PiliPlus</a>是一个B站的安卓第三方客户端，本人正在使用，感觉PiliPlus的推荐质量要比原生B站高那么一些，并且还支持根据时长、关键词屏蔽视频，再加上更加简洁的界面、无广告、快速的响应，让我爱不释手。</p>
+<p>累了，暂时就这些，持续更新~</p>
+<h1 id="25-06-18"><a href="#25-06-18" class="headerlink" title="25.06.18"></a>25.06.18</h1><h2 id="GKD"><a href="#GKD" class="headerlink" title="GKD"></a>GKD</h2><p><a href="https://gkd.li/">GKD</a>是一款基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用。如果觉得每次打开京东淘宝b站要等两秒钟广告很心烦，而且乐意折腾，GKD是一个好的选择。<br>不过我在实际使用过程中，尽管给了GKD自启动的权限，但是它在后台经常退出，目前没找到办法。</p>
+<h2 id="阿里巴巴矢量图标库"><a href="#阿里巴巴矢量图标库" class="headerlink" title="阿里巴巴矢量图标库"></a>阿里巴巴矢量图标库</h2><p><a href="https://www.iconfont.cn/">https://www.iconfont.cn/</a><br>免费，素材数量多，素材导出格式多，制作PPT时的好帮手。</p>
+<h2 id="秘塔AI搜索"><a href="#秘塔AI搜索" class="headerlink" title="秘塔AI搜索"></a>秘塔AI搜索</h2><p><a href="https://metaso.cn/">秘塔</a>是一个国产AI搜索引擎，是我在查选修课资料时发现的。相比于chatgpt，豆包等通用大模型的搜索能力，幻觉更少，而且引用质量更高。更重要的是一天有100次免费次数，很爽好吧。</p>
+<h2 id="Gemini-Pro"><a href="#Gemini-Pro" class="headerlink" title="Gemini Pro"></a>Gemini Pro</h2><p>最近折腾着通过了谷歌的学生优惠，可以享受一年半的Gemini Pro。Gemini 2.5 pro的性能真的很强大，不论是上下文的容量、文章的逻辑性、代码能力还是推理能力，横向对比grok，chatgpt，豆包都是一流的，我在期末周也是爽用了一把 。</p>
 ]]></content>
       <categories>
-        <category>体育</category>
+        <category>周刊</category>
       </categories>
       <tags>
-        <tag>心法</tag>
+        <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>做事情的状态</title>
+    <url>/2024/12/21/%E5%81%9A%E4%BA%8B%E6%83%85%E7%9A%84%E7%8A%B6%E6%80%81/</url>
+    <content><![CDATA[<p>我发现我做事情的状态可以分为三种：满血状态，残血状态和机械状态。</p>
+<p><strong>满血状态</strong>是精力体力最好的状态，一般是休息结束或者运动后。此时大脑可以很好地梳理目前并行的所有的任务，做出合理的统筹，也可以专心做某件事。这时候时候做一些需要丰富联想的事，比如创造，理解，规划等等。</p>
+<p><strong>残血状态</strong>是精力体力下滑的状态。脑海中还会有好多任务泡泡围着我转圈，但是我已经没法雨露均沾了，一般是东敲一榔头西敲一榔头，没什么。既然这样就不要再勉强自己了，可以搞点小爱好，找人撩骚啊，打球啊，逛论坛，倒腾软件啊什么的。</p>
+<p><strong>机械状态</strong>是精力体力快要见底的状态，是三者里最好玩的。在疲劳的状态下，脑子无法再想杂七杂八的事情，只能单线程思考，碰巧就可以将注意力集中到一件事上，效率反而得到提升。一般11点过后进入深夜，我就进入了机械状态。机械状态特别适合对付那种死难死难或者特耗精力的任务，比如搞好博客的配置，调好模型的参数。我深有体悟的原因是，最近一个万字报告就是两个深夜肝出来的，博客界面也是熬夜配好的。</p>
+<p>弄清楚自己的状态，我们就可以“哄”着这个时不时就犯懒摆烂的脑子，因状态制宜地做事情啦</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>时间管理</tag>
       </tags>
   </entry>
   <entry>
@@ -336,33 +363,6 @@
       </tags>
   </entry>
   <entry>
-    <title>周刊25-06-10</title>
-    <url>/2025/06/10/%E5%91%A8%E5%88%8A25-06-10/</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>新开一个系列，记录每周发现的新鲜事物</p>
-<h1 id="25-06-10"><a href="#25-06-10" class="headerlink" title="25.06.10"></a>25.06.10</h1><h2 id="Zlibrary"><a href="#Zlibrary" class="headerlink" title="Zlibrary"></a>Zlibrary</h2><p>网址就不贴了。Zlib真的是对我影响深远的一个网站之一，极大地降低了我获取图书资源的难度，这或许就是知识平权的最好体现吧。</p>
-<h2 id="全球光污染地图"><a href="#全球光污染地图" class="headerlink" title="全球光污染地图"></a>全球光污染地图</h2><p><a href="https://www.darkmap.cn/">这个网站</a>很有意思，据说许多天文爱好者就是看这个地图找合适的观星点的。看了一下，至少我这里是看不到太多星星了。</p>
-<h2 id="中国历史地图集"><a href="#中国历史地图集" class="headerlink" title="中国历史地图集"></a>中国历史地图集</h2><p><a href="http://www.ccamc.co/chinese_historical_map/">中国历史地图集</a>是一个将谭其骧主编的同名地图集数字化的网站。谭图貌似在历史地图界有着相当高的地位。这个网站在我看一些历史书时棒了许多忙了。</p>
-<h2 id="默沙东诊疗手册大众版"><a href="#默沙东诊疗手册大众版" class="headerlink" title="默沙东诊疗手册大众版"></a>默沙东诊疗手册大众版</h2><p><a href="https://www.msdmanuals.cn/home">默沙东诊疗手册大众版</a>是一个医学科普网站，感觉很权威的样子，而且搜索十分友好。对于我这样的医学小白来说太需要一个靠谱的日常医疗手册了。</p>
-<h2 id="IPSOS"><a href="#IPSOS" class="headerlink" title="IPSOS"></a>IPSOS</h2><p><a href="https://www.ipsos.com/zh-cn#">益普索</a>，一家用户洞察与策略咨询公司，张vv推荐的研报机构！</p>
-<h2 id="LINUX-DO"><a href="#LINUX-DO" class="headerlink" title="LINUX DO"></a>LINUX DO</h2><p>“<strong>真诚</strong>、<strong>友善</strong>、<strong>团结</strong>、<strong>专业</strong>，共建你我引以为荣之社区”是<a href="linux.do">这家论坛</a>的座右铭。实际上干货量是很多的，尤其是关于AI的资讯十分及时，还有一些瞎折腾的教程也很有意思。</p>
-<h2 id="quicker"><a href="#quicker" class="headerlink" title="quicker"></a>quicker</h2><p><a href="https://getquicker.net/https://getquicker.net/">quicker</a>是一款指尖工具箱，可以创建或导入各种各样有意思的脚本。我常用的脚本有长截图、破除网页复制限制和模拟打字粘贴（后两者不知道帮我逃过了多少大学中形式主义的任务。感谢quicker。</p>
-<h2 id="FuckZHS"><a href="#FuckZHS" class="headerlink" title="FuckZHS"></a>FuckZHS</h2><p><a href="https://github.com/VermiIIi0n/fuckZHS">FuckZHS</a>是一个Github开源项目，可以看到这个名字十分具有侵略性。它可以挂在后台帮我们刷智慧树课程，也曾帮了我的大忙，遗憾的是该项目没有前端界面。感谢FuckZHS。</p>
-<h2 id="Typora"><a href="#Typora" class="headerlink" title="Typora"></a>Typora</h2><p><a href="https://typoraio.cn/">Typora</a> is a simple yet powerful Markdown reader.正如官网介绍的那样，Typora的简洁快速、对Markdown和$LaTex$的支持是它成为我常用编辑器的重要原因。</p>
-<h2 id="PiliPlus"><a href="#PiliPlus" class="headerlink" title="PiliPlus"></a>PiliPlus</h2><p><a href="https://github.com/bggRGjQaUbCoE/PiliPlus">PiliPlus</a>是一个B站的安卓第三方客户端，本人正在使用，感觉PiliPlus的推荐质量要比原生B站高那么一些，并且还支持根据时长、关键词屏蔽视频，再加上更加简洁的界面、无广告、快速的响应，让我爱不释手。</p>
-<p>累了，暂时就这些，持续更新~</p>
-<h1 id="25-06-18"><a href="#25-06-18" class="headerlink" title="25.06.18"></a>25.06.18</h1><h2 id="GKD"><a href="#GKD" class="headerlink" title="GKD"></a>GKD</h2><p><a href="https://gkd.li/">GKD</a>是一款基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用。如果觉得每次打开京东淘宝b站要等两秒钟广告很心烦，而且乐意折腾，GKD是一个好的选择。<br>不过我在实际使用过程中，尽管给了GKD自启动的权限，但是它在后台经常退出，目前没找到办法。</p>
-<h2 id="阿里巴巴矢量图标库"><a href="#阿里巴巴矢量图标库" class="headerlink" title="阿里巴巴矢量图标库"></a>阿里巴巴矢量图标库</h2><p><a href="https://www.iconfont.cn/">https://www.iconfont.cn/</a><br>免费，素材数量多，素材导出格式多，制作PPT时的好帮手。</p>
-<h2 id="秘塔AI搜索"><a href="#秘塔AI搜索" class="headerlink" title="秘塔AI搜索"></a>秘塔AI搜索</h2><p><a href="https://metaso.cn/">秘塔</a>是一个国产AI搜索引擎，是我在查选修课资料时发现的。相比于chatgpt，豆包等通用大模型的搜索能力，幻觉更少，而且引用质量更高。更重要的是一天有100次免费次数，很爽好吧。</p>
-<h2 id="Gemini-Pro"><a href="#Gemini-Pro" class="headerlink" title="Gemini Pro"></a>Gemini Pro</h2><p>最近折腾着通过了谷歌的学生优惠，可以享受一年半的Gemini Pro。Gemini 2.5 pro的性能真的很强大，不论是上下文的容量、文章的逻辑性、代码能力还是推理能力，横向对比grok，chatgpt，豆包都是一流的，我在期末周也是爽用了一把 。</p>
-]]></content>
-      <categories>
-        <category>周刊</category>
-      </categories>
-      <tags>
-        <tag>推荐</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>周刊25-07-19</title>
     <url>/2025/07/15/%E5%91%A8%E5%88%8A25-07-19/</url>
     <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/2n1Z/1080X1000/%E5%B0%8F%E9%B9%8F%E8%BD%A6%E6%9C%BA.jpg?40" alt="小鹏车机"></p>
@@ -395,24 +395,6 @@
       <tags>
         <tag>推荐</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>周刊25-07-28</title>
-    <url>/2025/07/28/%E5%91%A8%E5%88%8A25-07-28/</url>
-    <content><![CDATA[<p>y</p>
-<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="geek"><a href="#geek" class="headerlink" title="geek"></a>geek</h2><p>一款免费、高效、小巧的软件卸载工具。可以像手机系统一样一键卸载应用，并清理残留文件和注册表。</p>
-<p>官网：<a href="https://geekuninstaller.com/">https://geekuninstaller.com/</a></p>
-<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="把浏览器换回了Chrome"><a href="#把浏览器换回了Chrome" class="headerlink" title="把浏览器换回了Chrome"></a>把浏览器换回了Chrome</h2><p>书接上回，我体验了将近两个周的<code>Zen</code>浏览器。<code>Zen</code>无论从UI设计还是生态上来说都是很不错的，但是性能上的问题却让我不得不转回<code>Chrome</code>。</p>
-<p>比较显著的是b站播放视频，在zen中视频经常出现缓存失败需要刷新页面的情况。此外，部分网站的加载速度也显著慢于<code>Chrome</code>。</p>
-<p>从论坛上了解到，Zen由于要渲染更多UI效果，挤兑了加载网页的性能资源。若干月前已经有人在<code>Github</code>上提交了相关的Issue，但是由于开发者的主要精力放在UI优化上，性能的问题迟迟没有解决。真是成也UI，败也UI啊。</p>
-<p>经过反复的折腾之后，我也明白了自己对浏览器的需求是什么：（1）对各类网站的兼容性（2）高加载速度（3）书签、历史记录跨平台同步（4）丰富的插件生态。另外有一个细节的需求是垂直标签栏。体验了<code>Zen</code>后，我发现垂直标签栏的信息密度、操作方便度远高于水平标签栏。并且，浏览器顶部少了标签栏和地址栏后，浏览效果接近全屏，沉浸感超强，在笔电上尤其明显。但很遗憾<code>Chrome</code>没有该功能。</p>
-<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="幸福的来源"><a href="#幸福的来源" class="headerlink" title="幸福的来源"></a>幸福的来源</h2><p>一个知乎答主分享自己和一个“世俗意义上没那么优秀”的老公在一起的心路。</p>
-<blockquote>
-<p>我其实在工作最得意、整个人什么都想争的上时候，也想过，男朋友会不会太不上进了，这样我以后怎么享福呀？</p>
-<p>然后马上就一阵冷汗，我为什么会把自己的幸福这么偷懒地敷衍地扔给另外一个人，他也是人，他为什么要扛起这份责任？而我为什么要通过扶持他让他成长成功来保障我的幸福，我为什么不直接投资我自己，还没有中间商赚差价，还知根知底知进展，是我对自己没自信吗？</p>
-</blockquote>
-<p>有一种理论将人的精神分为<strong>动物性</strong>的自我和<strong>社会性</strong>的自我。一方面，我们的意识受到本能的影响，如各种欲望</p>
-]]></content>
   </entry>
   <entry>
     <title>周刊25-07-27</title>
@@ -459,36 +441,20 @@
       </tags>
   </entry>
   <entry>
-    <title>夏日所感</title>
-    <url>/2025/07/06/%E5%A4%8F%E6%97%A5%E6%89%80%E6%84%9F/</url>
-    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250709/EJab/5734X4300/%E9%BB%91%E4%BA%91%E9%87%91%E5%90%BB_compressed.jpg?10" alt="黑云金吻250709"></p>
-<p>Dark clouds become heaven’s flowers when kissed by light.</p>
+    <title>周刊25-07-28</title>
+    <url>/2025/07/28/%E5%91%A8%E5%88%8A25-07-28/</url>
+    <content><![CDATA[<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="geek"><a href="#geek" class="headerlink" title="geek"></a>geek</h2><p>一款免费、高效、小巧的软件卸载工具。可以像手机系统一样一键卸载应用，并清理残留文件和注册表。</p>
+<p>官网：<a href="https://geekuninstaller.com/">https://geekuninstaller.com/</a></p>
+<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="把浏览器换回了Chrome"><a href="#把浏览器换回了Chrome" class="headerlink" title="把浏览器换回了Chrome"></a>把浏览器换回了Chrome</h2><p>书接上回，我体验了将近两个周的<code>Zen</code>浏览器。<code>Zen</code>无论从UI设计还是生态上来说都是很不错的，但是性能上的问题却让我不得不转回<code>Chrome</code>。</p>
+<p>比较显著的是b站播放视频，在zen中视频经常出现缓存失败需要刷新页面的情况。此外，部分网站的加载速度也显著慢于<code>Chrome</code>。</p>
+<p>从论坛上了解到，Zen由于要渲染更多UI效果，挤兑了加载网页的性能资源。若干月前已经有人在<code>Github</code>上提交了相关的Issue，但是由于开发者的主要精力放在UI优化上，性能的问题迟迟没有解决。真是成也UI，败也UI啊。</p>
+<p>经过反复的折腾之后，我也明白了自己对浏览器的需求是什么：（1）对各类网站的兼容性（2）高加载速度（3）书签、历史记录跨平台同步（4）丰富的插件生态。另外有一个细节的需求是垂直标签栏。体验了<code>Zen</code>后，我发现垂直标签栏的信息密度、操作方便度远高于水平标签栏。并且，浏览器顶部少了标签栏和地址栏后，浏览效果接近全屏，沉浸感超强，在笔电上尤其明显。但很遗憾<code>Chrome</code>没有该功能。</p>
 ]]></content>
       <categories>
-        <category>自我观察</category>
+        <category>周刊</category>
       </categories>
       <tags>
-        <tag>诗</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网易云的后门</title>
-    <url>/2025/06/19/%E7%BD%91%E6%98%93%E4%BA%91%E7%9A%84%E5%90%8E%E9%97%A8/</url>
-    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250619/B5eO/2020X1124/%E5%A4%8F%E5%A4%A9%E7%9A%84%E4%BA%91250619.jpg" alt="夏天的云250619"></p>
-<blockquote>
-<p>夏天的云: )</p>
-</blockquote>
-<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>今天特别想听王心凌的《梦的光点》，但是Spotify因为地区冲突不能用了，网易云又没有版权。一时间怒上心头，就不信没有办法越过这点限制。上网搜集一番，真有方案。</p>
-<h1 id="后门"><a href="#后门" class="headerlink" title="后门"></a>后门</h1><p>众所周知，网易云由于没有某热门歌手的版权而丧失了大量用户，但是其实也有留下后门。</p>
-<p>在电脑端上打开网易云音乐-我的音乐云盘，将准备好的歌曲文件上传到云盘中。<strong>那么这首歌就和其他有版权没什么两样了，既可以多端播放，也可以收藏到歌单中</strong>。而且对于网易云曾经&#x2F;现在有版权的歌曲，如《梦的光点》，网易云会根据歌曲名<strong>自动匹配歌词、甚至还有以前的评论</strong>，如果信息没有匹配或匹配错误，也可以在手机端音乐网盘中，点击歌曲详情选择“网盘歌曲信息匹配纠正”。</p>
-<p>遗憾的是，jay的歌曲匹配不到歌词，只能听曲。</p>
-<p>另本人正在用的<a href="https://flac.life/">无损音乐下载网站</a></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>音乐</tag>
+        <tag>推荐</tag>
       </tags>
   </entry>
   <entry>
@@ -561,6 +527,19 @@
       </categories>
       <tags>
         <tag>音乐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>夏日所感</title>
+    <url>/2025/07/06/%E5%A4%8F%E6%97%A5%E6%89%80%E6%84%9F/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250709/EJab/5734X4300/%E9%BB%91%E4%BA%91%E9%87%91%E5%90%BB_compressed.jpg?10" alt="黑云金吻250709"></p>
+<p>Dark clouds become heaven’s flowers when kissed by light.</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>诗</tag>
       </tags>
   </entry>
   <entry>
@@ -641,6 +620,26 @@
       </categories>
       <tags>
         <tag>者也</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网易云的后门</title>
+    <url>/2025/06/19/%E7%BD%91%E6%98%93%E4%BA%91%E7%9A%84%E5%90%8E%E9%97%A8/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250619/B5eO/2020X1124/%E5%A4%8F%E5%A4%A9%E7%9A%84%E4%BA%91250619.jpg" alt="夏天的云250619"></p>
+<blockquote>
+<p>夏天的云: )</p>
+</blockquote>
+<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>今天特别想听王心凌的《梦的光点》，但是Spotify因为地区冲突不能用了，网易云又没有版权。一时间怒上心头，就不信没有办法越过这点限制。上网搜集一番，真有方案。</p>
+<h1 id="后门"><a href="#后门" class="headerlink" title="后门"></a>后门</h1><p>众所周知，网易云由于没有某热门歌手的版权而丧失了大量用户，但是其实也有留下后门。</p>
+<p>在电脑端上打开网易云音乐-我的音乐云盘，将准备好的歌曲文件上传到云盘中。<strong>那么这首歌就和其他有版权没什么两样了，既可以多端播放，也可以收藏到歌单中</strong>。而且对于网易云曾经&#x2F;现在有版权的歌曲，如《梦的光点》，网易云会根据歌曲名<strong>自动匹配歌词、甚至还有以前的评论</strong>，如果信息没有匹配或匹配错误，也可以在手机端音乐网盘中，点击歌曲详情选择“网盘歌曲信息匹配纠正”。</p>
+<p>遗憾的是，jay的歌曲匹配不到歌词，只能听曲。</p>
+<p>另本人正在用的<a href="https://flac.life/">无损音乐下载网站</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
       </tags>
   </entry>
   <entry>
