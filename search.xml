@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Welcome to 2025</title>
+    <url>/2024/12/31/Welcome_to_2025/</url>
+    <content><![CDATA[<p>2024年很长，长到每一天我都有好多话要讲。</p>
+<p>和她一起的那些瞬间，仍不断给予我力量。</p>
+<p>这个年底倒腾了博客，这里有我的所思所想。</p>
+<p>学到的一些毫无卵用的技术，偶然也带来意外的光芒。</p>
+<p>世界在变化，我的人生道阻且长。</p>
+<p>2024年也很短，短的仿佛轮回一场。</p>
+<p>内耗，矛盾，生活总是不那么理想。</p>
+<p>我已经脱离了当初自己期许的那个模样。</p>
+<p>四处寻觅，心中满是迷茫。</p>
+<p>新的一年，我许下四个愿望。</p>
+<p>一是调。调整身体，调整心态，调整自己。</p>
+<p>二是定。找到自己钟情的方向。</p>
+<p>三是思。警惕思维惯性，多多思考。</p>
+<p>四是爱。发掘爱，传递爱，感性能力也很重要。</p>
+<p>2025年，希望自己过的坦坦荡荡。</p>
+]]></content>
+      <categories>
+        <category>年度</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>RSS订阅教程</title>
+    <url>/2025/05/12/RSS%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<p>简易信息聚合（RSS）是一种基于XML的标准，在互联网上被广泛采用的内容包装和投递协议。本文中我将聊一聊为什么使用RSS以及如何通过RSS订阅本博客。</p>
+<h1 id="为什么要使用RSS"><a href="#为什么要使用RSS" class="headerlink" title="为什么要使用RSS"></a>为什么要使用RSS</h1><p>首先说一说普遍的意义，RSS可以提高信息获取效率。</p>
+<p>我不时通过抖音、b站、知乎等平台的推送获取信息，但是一般刷四五条才能看到感兴趣的信息。随着使用时间越来越长，兴趣基本被耗光了，但是之前那套滑动手指-获得快感的反射已经在脑海中建立，于是我麻木地重复着这套动作，重复得筋疲力竭。</p>
+<p>RSS就像这些平台的关注页面，它迫使你仅从亲自筛选过的信息源中获取信息，与平台的不同点在于：平台关注页面的信息源是封闭生态中的创作者，而RSS的信息源则是广阔的互联网世界（理论上互联网上的信息源都可以使用RSS订阅）。</p>
+<p>再者，RSS只会提取信息源中的标题、正文信息，再将其显示在阅读器统一的UI中，因此我们不必被不同网站五花八门的UI所干扰。</p>
+<p>对我个人而言，我只是想让移动端可以更方便地访问我的博客，毕竟移动端的网页访问体验不是很好。</p>
+<h1 id="如何通过RSS订阅本博客"><a href="#如何通过RSS订阅本博客" class="headerlink" title="如何通过RSS订阅本博客"></a>如何通过RSS订阅本博客</h1><p>市面上有许多阅读器，包括移动端orPC端，开源or收费，不同UI风格的。在安卓端博主推荐一款精致小巧的开源RSS阅读器——<a href="https://github.com/Ashinch/ReadYou">ReadYou</a>，点开链接后，径直往下滑看一看到一个”GET IT ON GitHub”，点击后选择最新版本的apk文件下载即可。</p>
+<p>安装并打开ReadYou后，点击右上角加号，输入博客的RSS订阅地址<a href="https://enndermann.github.io/atom.xml%EF%BC%8C%E7%82%B9%E5%87%BB%E6%90%9C%E7%B4%A2%E5%B0%B1%E5%A4%A7%E5%8A%9F%E5%91%8A%E6%88%90%E4%BA%86%E3%80%82">https://enndermann.github.io/atom.xml，点击搜索就大功告成了。</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>RSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>git学习笔记</title>
     <url>/2025/07/10/git%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>我与Git相识已久，大学中我接触了各路大神的代码仓库，现在使用的不少工具都是<code>Github</code>上的开源项目。但是我对构建代码仓库的基础技术——Git却是一窍不通。以下是我学习<code>selierlin</code><a href="https://selierlin.github.io/git-recipes/#/">高质量Git教程</a>的笔记。</p>
@@ -144,48 +186,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Welcome to 2025</title>
-    <url>/2024/12/31/Welcome_to_2025/</url>
-    <content><![CDATA[<p>2024年很长，长到每一天我都有好多话要讲。</p>
-<p>和她一起的那些瞬间，仍不断给予我力量。</p>
-<p>这个年底倒腾了博客，这里有我的所思所想。</p>
-<p>学到的一些毫无卵用的技术，偶然也带来意外的光芒。</p>
-<p>世界在变化，我的人生道阻且长。</p>
-<p>2024年也很短，短的仿佛轮回一场。</p>
-<p>内耗，矛盾，生活总是不那么理想。</p>
-<p>我已经脱离了当初自己期许的那个模样。</p>
-<p>四处寻觅，心中满是迷茫。</p>
-<p>新的一年，我许下四个愿望。</p>
-<p>一是调。调整身体，调整心态，调整自己。</p>
-<p>二是定。找到自己钟情的方向。</p>
-<p>三是思。警惕思维惯性，多多思考。</p>
-<p>四是爱。发掘爱，传递爱，感性能力也很重要。</p>
-<p>2025年，希望自己过的坦坦荡荡。</p>
-]]></content>
-      <categories>
-        <category>年度</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>RSS订阅教程</title>
-    <url>/2025/05/12/RSS%E8%AE%A2%E9%98%85%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<p>简易信息聚合（RSS）是一种基于XML的标准，在互联网上被广泛采用的内容包装和投递协议。本文中我将聊一聊为什么使用RSS以及如何通过RSS订阅本博客。</p>
-<h1 id="为什么要使用RSS"><a href="#为什么要使用RSS" class="headerlink" title="为什么要使用RSS"></a>为什么要使用RSS</h1><p>首先说一说普遍的意义，RSS可以提高信息获取效率。</p>
-<p>我不时通过抖音、b站、知乎等平台的推送获取信息，但是一般刷四五条才能看到感兴趣的信息。随着使用时间越来越长，兴趣基本被耗光了，但是之前那套滑动手指-获得快感的反射已经在脑海中建立，于是我麻木地重复着这套动作，重复得筋疲力竭。</p>
-<p>RSS就像这些平台的关注页面，它迫使你仅从亲自筛选过的信息源中获取信息，与平台的不同点在于：平台关注页面的信息源是封闭生态中的创作者，而RSS的信息源则是广阔的互联网世界（理论上互联网上的信息源都可以使用RSS订阅）。</p>
-<p>再者，RSS只会提取信息源中的标题、正文信息，再将其显示在阅读器统一的UI中，因此我们不必被不同网站五花八门的UI所干扰。</p>
-<p>对我个人而言，我只是想让移动端可以更方便地访问我的博客，毕竟移动端的网页访问体验不是很好。</p>
-<h1 id="如何通过RSS订阅本博客"><a href="#如何通过RSS订阅本博客" class="headerlink" title="如何通过RSS订阅本博客"></a>如何通过RSS订阅本博客</h1><p>市面上有许多阅读器，包括移动端orPC端，开源or收费，不同UI风格的。在安卓端博主推荐一款精致小巧的开源RSS阅读器——<a href="https://github.com/Ashinch/ReadYou">ReadYou</a>，点开链接后，径直往下滑看一看到一个”GET IT ON GitHub”，点击后选择最新版本的apk文件下载即可。</p>
-<p>安装并打开ReadYou后，点击右上角加号，输入博客的RSS订阅地址<a href="https://enndermann.github.io/atom.xml%EF%BC%8C%E7%82%B9%E5%87%BB%E6%90%9C%E7%B4%A2%E5%B0%B1%E5%A4%A7%E5%8A%9F%E5%91%8A%E6%88%90%E4%BA%86%E3%80%82">https://enndermann.github.io/atom.xml，点击搜索就大功告成了。</a></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>RSS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo-next字体更换</title>
     <url>/2024/12/16/hexo-next%E5%AD%97%E4%BD%93%E6%9B%B4%E6%8D%A2/</url>
     <content><![CDATA[<p>Next主题原生的字体是Microsoft YaHei，我觉得霞鹜文楷在屏显上更好看一些，于是展开了一番折腾。</p>
@@ -220,18 +220,6 @@
       </tags>
   </entry>
   <entry>
-    <title>积极一点</title>
-    <url>/2025/04/18/newday/</url>
-    <content><![CDATA[<p>归去来兮，田园将芜胡不归？既自以心为形役，奚惆怅而独悲？悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟遥遥以轻飏，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。</p>
-]]></content>
-      <categories>
-        <category>自我观察</category>
-      </categories>
-      <tags>
-        <tag>诗</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>有感</title>
     <url>/2025/01/22/blog20250122/</url>
     <content><![CDATA[<p>死并非生的对立面，而作为生的一部分永存。</p>
@@ -244,19 +232,16 @@
       </tags>
   </entry>
   <entry>
-    <title>关于写文章磕磕巴巴和零零散散</title>
-    <url>/2024/12/06/%E5%85%B3%E4%BA%8E%E5%86%99%E6%96%87%E7%AB%A0%E7%A3%95%E7%A3%95%E5%B7%B4%E5%B7%B4%E5%92%8C%E9%9B%B6%E9%9B%B6%E6%95%A3%E6%95%A3/</url>
-    <content><![CDATA[<p>大一大二的时候，写文章对我来说异常费劲。往往觉得心里头有万千感想，可真到打开笔记时，我却一个字都憋不出来。好不容易写完了一篇，再看的时候，文章也显得零零散散、没有主题，阅读的成本极高。</p>
-<p>现在上述的情况有了改观，我来分享一下我的几点感悟。</p>
-<h2 id="写文章之前先定好文章的主题"><a href="#写文章之前先定好文章的主题" class="headerlink" title="写文章之前先定好文章的主题"></a>写文章之前先定好文章的主题</h2><p>如何让文章头到尾都围绕着一个核心展开呢？最简单的方法是先拟标题，之后每写一个章节都对着标题琢磨：这段文字是为主题服务的吗？将它放在什么位置最合理呢？写每个段落的时候，也要琢磨有没有脱离本章节的主题。</p>
-<p>定主题有两个好处。一是可以让文章立意明确，读者一下字就可以get到重点；二是可以让自己行文更加流畅，通过思考“我把这件事讲清楚了吗”来确保应写尽写。</p>
-<h2 id="锤炼文字–从简单到完备"><a href="#锤炼文字–从简单到完备" class="headerlink" title="锤炼文字–从简单到完备"></a>锤炼文字–从简单到完备</h2><p>我以前写文章有个毛病：写一句话得从许多角度去思考表述的正确性，于是花老长时间憋出来一个大长句，挂着一堆定状语和从句。这个毛病有两方面的坏处：一是在修饰语容易过量，造成逻辑的冗余，也增加了阅读的难度。二是如果太过于专注单句的完备性，可能会造成单句与主题的脱钩。</p>
-<p>后来我的办法是什么呢？有想法了先用不那么精确的语言写一个主题句，并且围绕主题句可以进行一些散乱的扩写，确保把idea诞生在脑海中的热乎劲全部记录下来。等到第一感受记录下来了，再重构段落、锤炼文字，就不会再偏离自己的初心了。</p>
-<p>所谓“文以载道”，语言是思想的载体。唯有语言更加准确，思维才能得到更好的表达。</p>
+    <title>积极一点</title>
+    <url>/2025/04/18/newday/</url>
+    <content><![CDATA[<p>归去来兮，田园将芜胡不归？既自以心为形役，奚惆怅而独悲？悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟遥遥以轻飏，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。</p>
 ]]></content>
       <categories>
-        <category>写作</category>
+        <category>自我观察</category>
       </categories>
+      <tags>
+        <tag>诗</tag>
+      </tags>
   </entry>
   <entry>
     <title>做事情的状态</title>
@@ -275,6 +260,21 @@
       </tags>
   </entry>
   <entry>
+    <title>关于写文章磕磕巴巴和零零散散</title>
+    <url>/2024/12/06/%E5%85%B3%E4%BA%8E%E5%86%99%E6%96%87%E7%AB%A0%E7%A3%95%E7%A3%95%E5%B7%B4%E5%B7%B4%E5%92%8C%E9%9B%B6%E9%9B%B6%E6%95%A3%E6%95%A3/</url>
+    <content><![CDATA[<p>大一大二的时候，写文章对我来说异常费劲。往往觉得心里头有万千感想，可真到打开笔记时，我却一个字都憋不出来。好不容易写完了一篇，再看的时候，文章也显得零零散散、没有主题，阅读的成本极高。</p>
+<p>现在上述的情况有了改观，我来分享一下我的几点感悟。</p>
+<h2 id="写文章之前先定好文章的主题"><a href="#写文章之前先定好文章的主题" class="headerlink" title="写文章之前先定好文章的主题"></a>写文章之前先定好文章的主题</h2><p>如何让文章头到尾都围绕着一个核心展开呢？最简单的方法是先拟标题，之后每写一个章节都对着标题琢磨：这段文字是为主题服务的吗？将它放在什么位置最合理呢？写每个段落的时候，也要琢磨有没有脱离本章节的主题。</p>
+<p>定主题有两个好处。一是可以让文章立意明确，读者一下字就可以get到重点；二是可以让自己行文更加流畅，通过思考“我把这件事讲清楚了吗”来确保应写尽写。</p>
+<h2 id="锤炼文字–从简单到完备"><a href="#锤炼文字–从简单到完备" class="headerlink" title="锤炼文字–从简单到完备"></a>锤炼文字–从简单到完备</h2><p>我以前写文章有个毛病：写一句话得从许多角度去思考表述的正确性，于是花老长时间憋出来一个大长句，挂着一堆定状语和从句。这个毛病有两方面的坏处：一是在修饰语容易过量，造成逻辑的冗余，也增加了阅读的难度。二是如果太过于专注单句的完备性，可能会造成单句与主题的脱钩。</p>
+<p>后来我的办法是什么呢？有想法了先用不那么精确的语言写一个主题句，并且围绕主题句可以进行一些散乱的扩写，确保把idea诞生在脑海中的热乎劲全部记录下来。等到第一感受记录下来了，再重构段落、锤炼文字，就不会再偏离自己的初心了。</p>
+<p>所谓“文以载道”，语言是思想的载体。唯有语言更加准确，思维才能得到更好的表达。</p>
+]]></content>
+      <categories>
+        <category>写作</category>
+      </categories>
+  </entry>
+  <entry>
     <title>台球的心法</title>
     <url>/2025/01/26/%E5%8F%B0%E7%90%83%E7%9A%84%E5%BF%83%E6%B3%95/</url>
     <content><![CDATA[<p>最近我的台球技术有了阶段性的提升，甚至在误打误撞之下完成了人生中的第一杆清台。提升的原因不在台球之中，而在台球之外——在于对身体和心态的调控。</p>
@@ -287,40 +287,6 @@
       </categories>
       <tags>
         <tag>心法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>周刊25-07-19</title>
-    <url>/2025/07/15/%E5%91%A8%E5%88%8A25-07-19/</url>
-    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/2n1Z/1080X1000/%E5%B0%8F%E9%B9%8F%E8%BD%A6%E6%9C%BA.jpg?40" alt="小鹏车机"></p>
-<blockquote>
-<p>小鹏的车机给我一种用力过猛的感觉。为了追求简约、科技感，车子所有的调节按钮都被浓缩到中控大屏上，但实际上按钮图标很小，而且选择树很复杂。我要关闭对头吹的空调，捣鼓半天才在一个三级菜单中找到。像车子这种天天到处跑的东西，还是更注重功能性一点吧。</p>
-</blockquote>
-<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Cherry-Studio"><a href="#Cherry-Studio" class="headerlink" title="Cherry Studio"></a>Cherry Studio</h2><p>支持多服务商集成的 AI 对话客户端。输入服务商的API key即可使用，基于AI模型还可以使用对话、绘图、翻译、知识库、MCP等功能。</p>
-<p>官网：<a href="https://www.cherry-ai.com/">https://www.cherry-ai.com/</a></p>
-<h2 id="SearXNG"><a href="#SearXNG" class="headerlink" title="SearXNG"></a>SearXNG</h2><p>注重隐私、可定制的元搜索引擎。优点是免费、集成多个搜索引擎的结果，使用下来效果还是很不错的。目前已经替换为主力搜素。</p>
-<p>相似的项目有Libre Search，但是使用较低质的节点访问时，网页会弹出人机验证，降低了访问速度，而SearXNG就没有这个问题。</p>
-<p>官网：<a href="https://searx.bndkt.io/">https://searx.bndkt.io/</a></p>
-<h2 id="PING0"><a href="#PING0" class="headerlink" title="PING0"></a>PING0</h2><p>一个IP检测网站，可以用来查看梯子节点的IP质量。</p>
-<p>官网：<a href="https://ping0.cc/">https://ping0.cc/</a></p>
-<h2 id="流浪图床"><a href="#流浪图床" class="headerlink" title="流浪图床"></a>流浪图床</h2><p>一家免费图床，个人曾经使用一段时间，体验不错。</p>
-<p>官网：<a href="https://p.sda1.dev/">https://p.sda1.dev/</a></p>
-<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="Firefox系加载网页怎么那么慢？"><a href="#Firefox系加载网页怎么那么慢？" class="headerlink" title="Firefox系加载网页怎么那么慢？"></a>Firefox系加载网页怎么那么慢？</h2><p>上篇文章中提到我从chrome更换到了zen，实际使用中，zen加载网页总是比chrome慢一丢丢，到周二那会，国内国外的网站更是一个也登不上去，但是chrome却可以正常使用。这难道是firefox的问题？</p>
-<p>上网搜才发现firefox默认的DoH在国内访问不快，并且也有可能解析到国外的服务器，导致访问很不稳定。</p>
-<p>解决方案其实很简单：在浏览器设置里搜索“DNS”，将“基于HTTPS的DNS启用策略”设置为关闭即可。</p>
-<h2 id="设置默认搜索引擎"><a href="#设置默认搜索引擎" class="headerlink" title="设置默认搜索引擎"></a>设置默认搜索引擎</h2><ol>
-<li>在搜索引擎中搜索任意关键字，查看搜索页面的网址，将网址中的关键字替换为<code>%s</code>。</li>
-<li>打开浏览器搜索引擎设置界面，添加引擎。</li>
-<li>以<code>SearXNG</code>为例，在添加搜索引擎的网址处输入<code>https://searx.bndkt.io/search?q=%s</code>即可。</li>
-</ol>
-<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="提问的智慧"><a href="#提问的智慧" class="headerlink" title="提问的智慧"></a>提问的智慧</h2><p>我一直认为”语言的边界就是思想的边界“。这篇教程从要不要提问、提问的方式方法、对答案的解读以及人际沟通的技巧等方面阐述了自己的见解。我觉得很适合给刚上大学的我看。</p>
-<p>链接：<a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md</a></p>
-]]></content>
-      <categories>
-        <category>周刊</category>
-      </categories>
-      <tags>
-        <tag>推荐</tag>
       </tags>
   </entry>
   <entry>
@@ -397,20 +363,139 @@
       </tags>
   </entry>
   <entry>
-    <title>周刊25-07-28</title>
-    <url>/2025/07/28/%E5%91%A8%E5%88%8A25-07-28/</url>
-    <content><![CDATA[<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="geek"><a href="#geek" class="headerlink" title="geek"></a>geek</h2><p>一款免费、高效、小巧的软件卸载工具。可以像手机系统一样一键卸载应用，并清理残留文件和注册表。</p>
-<p>官网：<a href="https://geekuninstaller.com/">https://geekuninstaller.com/</a></p>
-<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="把浏览器换回了Chrome"><a href="#把浏览器换回了Chrome" class="headerlink" title="把浏览器换回了Chrome"></a>把浏览器换回了Chrome</h2><p>书接上回，我体验了将近两个周的<code>Zen</code>浏览器。<code>Zen</code>无论从UI设计还是生态上来说都是很不错的，但是性能上的问题却让我不得不转回<code>Chrome</code>。</p>
-<p>比较显著的是b站播放视频，在zen中视频经常出现缓存失败需要刷新页面的情况。此外，部分网站的加载速度也显著慢于<code>Chrome</code>。</p>
-<p>从论坛上了解到，Zen由于要渲染更多UI效果，挤兑了加载网页的性能资源。若干月前已经有人在<code>Github</code>上提交了相关的Issue，但是由于开发者的主要精力放在UI优化上，性能的问题迟迟没有解决。真是成也UI，败也UI啊。</p>
-<p>经过反复的折腾之后，我也明白了自己对浏览器的需求是什么：（1）对各类网站的兼容性（2）高加载速度（3）书签、历史记录跨平台同步（4）丰富的插件生态。另外有一个细节的需求是垂直标签栏。体验了<code>Zen</code>后，我发现垂直标签栏的信息密度、操作方便度远高于水平标签栏。并且，浏览器顶部少了标签栏和地址栏后，浏览效果接近全屏，沉浸感超强，在笔电上尤其明显。但很遗憾<code>Chrome</code>没有该功能。</p>
+    <title>周刊25-07-27</title>
+    <url>/2025/07/24/%E5%91%A8%E5%88%8A25-07-27/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250727/3Seb/1279X1707/%E8%A5%BF%E5%B1%B1%E8%90%BD%E6%97%A5.jpg?50" alt="西山落日"></p>
+<blockquote>
+<p>西山落日</p>
+</blockquote>
+<hr>
+<p align='center'>
+锦瑟无端五十弦，一弦一柱思华年。<br \>
+庄生晓梦迷蝴蝶，望帝春心托杜鹃。<br \>
+沧海月明珠有泪，蓝田日暖玉生烟。<br \>
+此情可待成追忆，只是当时已惘然。 
+</p>
+
+<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="雀乐"><a href="#雀乐" class="headerlink" title="雀乐"></a>雀乐</h2><p>最近陷入歌荒了，网易云的日推似乎陷入了一种公式化的循环，都是平淡如水的主歌+朗朗上口的副歌，通过反差让人记住。这种结构初听会感到惊艳，但是很快就会让人审美疲劳。<br>就在这种荒芜中，我发现了雀乐。它以一种期刊的方式推荐音乐，每一期都有特定的主题，如风格、国别、情感等等。推荐曲目中小众歌曲居多，风格鲜明。如果陷入了套路音乐的泥沼，不妨来这里探寻一些新鲜的声音。</p>
+<p>官网：<a href="https://www.indie.cn/">https://www.indie.cn</a></p>
+<h1 id="draw-io"><a href="#draw-io" class="headerlink" title="draw.io"></a>draw.io</h1><p>一个流程图绘制工具，打开网站即可使用，数据在本地储存。优势是快捷、免费、功能丰富、安全。</p>
+<p>其实<code>draw.io</code>我已经使用了几年了，今天同事看到我画的流程图，问我是用什么专业软件画的。我说只不过是一个简单的网站。才想起来推荐这款好用的工具。</p>
+<p>官网：<a href="https://app.diagrams.net/%EF%BC%88%E6%88%96%E8%80%85%E7%9B%B4%E6%8E%A5%E5%9C%A8%E5%9C%B0%E5%9D%80%E6%A0%8F%E8%BE%93%E5%85%A5%60draw.io%60%E5%B0%B1%E5%8F%AF%E4%BB%A5%EF%BC%89">https://app.diagrams.net/（或者直接在地址栏输入`draw.io`就可以）</a></p>
+<h2 id="AsPoem"><a href="#AsPoem" class="headerlink" title="AsPoem"></a><code>AsPoem</code></h2><p>现代化诗词学习网站，一个更加注重 <strong>UI和阅读体验</strong> 的诗词网站。</p>
+<p><img src="https://camo.githubusercontent.com/8950a6993c8d6096390ad2a38c4aed2ac88503903d8c04678b1a061df46b599a/68747470733a2f2f692e696d6775722e636f6d2f577a6265754e482e706e67" alt="AsPoem"></p>
+<p>官网：<a href="https://aspoem.com/zh-Hans">https://aspoem.com/zh-Hans</a></p>
+<h2 id="Chinese-Poetry"><a href="#Chinese-Poetry" class="headerlink" title="Chinese-Poetry"></a>Chinese-Poetry</h2><p>最全的中华古典文集数据库，包含 5.5 万首唐诗、26 万首宋诗、2.1 万首宋词和其他古典文集。诗人包括唐宋两朝近 1.4 万古诗人，和两宋时期 1.5 千古词人。</p>
+<blockquote>
+<p><strong>为什么要做这个仓库?</strong>  古诗是中华民族乃至全世界的瑰宝，我们应该传承下去，虽然有古典文集，但大多数人并没有拥有这些书籍。从某种意义上来说，这些庞大的文集离我们是有一定距离的。而电子版方便拷贝，所以此开源数据库诞生了。此数据库通过 JSON 格式分发，可以让你很方便的开始你的项目。</p>
+</blockquote>
+<p>官网：<a href="https://github.com/chinese-poetry/chinese-poetry">https://github.com/chinese-poetry/chinese-poetry</a></p>
+<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="在Word中高效进行论文排版的技巧合集"><a href="#在Word中高效进行论文排版的技巧合集" class="headerlink" title="在Word中高效进行论文排版的技巧合集"></a>在Word中高效进行论文排版的技巧合集</h2><p>使用Word撰写各类文本是我们日常中的高发需求，但前后格式冲突、手动调整格式的低效等排版方面的问题，是不少人的困扰。这篇文章介绍了设置样式、引用、目录等排版技巧，用好这些技巧可以让排版效率和美观度更进一步。</p>
+<p>链接：<a href="https://linux.do/t/topic/776875">https://linux.do/t/topic/776875</a></p>
+<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="typora-vue-theme"><a href="#typora-vue-theme" class="headerlink" title="typora-vue-theme"></a><code>typora-vue-theme</code></h2><p>之前有介绍<code>Typora</code>这款好用的markdown编辑器，<code>Vue Theme</code>是第三方开发者为其开发的主题，简约美观。顾名思义，这款主题是仿照<code>Vue</code>文档的样式设计的。</p>
+<p>项目地址：<a href="https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md">https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md</a></p>
+<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250725/Xhjz/2559X1366/vue_for_typora.png" alt="vue-for-typora"></p>
+<h2 id="歌词翻译Prompt"><a href="#歌词翻译Prompt" class="headerlink" title="歌词翻译Prompt"></a>歌词翻译Prompt</h2><p>对LRC格式的歌词进行高质量翻译，力求在确保歌词的准确性的同时，深度挖掘并还原歌词的情感和意境，同时具备音韵美，达到高质量译文水准。</p>
+<p>我用该提示词在Gemini 2.5 Pro上测试了一下，效果很不错。</p>
+<p>提示词链接：<a href="https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/">https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/</a></p>
 ]]></content>
       <categories>
         <category>周刊</category>
       </categories>
       <tags>
         <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>周刊25-07-19</title>
+    <url>/2025/07/15/%E5%91%A8%E5%88%8A25-07-19/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/2n1Z/1080X1000/%E5%B0%8F%E9%B9%8F%E8%BD%A6%E6%9C%BA.jpg?40" alt="小鹏车机"></p>
+<blockquote>
+<p>小鹏的车机给我一种用力过猛的感觉。为了追求简约、科技感，车子所有的调节按钮都被浓缩到中控大屏上，但实际上按钮图标很小，而且选择树很复杂。我要关闭对头吹的空调，捣鼓半天才在一个三级菜单中找到。像车子这种天天到处跑的东西，还是更注重功能性一点吧。</p>
+</blockquote>
+<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Cherry-Studio"><a href="#Cherry-Studio" class="headerlink" title="Cherry Studio"></a>Cherry Studio</h2><p>支持多服务商集成的 AI 对话客户端。输入服务商的API key即可使用，基于AI模型还可以使用对话、绘图、翻译、知识库、MCP等功能。</p>
+<p>官网：<a href="https://www.cherry-ai.com/">https://www.cherry-ai.com/</a></p>
+<h2 id="SearXNG"><a href="#SearXNG" class="headerlink" title="SearXNG"></a>SearXNG</h2><p>注重隐私、可定制的元搜索引擎。优点是免费、集成多个搜索引擎的结果，使用下来效果还是很不错的。目前已经替换为主力搜素。</p>
+<p>相似的项目有Libre Search，但是使用较低质的节点访问时，网页会弹出人机验证，降低了访问速度，而SearXNG就没有这个问题。</p>
+<p>官网：<a href="https://searx.bndkt.io/">https://searx.bndkt.io/</a></p>
+<h2 id="PING0"><a href="#PING0" class="headerlink" title="PING0"></a>PING0</h2><p>一个IP检测网站，可以用来查看梯子节点的IP质量。</p>
+<p>官网：<a href="https://ping0.cc/">https://ping0.cc/</a></p>
+<h2 id="流浪图床"><a href="#流浪图床" class="headerlink" title="流浪图床"></a>流浪图床</h2><p>一家免费图床，个人曾经使用一段时间，体验不错。</p>
+<p>官网：<a href="https://p.sda1.dev/">https://p.sda1.dev/</a></p>
+<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="Firefox系加载网页怎么那么慢？"><a href="#Firefox系加载网页怎么那么慢？" class="headerlink" title="Firefox系加载网页怎么那么慢？"></a>Firefox系加载网页怎么那么慢？</h2><p>上篇文章中提到我从chrome更换到了zen，实际使用中，zen加载网页总是比chrome慢一丢丢，到周二那会，国内国外的网站更是一个也登不上去，但是chrome却可以正常使用。这难道是firefox的问题？</p>
+<p>上网搜才发现firefox默认的DoH在国内访问不快，并且也有可能解析到国外的服务器，导致访问很不稳定。</p>
+<p>解决方案其实很简单：在浏览器设置里搜索“DNS”，将“基于HTTPS的DNS启用策略”设置为关闭即可。</p>
+<h2 id="设置默认搜索引擎"><a href="#设置默认搜索引擎" class="headerlink" title="设置默认搜索引擎"></a>设置默认搜索引擎</h2><ol>
+<li>在搜索引擎中搜索任意关键字，查看搜索页面的网址，将网址中的关键字替换为<code>%s</code>。</li>
+<li>打开浏览器搜索引擎设置界面，添加引擎。</li>
+<li>以<code>SearXNG</code>为例，在添加搜索引擎的网址处输入<code>https://searx.bndkt.io/search?q=%s</code>即可。</li>
+</ol>
+<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="提问的智慧"><a href="#提问的智慧" class="headerlink" title="提问的智慧"></a>提问的智慧</h2><p>我一直认为”语言的边界就是思想的边界“。这篇教程从要不要提问、提问的方式方法、对答案的解读以及人际沟通的技巧等方面阐述了自己的见解。我觉得很适合给刚上大学的我看。</p>
+<p>链接：<a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md</a></p>
+]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+      <tags>
+        <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>周刊25-08-05</title>
+    <url>/2025/07/28/%E5%91%A8%E5%88%8A25-08-01/</url>
+    <content><![CDATA[<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="微信新UI"><a href="#微信新UI" class="headerlink" title="微信新UI"></a>微信新UI</h2><p>Win版微信换了新的UI，说是和MacOS版保持一致了。增加了圆角边框的设计，并且配色也更加现代化，相较之前的UI确实有了很大的改观。但不知道为什么，我使用时总觉得各个元素的比例很不协调。</p>
+<p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250801/jZQI/1356X975/%E5%BE%AE%E4%BF%A1%E6%96%B0UI.png" alt="微信新UI"></p>
+<h2 id="geek"><a href="#geek" class="headerlink" title="geek"></a>geek</h2><p>一款免费、高效、小巧的软件卸载工具。可以像手机系统一样一键卸载应用，并清理残留文件和注册表。</p>
+<p>官网：<a href="https://geekuninstaller.com/">https://geekuninstaller.com/</a></p>
+<h2 id="音频识别——酷炫的Wallpaper-Engine壁纸"><a href="#音频识别——酷炫的Wallpaper-Engine壁纸" class="headerlink" title="音频识别——酷炫的Wallpaper Engine壁纸"></a>音频识别——酷炫的Wallpaper Engine壁纸</h2><p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250728/cmCT/2559X1372/%E9%9F%B3%E9%A2%91%E8%AF%86%E5%88%AB%E5%A3%81%E7%BA%B8_compressed.png" alt="音频识别壁纸"></p>
+<p>多种背景供选择。我这里选的是流体，颜色主题从专辑封面中提取。</p>
+<h1 id="Bongo-Cat"><a href="#Bongo-Cat" class="headerlink" title="Bongo Cat"></a>Bongo Cat</h1><p><code>Bongo Cat</code>是一款跨平台桌宠，可以让小猫根据键盘、鼠标或手柄的操作，同步做出对应的动作。程序全程离线运行，并且支持导入自定义模型。</p>
+<p><img src="https://camo.githubusercontent.com/1d932337a60b8d90df377372fcbee905d9e3a900153c0c2676d72615f59312fc/68747470733a2f2f69302e6864736c622e636f6d2f6266732f6f70656e706c6174666f726d2f613431343962373533383536656537663430313938396461393032636633623561643335623339652e706e67" alt="BongoCat"></p>
+<p>官网：<a href="https://github.com/ayangweb/BongoCat">https://github.com/ayangweb/BongoCat</a></p>
+<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="把浏览器换回了Chrome"><a href="#把浏览器换回了Chrome" class="headerlink" title="把浏览器换回了Chrome"></a>把浏览器换回了Chrome</h2><p>书接上回，我体验了将近两个周的<code>Zen</code>浏览器。<code>Zen</code>无论从UI设计还是生态上来说都是很不错的，但是性能上的问题却让我不得不转回<code>Chrome</code>。</p>
+<p>比较显著的是b站播放视频，在zen中视频经常出现缓存失败需要刷新页面的情况。此外，部分网站的加载速度也显著慢于<code>Chrome</code>。</p>
+<p>从论坛上了解到，Zen由于要渲染更多UI效果，挤兑了加载网页的性能资源。若干月前已经有人在<code>Github</code>上提交了相关的Issue，但是由于开发者的主要精力放在UI优化上，性能的问题迟迟没有解决。真是成也UI，败也UI啊。</p>
+<p>经过反复的折腾之后，我也明白了自己对浏览器的需求是什么：（1）对各类网站的兼容性（2）高加载速度（3）书签、历史记录跨平台同步（4）丰富的插件生态。另外有一个细节的需求是垂直标签栏。体验了<code>Zen</code>后，我发现垂直标签栏的信息密度、操作方便度远高于水平标签栏。并且，浏览器顶部少了标签栏和地址栏后，浏览效果接近全屏，沉浸感超强，在笔电上尤其明显。</p>
+<p>虽然很遗憾<code>Chrome</code>没有垂直标签页，但是瑕不掩瑜，性能、兼容性是令人放心的。</p>
+]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+      <tags>
+        <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>夏日所感</title>
+    <url>/2025/07/06/%E5%A4%8F%E6%97%A5%E6%89%80%E6%84%9F/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250709/EJab/5734X4300/%E9%BB%91%E4%BA%91%E9%87%91%E5%90%BB_compressed.jpg?10" alt="黑云金吻250709"></p>
+<p>Dark clouds become heaven’s flowers when kissed by light.</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>诗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网易云的后门</title>
+    <url>/2025/06/19/%E7%BD%91%E6%98%93%E4%BA%91%E7%9A%84%E5%90%8E%E9%97%A8/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250619/B5eO/2020X1124/%E5%A4%8F%E5%A4%A9%E7%9A%84%E4%BA%91250619.jpg" alt="夏天的云250619"></p>
+<blockquote>
+<p>夏天的云: )</p>
+</blockquote>
+<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>今天特别想听王心凌的《梦的光点》，但是Spotify因为地区冲突不能用了，网易云又没有版权。一时间怒上心头，就不信没有办法越过这点限制。上网搜集一番，真有方案。</p>
+<h1 id="后门"><a href="#后门" class="headerlink" title="后门"></a>后门</h1><p>众所周知，网易云由于没有某热门歌手的版权而丧失了大量用户，但是其实也有留下后门。</p>
+<p>在电脑端上打开网易云音乐-我的音乐云盘，将准备好的歌曲文件上传到云盘中。<strong>那么这首歌就和其他有版权没什么两样了，既可以多端播放，也可以收藏到歌单中</strong>。而且对于网易云曾经&#x2F;现在有版权的歌曲，如《梦的光点》，网易云会根据歌曲名<strong>自动匹配歌词、甚至还有以前的评论</strong>，如果信息没有匹配或匹配错误，也可以在手机端音乐网盘中，点击歌曲详情选择“网盘歌曲信息匹配纠正”。</p>
+<p>遗憾的是，jay的歌曲匹配不到歌词，只能听曲。</p>
+<p>另本人正在用的<a href="https://flac.life/">无损音乐下载网站</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
       </tags>
   </entry>
   <entry>
@@ -486,60 +571,17 @@
       </tags>
   </entry>
   <entry>
-    <title>周刊25-07-27</title>
-    <url>/2025/07/24/%E5%91%A8%E5%88%8A25-07-27/</url>
-    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250727/3Seb/1279X1707/%E8%A5%BF%E5%B1%B1%E8%90%BD%E6%97%A5.jpg?50" alt="西山落日"></p>
-<blockquote>
-<p>西山落日</p>
-</blockquote>
-<hr>
-<p align='center'>
-锦瑟无端五十弦，一弦一柱思华年。<br \>
-庄生晓梦迷蝴蝶，望帝春心托杜鹃。<br \>
-沧海月明珠有泪，蓝田日暖玉生烟。<br \>
-此情可待成追忆，只是当时已惘然。 
-</p>
-
-<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="雀乐"><a href="#雀乐" class="headerlink" title="雀乐"></a>雀乐</h2><p>最近陷入歌荒了，网易云的日推似乎陷入了一种公式化的循环，都是平淡如水的主歌+朗朗上口的副歌，通过反差让人记住。这种结构初听会感到惊艳，但是很快就会让人审美疲劳。<br>就在这种荒芜中，我发现了雀乐。它以一种期刊的方式推荐音乐，每一期都有特定的主题，如风格、国别、情感等等。推荐曲目中小众歌曲居多，风格鲜明。如果陷入了套路音乐的泥沼，不妨来这里探寻一些新鲜的声音。</p>
-<p>官网：<a href="https://www.indie.cn/">https://www.indie.cn</a></p>
-<h1 id="draw-io"><a href="#draw-io" class="headerlink" title="draw.io"></a>draw.io</h1><p>一个流程图绘制工具，打开网站即可使用，数据在本地储存。优势是快捷、免费、功能丰富、安全。</p>
-<p>其实<code>draw.io</code>我已经使用了几年了，今天同事看到我画的流程图，问我是用什么专业软件画的。我说只不过是一个简单的网站。才想起来推荐这款好用的工具。</p>
-<p>官网：<a href="https://app.diagrams.net/%EF%BC%88%E6%88%96%E8%80%85%E7%9B%B4%E6%8E%A5%E5%9C%A8%E5%9C%B0%E5%9D%80%E6%A0%8F%E8%BE%93%E5%85%A5%60draw.io%60%E5%B0%B1%E5%8F%AF%E4%BB%A5%EF%BC%89">https://app.diagrams.net/（或者直接在地址栏输入`draw.io`就可以）</a></p>
-<h2 id="AsPoem"><a href="#AsPoem" class="headerlink" title="AsPoem"></a><code>AsPoem</code></h2><p>现代化诗词学习网站，一个更加注重 <strong>UI和阅读体验</strong> 的诗词网站。</p>
-<p><img src="https://camo.githubusercontent.com/8950a6993c8d6096390ad2a38c4aed2ac88503903d8c04678b1a061df46b599a/68747470733a2f2f692e696d6775722e636f6d2f577a6265754e482e706e67" alt="AsPoem"></p>
-<p>官网：<a href="https://aspoem.com/zh-Hans">https://aspoem.com/zh-Hans</a></p>
-<h2 id="Chinese-Poetry"><a href="#Chinese-Poetry" class="headerlink" title="Chinese-Poetry"></a>Chinese-Poetry</h2><p>最全的中华古典文集数据库，包含 5.5 万首唐诗、26 万首宋诗、2.1 万首宋词和其他古典文集。诗人包括唐宋两朝近 1.4 万古诗人，和两宋时期 1.5 千古词人。</p>
-<blockquote>
-<p><strong>为什么要做这个仓库?</strong>  古诗是中华民族乃至全世界的瑰宝，我们应该传承下去，虽然有古典文集，但大多数人并没有拥有这些书籍。从某种意义上来说，这些庞大的文集离我们是有一定距离的。而电子版方便拷贝，所以此开源数据库诞生了。此数据库通过 JSON 格式分发，可以让你很方便的开始你的项目。</p>
-</blockquote>
-<p>官网：<a href="https://github.com/chinese-poetry/chinese-poetry">https://github.com/chinese-poetry/chinese-poetry</a></p>
-<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="在Word中高效进行论文排版的技巧合集"><a href="#在Word中高效进行论文排版的技巧合集" class="headerlink" title="在Word中高效进行论文排版的技巧合集"></a>在Word中高效进行论文排版的技巧合集</h2><p>使用Word撰写各类文本是我们日常中的高发需求，但前后格式冲突、手动调整格式的低效等排版方面的问题，是不少人的困扰。这篇文章介绍了设置样式、引用、目录等排版技巧，用好这些技巧可以让排版效率和美观度更进一步。</p>
-<p>链接：<a href="https://linux.do/t/topic/776875">https://linux.do/t/topic/776875</a></p>
-<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="typora-vue-theme"><a href="#typora-vue-theme" class="headerlink" title="typora-vue-theme"></a><code>typora-vue-theme</code></h2><p>之前有介绍<code>Typora</code>这款好用的markdown编辑器，<code>Vue Theme</code>是第三方开发者为其开发的主题，简约美观。顾名思义，这款主题是仿照<code>Vue</code>文档的样式设计的。</p>
-<p>项目地址：<a href="https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md">https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md</a></p>
-<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250725/Xhjz/2559X1366/vue_for_typora.png" alt="vue-for-typora"></p>
-<h2 id="歌词翻译Prompt"><a href="#歌词翻译Prompt" class="headerlink" title="歌词翻译Prompt"></a>歌词翻译Prompt</h2><p>对LRC格式的歌词进行高质量翻译，力求在确保歌词的准确性的同时，深度挖掘并还原歌词的情感和意境，同时具备音韵美，达到高质量译文水准。</p>
-<p>我用该提示词在Gemini 2.5 Pro上测试了一下，效果很不错。</p>
-<p>提示词链接：<a href="https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/">https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/</a></p>
-]]></content>
-      <categories>
-        <category>周刊</category>
-      </categories>
-      <tags>
-        <tag>推荐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>夏日所感</title>
-    <url>/2025/07/06/%E5%A4%8F%E6%97%A5%E6%89%80%E6%84%9F/</url>
-    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250709/EJab/5734X4300/%E9%BB%91%E4%BA%91%E9%87%91%E5%90%BB_compressed.jpg?10" alt="黑云金吻250709"></p>
-<p>Dark clouds become heaven’s flowers when kissed by light.</p>
+    <title>节日的仪式感</title>
+    <url>/2025/01/06/%E8%8A%82%E6%97%A5%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F/</url>
+    <content><![CDATA[<p>正值新年，我的内心有一种奇特的感觉，那些日期以2024开头的事情，不论好与坏，不论实际上有多近，都已经翻篇。仿佛2024年已变成题干，而2025年才是我要书写的答案。</p>
+<p>这或许就是节日的正面意义之一吧。节日将生活分成一个一个小段，事情无论喜怒哀乐只能影响前一个阶段，我们总是以一种崭新的姿态去迎接未来。</p>
+<p>写于2025-1-1</p>
 ]]></content>
       <categories>
         <category>自我观察</category>
       </categories>
       <tags>
-        <tag>诗</tag>
+        <tag>节日</tag>
       </tags>
   </entry>
   <entry>
@@ -623,26 +665,6 @@
       </tags>
   </entry>
   <entry>
-    <title>网易云的后门</title>
-    <url>/2025/06/19/%E7%BD%91%E6%98%93%E4%BA%91%E7%9A%84%E5%90%8E%E9%97%A8/</url>
-    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250619/B5eO/2020X1124/%E5%A4%8F%E5%A4%A9%E7%9A%84%E4%BA%91250619.jpg" alt="夏天的云250619"></p>
-<blockquote>
-<p>夏天的云: )</p>
-</blockquote>
-<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>今天特别想听王心凌的《梦的光点》，但是Spotify因为地区冲突不能用了，网易云又没有版权。一时间怒上心头，就不信没有办法越过这点限制。上网搜集一番，真有方案。</p>
-<h1 id="后门"><a href="#后门" class="headerlink" title="后门"></a>后门</h1><p>众所周知，网易云由于没有某热门歌手的版权而丧失了大量用户，但是其实也有留下后门。</p>
-<p>在电脑端上打开网易云音乐-我的音乐云盘，将准备好的歌曲文件上传到云盘中。<strong>那么这首歌就和其他有版权没什么两样了，既可以多端播放，也可以收藏到歌单中</strong>。而且对于网易云曾经&#x2F;现在有版权的歌曲，如《梦的光点》，网易云会根据歌曲名<strong>自动匹配歌词、甚至还有以前的评论</strong>，如果信息没有匹配或匹配错误，也可以在手机端音乐网盘中，点击歌曲详情选择“网盘歌曲信息匹配纠正”。</p>
-<p>遗憾的是，jay的歌曲匹配不到歌词，只能听曲。</p>
-<p>另本人正在用的<a href="https://flac.life/">无损音乐下载网站</a></p>
-]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>音乐</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>赤壁赋</title>
     <url>/2024/11/10/%E8%B5%A4%E5%A3%81%E8%B5%8B/</url>
     <content><![CDATA[<p>壬戌之秋，七月既望，苏子与客泛舟游于赤壁之下。清风徐来，水波不兴。举酒属客，诵明月之诗，歌窈窕之章。少焉，月出于东山之上，徘徊于斗牛之间。白露横江，水光接天。纵一苇之所如，凌万顷之茫然。浩浩乎如冯虚御风，而不知其所止；飘飘乎如遗世独立，羽化而登仙。</p>
@@ -654,19 +676,5 @@
       <categories>
         <category>诗词</category>
       </categories>
-  </entry>
-  <entry>
-    <title>节日的仪式感</title>
-    <url>/2025/01/06/%E8%8A%82%E6%97%A5%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F/</url>
-    <content><![CDATA[<p>正值新年，我的内心有一种奇特的感觉，那些日期以2024开头的事情，不论好与坏，不论实际上有多近，都已经翻篇。仿佛2024年已变成题干，而2025年才是我要书写的答案。</p>
-<p>这或许就是节日的正面意义之一吧。节日将生活分成一个一个小段，事情无论喜怒哀乐只能影响前一个阶段，我们总是以一种崭新的姿态去迎接未来。</p>
-<p>写于2025-1-1</p>
-]]></content>
-      <categories>
-        <category>自我观察</category>
-      </categories>
-      <tags>
-        <tag>节日</tag>
-      </tags>
   </entry>
 </search>
