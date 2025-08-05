@@ -20,6 +20,29 @@
       </tags>
   </entry>
   <entry>
+    <title>Welcome to 2025</title>
+    <url>/2024/12/31/Welcome_to_2025/</url>
+    <content><![CDATA[<p>2024年很长，长到每一天我都有好多话要讲。</p>
+<p>和她一起的那些瞬间，仍不断给予我力量。</p>
+<p>这个年底倒腾了博客，这里有我的所思所想。</p>
+<p>学到的一些毫无卵用的技术，偶然也带来意外的光芒。</p>
+<p>世界在变化，我的人生道阻且长。</p>
+<p>2024年也很短，短的仿佛轮回一场。</p>
+<p>内耗，矛盾，生活总是不那么理想。</p>
+<p>我已经脱离了当初自己期许的那个模样。</p>
+<p>四处寻觅，心中满是迷茫。</p>
+<p>新的一年，我许下四个愿望。</p>
+<p>一是调。调整身体，调整心态，调整自己。</p>
+<p>二是定。找到自己钟情的方向。</p>
+<p>三是思。警惕思维惯性，多多思考。</p>
+<p>四是爱。发掘爱，传递爱，感性能力也很重要。</p>
+<p>2025年，希望自己过的坦坦荡荡。</p>
+]]></content>
+      <categories>
+        <category>年度</category>
+      </categories>
+  </entry>
+  <entry>
     <title>有感</title>
     <url>/2025/01/22/blog20250122/</url>
     <content><![CDATA[<p>死并非生的对立面，而作为生的一部分永存。</p>
@@ -209,29 +232,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Welcome to 2025</title>
-    <url>/2024/12/31/Welcome_to_2025/</url>
-    <content><![CDATA[<p>2024年很长，长到每一天我都有好多话要讲。</p>
-<p>和她一起的那些瞬间，仍不断给予我力量。</p>
-<p>这个年底倒腾了博客，这里有我的所思所想。</p>
-<p>学到的一些毫无卵用的技术，偶然也带来意外的光芒。</p>
-<p>世界在变化，我的人生道阻且长。</p>
-<p>2024年也很短，短的仿佛轮回一场。</p>
-<p>内耗，矛盾，生活总是不那么理想。</p>
-<p>我已经脱离了当初自己期许的那个模样。</p>
-<p>四处寻觅，心中满是迷茫。</p>
-<p>新的一年，我许下四个愿望。</p>
-<p>一是调。调整身体，调整心态，调整自己。</p>
-<p>二是定。找到自己钟情的方向。</p>
-<p>三是思。警惕思维惯性，多多思考。</p>
-<p>四是爱。发掘爱，传递爱，感性能力也很重要。</p>
-<p>2025年，希望自己过的坦坦荡荡。</p>
-]]></content>
-      <categories>
-        <category>年度</category>
-      </categories>
-  </entry>
-  <entry>
     <title>积极一点</title>
     <url>/2025/04/18/newday/</url>
     <content><![CDATA[<p>归去来兮，田园将芜胡不归？既自以心为形役，奚惆怅而独悲？悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟遥遥以轻飏，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。</p>
@@ -325,7 +325,7 @@
 </blockquote>
 <p>台风拉尼娜靠近，酷暑渐消，云朵也变得有婀娜多姿起来。</p>
 <p>这周开始实习了。在上班的约束下，生活变得规律起来——准时起床睡觉、准时上厕所、准时吃饭，同时我也惊讶自己一天可以干这么多事。规律带来效率呀。</p>
-<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Zen浏览器"><a href="#Zen浏览器" class="headerlink" title="Zen浏览器"></a>Zen浏览器</h2><p>我尝试将主力浏览器从<code>Chrome</code>更换到了<code>Zen</code>，主要原因是<code>Zen</code>实在太好看了。高度自定义的界面、流畅的动画、毛玻璃主题让我难以拒绝，而且<code>Zen</code>基于<code>FireFox</code>开发，插件生态也很丰富，从<code>Chrome</code>导出密码、书签也不是很费事。暂且用着看吧。</p>
+<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Zen浏览器"><a href="#Zen浏览器" class="headerlink" title="Zen浏览器"></a>Zen浏览器</h2><p>我尝试将主力浏览器从<code>Chrome</code>更换到了<code>Zen</code>，因为<code>Zen</code>实在太好看了。高度自定义的界面、流畅的动画、毛玻璃主题让我难以拒绝，而且<code>Zen</code>是基于<code>FireFox</code>开发的，插件生态非常丰富，导入<code>Chrome</code>的密码、书签也不是很费事。暂且用着看吧。</p>
 <p>官网：<a href="https://zen-browser.app/">https://zen-browser.app/</a></p>
 <h2 id="screenity"><a href="#screenity" class="headerlink" title="screenity"></a>screenity</h2><p>开源、免费、私密的录频软件。</p>
 <p>官网：<a href="https://screenity.io/en/">https://screenity.io/en/</a></p>
@@ -363,55 +363,11 @@
       </tags>
   </entry>
   <entry>
-    <title>周刊25-07-27</title>
-    <url>/2025/07/24/%E5%91%A8%E5%88%8A25-07-27/</url>
-    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250727/3Seb/1279X1707/%E8%A5%BF%E5%B1%B1%E8%90%BD%E6%97%A5.jpg?50" alt="西山落日"></p>
-<blockquote>
-<p>西山落日</p>
-</blockquote>
-<hr>
-<p align='center'>
-锦瑟无端五十弦，一弦一柱思华年。<br \>
-庄生晓梦迷蝴蝶，望帝春心托杜鹃。<br \>
-沧海月明珠有泪，蓝田日暖玉生烟。<br \>
-此情可待成追忆，只是当时已惘然。 
-</p>
-
-<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="雀乐"><a href="#雀乐" class="headerlink" title="雀乐"></a>雀乐</h2><p>最近陷入歌荒了，网易云的日推似乎陷入了一种公式化的循环，都是平淡如水的主歌+朗朗上口的副歌，通过反差让人记住。这种结构初听会感到惊艳，但是很快就会让人审美疲劳。<br>就在这种荒芜中，我发现了雀乐。它以一种期刊的方式推荐音乐，每一期都有特定的主题，如风格、国别、情感等等。推荐曲目中小众歌曲居多，风格鲜明。如果陷入了套路音乐的泥沼，不妨来这里探寻一些新鲜的声音。</p>
-<p>官网：<a href="https://www.indie.cn/">https://www.indie.cn</a></p>
-<h1 id="draw-io"><a href="#draw-io" class="headerlink" title="draw.io"></a>draw.io</h1><p>一个流程图绘制工具，打开网站即可使用，数据在本地储存。优势是快捷、免费、功能丰富、安全。</p>
-<p>其实<code>draw.io</code>我已经使用了几年了，今天同事看到我画的流程图，问我是用什么专业软件画的。我说只不过是一个简单的网站。才想起来推荐这款好用的工具。</p>
-<p>官网：<a href="https://app.diagrams.net/%EF%BC%88%E6%88%96%E8%80%85%E7%9B%B4%E6%8E%A5%E5%9C%A8%E5%9C%B0%E5%9D%80%E6%A0%8F%E8%BE%93%E5%85%A5%60draw.io%60%E5%B0%B1%E5%8F%AF%E4%BB%A5%EF%BC%89">https://app.diagrams.net/（或者直接在地址栏输入`draw.io`就可以）</a></p>
-<h2 id="AsPoem"><a href="#AsPoem" class="headerlink" title="AsPoem"></a><code>AsPoem</code></h2><p>现代化诗词学习网站，一个更加注重 <strong>UI和阅读体验</strong> 的诗词网站。</p>
-<p><img src="https://camo.githubusercontent.com/8950a6993c8d6096390ad2a38c4aed2ac88503903d8c04678b1a061df46b599a/68747470733a2f2f692e696d6775722e636f6d2f577a6265754e482e706e67" alt="AsPoem"></p>
-<p>官网：<a href="https://aspoem.com/zh-Hans">https://aspoem.com/zh-Hans</a></p>
-<h2 id="Chinese-Poetry"><a href="#Chinese-Poetry" class="headerlink" title="Chinese-Poetry"></a>Chinese-Poetry</h2><p>最全的中华古典文集数据库，包含 5.5 万首唐诗、26 万首宋诗、2.1 万首宋词和其他古典文集。诗人包括唐宋两朝近 1.4 万古诗人，和两宋时期 1.5 千古词人。</p>
-<blockquote>
-<p><strong>为什么要做这个仓库?</strong>  古诗是中华民族乃至全世界的瑰宝，我们应该传承下去，虽然有古典文集，但大多数人并没有拥有这些书籍。从某种意义上来说，这些庞大的文集离我们是有一定距离的。而电子版方便拷贝，所以此开源数据库诞生了。此数据库通过 JSON 格式分发，可以让你很方便的开始你的项目。</p>
-</blockquote>
-<p>官网：<a href="https://github.com/chinese-poetry/chinese-poetry">https://github.com/chinese-poetry/chinese-poetry</a></p>
-<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="在Word中高效进行论文排版的技巧合集"><a href="#在Word中高效进行论文排版的技巧合集" class="headerlink" title="在Word中高效进行论文排版的技巧合集"></a>在Word中高效进行论文排版的技巧合集</h2><p>使用Word撰写各类文本是我们日常中的高发需求，但前后格式冲突、手动调整格式的低效等排版方面的问题，是不少人的困扰。这篇文章介绍了设置样式、引用、目录等排版技巧，用好这些技巧可以让排版效率和美观度更进一步。</p>
-<p>链接：<a href="https://linux.do/t/topic/776875">https://linux.do/t/topic/776875</a></p>
-<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="typora-vue-theme"><a href="#typora-vue-theme" class="headerlink" title="typora-vue-theme"></a><code>typora-vue-theme</code></h2><p>之前有介绍<code>Typora</code>这款好用的markdown编辑器，<code>Vue Theme</code>是第三方开发者为其开发的主题，简约美观。顾名思义，这款主题是仿照<code>Vue</code>文档的样式设计的。</p>
-<p>项目地址：<a href="https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md">https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md</a></p>
-<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250725/Xhjz/2559X1366/vue_for_typora.png" alt="vue-for-typora"></p>
-<h2 id="歌词翻译Prompt"><a href="#歌词翻译Prompt" class="headerlink" title="歌词翻译Prompt"></a>歌词翻译Prompt</h2><p>对LRC格式的歌词进行高质量翻译，力求在确保歌词的准确性的同时，深度挖掘并还原歌词的情感和意境，同时具备音韵美，达到高质量译文水准。</p>
-<p>我用该提示词在Gemini 2.5 Pro上测试了一下，效果很不错。</p>
-<p>提示词链接：<a href="https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/">https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/</a></p>
-]]></content>
-      <categories>
-        <category>周刊</category>
-      </categories>
-      <tags>
-        <tag>推荐</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>周刊25-07-19</title>
     <url>/2025/07/15/%E5%91%A8%E5%88%8A25-07-19/</url>
     <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/2n1Z/1080X1000/%E5%B0%8F%E9%B9%8F%E8%BD%A6%E6%9C%BA.jpg?40" alt="小鹏车机"></p>
 <blockquote>
-<p>小鹏的车机给我一种用力过猛的感觉。为了追求简约、科技感，车子所有的调节按钮都被浓缩到中控大屏上，但实际上按钮图标很小，而且选择树很复杂。我要关闭对头吹的空调，捣鼓半天才在一个三级菜单中找到。像车子这种天天到处跑的东西，还是更注重功能性一点吧。</p>
+<p>小鹏的车机给我一种用力过猛的感觉。为了追求简约、科技感，车子所有的控制 按钮都被聚合到中控大屏上，但实际上车机的按钮图标小，选择树复杂，并没有让用户更加省心。我要调节空调的风向，捣鼓半天才在一个三级菜单中找到相应按钮。像车子这种天天跑的东西，设计上还是更注重功能性一点吧。</p>
 </blockquote>
 <h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Cherry-Studio"><a href="#Cherry-Studio" class="headerlink" title="Cherry Studio"></a>Cherry Studio</h2><p>支持多服务商集成的 AI 对话客户端。输入服务商的API key即可使用，基于AI模型还可以使用对话、绘图、翻译、知识库、MCP等功能。</p>
 <p>官网：<a href="https://www.cherry-ai.com/">https://www.cherry-ai.com/</a></p>
@@ -430,8 +386,52 @@
 <li>打开浏览器搜索引擎设置界面，添加引擎。</li>
 <li>以<code>SearXNG</code>为例，在添加搜索引擎的网址处输入<code>https://searx.bndkt.io/search?q=%s</code>即可。</li>
 </ol>
-<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="提问的智慧"><a href="#提问的智慧" class="headerlink" title="提问的智慧"></a>提问的智慧</h2><p>我一直认为”语言的边界就是思想的边界“。这篇教程从要不要提问、提问的方式方法、对答案的解读以及人际沟通的技巧等方面阐述了自己的见解。我觉得很适合给刚上大学的我看。</p>
+<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="提问的智慧"><a href="#提问的智慧" class="headerlink" title="提问的智慧"></a>提问的智慧</h2><p>我一直认为<strong>“语言的边界就是思想的边界”</strong>。这篇教程从要不要提问、提问的方式方法、对答案的解读以及人际沟通的技巧等方面阐述了自己的理解。我觉得很适合给刚上大学的我看。</p>
 <p>链接：<a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md</a></p>
+]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+      <tags>
+        <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>周刊25-07-27</title>
+    <url>/2025/07/24/%E5%91%A8%E5%88%8A25-07-27/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250727/3Seb/1279X1707/%E8%A5%BF%E5%B1%B1%E8%90%BD%E6%97%A5.jpg?50" alt="西山落日"></p>
+<blockquote>
+<p>西山落日</p>
+</blockquote>
+<hr>
+<p align='center'>
+锦瑟无端五十弦，一弦一柱思华年。<br \>
+庄生晓梦迷蝴蝶，望帝春心托杜鹃。<br \>
+沧海月明珠有泪，蓝田日暖玉生烟。<br \>
+此情可待成追忆，只是当时已惘然。 
+</p>
+
+<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="雀乐"><a href="#雀乐" class="headerlink" title="雀乐"></a>雀乐</h2><p>最近陷入歌荒了。网易云的日推进入了一种公式化的循环，结构大都是平淡的主歌+朗朗上口的副歌，以此营造一种惊艳感。初听这种歌曲会感到惊艳，但是很快就会陷入审美疲劳。<br>就在这种荒芜中，我发现了雀乐。它以一种期刊的方式推荐音乐，每一期都有特定的主题，如风格、国别、情感等等。推荐曲目中小众歌曲居多，风格鲜明。如果陷入了套路音乐的窠臼，不妨来这里探寻一些新鲜的声音。</p>
+<p>官网：<a href="https://www.indie.cn/">https://www.indie.cn</a></p>
+<h1 id="draw-io"><a href="#draw-io" class="headerlink" title="draw.io"></a>draw.io</h1><p>一个流程图绘制工具，打开网站即可使用，数据储存在本地。优势是快捷、免费、功能丰富、安全。</p>
+<p>其实<code>draw.io</code>我已经使用了几年了，今天同事看到我画的流程图，问我用什么专业软件画的。我说只不过是一个简单的网站。才想起来推荐这款工具。</p>
+<p>官网：<a href="https://app.diagrams.net/%EF%BC%88%E6%88%96%E8%80%85%E7%9B%B4%E6%8E%A5%E5%9C%A8%E5%9C%B0%E5%9D%80%E6%A0%8F%E8%BE%93%E5%85%A5%60draw.io%60%EF%BC%89">https://app.diagrams.net/（或者直接在地址栏输入`draw.io`）</a></p>
+<h2 id="AsPoem"><a href="#AsPoem" class="headerlink" title="AsPoem"></a><code>AsPoem</code></h2><p>现代化诗词学习网站，一个更加注重 <strong>UI和阅读体验</strong> 的诗词网站。</p>
+<p><img src="https://camo.githubusercontent.com/8950a6993c8d6096390ad2a38c4aed2ac88503903d8c04678b1a061df46b599a/68747470733a2f2f692e696d6775722e636f6d2f577a6265754e482e706e67" alt="AsPoem"></p>
+<p>官网：<a href="https://aspoem.com/zh-Hans">https://aspoem.com/zh-Hans</a></p>
+<h2 id="Chinese-Poetry"><a href="#Chinese-Poetry" class="headerlink" title="Chinese-Poetry"></a>Chinese-Poetry</h2><p>最全的中华古典文集数据库，包含 5.5 万首唐诗、26 万首宋诗、2.1 万首宋词和其他古典文集。诗人包括唐宋两朝近 1.4 万古诗人，和两宋时期 1.5 千古词人。</p>
+<blockquote>
+<p><strong>为什么要做这个仓库?</strong>  古诗是中华民族乃至全世界的瑰宝，我们应该传承下去，虽然有古典文集，但大多数人并没有拥有这些书籍。从某种意义上来说，这些庞大的文集离我们是有一定距离的。而电子版方便拷贝，所以此开源数据库诞生了。此数据库通过 JSON 格式分发，可以让你很方便的开始你的项目。</p>
+</blockquote>
+<p>官网：<a href="https://github.com/chinese-poetry/chinese-poetry">https://github.com/chinese-poetry/chinese-poetry</a></p>
+<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="在Word中高效进行论文排版的技巧合集"><a href="#在Word中高效进行论文排版的技巧合集" class="headerlink" title="在Word中高效进行论文排版的技巧合集"></a>在Word中高效进行论文排版的技巧合集</h2><p>使用Word撰写各类文本是我们日常中的高发需求，但格式冲突等排版方面的问题，对不少人造成了困扰。这篇文章介绍了设置样式、引用、目录等排版技巧，用好这些技巧可以让排版效率和美观度更进一步。</p>
+<p>链接：<a href="https://linux.do/t/topic/776875">https://linux.do/t/topic/776875</a></p>
+<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="typora-vue-theme"><a href="#typora-vue-theme" class="headerlink" title="typora-vue-theme"></a><code>typora-vue-theme</code></h2><p>之前有介绍<code>Typora</code>这款好用的markdown编辑器，<code>Vue Theme</code>是第三方开发者为其开发的主题，简约美观。顾名思义，这款主题是仿照<code>Vue</code>文档的样式设计的。</p>
+<p>项目地址：<a href="https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md">https://github.com/blinkfox/typora-vue-theme/blob/master/README_CN.md</a></p>
+<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250725/Xhjz/2559X1366/vue_for_typora.png" alt="vue-for-typora"></p>
+<h2 id="歌词翻译Prompt"><a href="#歌词翻译Prompt" class="headerlink" title="歌词翻译Prompt"></a>歌词翻译Prompt</h2><p>对LRC格式的歌词进行高质量翻译，力求在确保歌词的准确性的同时，深度挖掘并还原歌词的情感和意境，同时具备音韵美，达到高质量译文水准。</p>
+<p>我在Gemini 2.5 Pro上测试了一下，效果很不错。</p>
+<p>提示词链接：<a href="https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/">https://prompt.eh.cx/2025/01/12/%E6%AD%8C%E8%AF%8D%E7%BF%BB%E8%AF%91%E4%BB%BB%E5%8A%A1/</a></p>
 ]]></content>
       <categories>
         <category>周刊</category>
@@ -443,7 +443,12 @@
   <entry>
     <title>周刊25-08-04</title>
     <url>/2025/07/28/%E5%91%A8%E5%88%8A25-08-01/</url>
-    <content><![CDATA[<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="微信新UI"><a href="#微信新UI" class="headerlink" title="微信新UI"></a>微信新UI</h2><p>Win版微信换了新的UI，说是和MacOS版保持一致了。增加了圆角边框的设计，并且配色也更加现代化，相较之前的UI确实有了很大的改观。但是细节仍待完善，比如设置栏的字体大小与气泡大小不匹配，各个元素相互重叠之类的。</p>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250805/RnI9/1706X1279/moon.jpg?60" alt="何处是归程"></p>
+<blockquote>
+<p>何处是归程，长亭更短亭。</p>
+</blockquote>
+<p>在回家的火车上想起这句诗。对李白来说，归程是驿站的交替。而对我来说，归程具象化在火车经过一座座车站时的报站声中。</p>
+<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="微信新UI"><a href="#微信新UI" class="headerlink" title="微信新UI"></a>微信新UI</h2><p>Win版微信换了新的UI，说是和MacOS版保持一致了。增加了圆角边框的设计，并且配色也更加现代化，总体来说设计合理了许多。但是细节部分仍比较粗糙，比如设置栏的字体大小与气泡大小不匹配，各个元素相互重叠之类的。</p>
 <p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250801/jZQI/1356X975/%E5%BE%AE%E4%BF%A1%E6%96%B0UI.png" alt="微信新UI"></p>
 <h2 id="geek"><a href="#geek" class="headerlink" title="geek"></a>geek</h2><p>一款免费、高效、小巧的软件卸载工具。可以像手机系统一样一键卸载应用，并清理残留文件和注册表。</p>
 <p>官网：<a href="https://geekuninstaller.com/">https://geekuninstaller.com/</a></p>
@@ -452,13 +457,11 @@
 <h1 id="Bongo-Cat"><a href="#Bongo-Cat" class="headerlink" title="Bongo Cat"></a>Bongo Cat</h1><p><code>Bongo Cat</code>是一款跨平台桌宠，可以让小猫根据键盘、鼠标或手柄的操作，同步做出对应的动作。程序全程离线运行，并且支持导入自定义模型。</p>
 <p><img src="https://camo.githubusercontent.com/1d932337a60b8d90df377372fcbee905d9e3a900153c0c2676d72615f59312fc/68747470733a2f2f69302e6864736c622e636f6d2f6266732f6f70656e706c6174666f726d2f613431343962373533383536656537663430313938396461393032636633623561643335623339652e706e67" alt="BongoCat"></p>
 <p>官网：<a href="https://github.com/ayangweb/BongoCat">https://github.com/ayangweb/BongoCat</a></p>
-<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="把浏览器换回了Chrome"><a href="#把浏览器换回了Chrome" class="headerlink" title="把浏览器换回了Chrome"></a>把浏览器换回了Chrome</h2><p>书接上回，我体验了将近两个周的<code>Zen</code>浏览器。<code>Zen</code>无论从UI设计还是生态上来说都是很不错的，但是性能上的问题却让我不得不转回<code>Chrome</code>。</p>
-<p>比较显著的是b站播放视频，在zen中视频经常出现缓存失败需要刷新页面的情况。此外，部分网站的加载速度也显著慢于<code>Chrome</code>。</p>
-<p>从论坛上了解到，Zen由于要渲染更多UI效果，挤兑了加载网页的性能资源。若干月前已经有人在<code>Github</code>上提交了相关的Issue，但是由于开发者的主要精力放在UI优化上，性能的问题迟迟没有解决。真是成也UI，败也UI啊。</p>
-<p>经过反复的折腾之后，我也明白了自己对浏览器的需求是什么：（1）对各类网站的兼容性（2）高加载速度（3）书签、历史记录跨平台同步（4）丰富的插件生态。另外有一个细节的需求是垂直标签栏。体验了<code>Zen</code>后，我发现垂直标签栏的信息密度、操作方便度远高于水平标签栏。并且，浏览器顶部少了标签栏和地址栏后，浏览效果接近全屏，沉浸感超强，在笔电上尤其明显。</p>
-<p>虽然很遗憾<code>Chrome</code>没有垂直标签页，但是瑕不掩瑜，性能、兼容性是令人放心的。</p>
-<h1 id="好句"><a href="#好句" class="headerlink" title="好句"></a>好句</h1><h2 id="何处是归程，长亭更短亭。"><a href="#何处是归程，长亭更短亭。" class="headerlink" title="何处是归程，长亭更短亭。"></a>何处是归程，长亭更短亭。</h2><p>坐在回家的火车上时，想起这句诗。对李白来说，归程是交替的驿站。而对我来说，归程具象化在火车经过一座座车站时的报站声中。</p>
-<p><img src="https://plus.unsplash.com/premium_photo-1680109060624-31223c07f691?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==?60" alt="何处是归程"></p>
+<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="把浏览器换回了Chrome"><a href="#把浏览器换回了Chrome" class="headerlink" title="把浏览器换回了Chrome"></a>把浏览器换回了Chrome</h2><p>书接上回，我体验了将近两个周的<code>Zen</code>浏览器。无论从UI设计还是生态上来说，<code>Zen</code>的表现都很优秀，但是它性能上的问题却让我不得不转回<code>Chrome</code>。</p>
+<p>一个例子是，在<code>Zen</code>上看b站视频时，经常出现缓存失败需要刷新页面的情况。此外，部分网站的加载速度也显著慢于<code>Chrome</code>。</p>
+<p>从论坛上了解到，<code>Zen</code>中大量的UI效果渲染，挤占了网页加载的性能资源。若干月前已经有人在<code>Github</code>上提交了相关的Issue，但是由于开发者的主要精力放在UI上，性能的问题迟迟没有解决。真是成也UI，败也UI啊。</p>
+<p>经过反复的折腾之后，我也明确了自己对浏览器的需求：（1）对各类网站的兼容性（2）优秀的网页加载速度（3）书签、历史记录的跨平台同步（4）丰富的插件生态。另外垂直标签栏也是一个很加分的设计。体验了<code>Zen</code>后，我发现垂直标签栏的信息密度、操作方便度远高于水平标签栏。并且，由于浏览器顶部少了标签栏和地址栏，浏览效果接近全屏，沉浸感超强，在笔电上尤其明显。</p>
+<p>总的来说，虽然<code>Chrome</code>没有垂直标签页，但是瑕不掩瑜，它目前仍是最适合我的浏览器。</p>
 ]]></content>
       <categories>
         <category>周刊</category>
@@ -573,20 +576,6 @@
       </tags>
   </entry>
   <entry>
-    <title>节日的仪式感</title>
-    <url>/2025/01/06/%E8%8A%82%E6%97%A5%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F/</url>
-    <content><![CDATA[<p>正值新年，我的内心有一种奇特的感觉，那些日期以2024开头的事情，不论好与坏，不论实际上有多近，都已经翻篇。仿佛2024年已变成题干，而2025年才是我要书写的答案。</p>
-<p>这或许就是节日的正面意义之一吧。节日将生活分成一个一个小段，事情无论喜怒哀乐只能影响前一个阶段，我们总是以一种崭新的姿态去迎接未来。</p>
-<p>写于2025-1-1</p>
-]]></content>
-      <categories>
-        <category>自我观察</category>
-      </categories>
-      <tags>
-        <tag>节日</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>者也开发文档</title>
     <url>/2025/07/18/%E8%80%85%E4%B9%9F%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/</url>
     <content><![CDATA[<h1 id="者也-ZheYe-知乎美化插件开发文档"><a href="#者也-ZheYe-知乎美化插件开发文档" class="headerlink" title="者也 (ZheYe) - 知乎美化插件开发文档"></a>者也 (ZheYe) - 知乎美化插件开发文档</h1><h2 id="1-简介"><a href="#1-简介" class="headerlink" title="1. 简介"></a>1. 简介</h2><p>“者也” (ZheYe) 是一款第三方的油猴（Tampermonkey）用户脚本，旨在美化知乎网站的用户界面。 这款插件通过引入渐变背景、毛玻璃质感的卡片式设计、胶囊按钮等现代化UI元素，为用户提供更具美感的浏览体验，同时帮助用户更容易地聚焦在内容本身。</p>
@@ -664,6 +653,20 @@
       </categories>
       <tags>
         <tag>者也</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>节日的仪式感</title>
+    <url>/2025/01/06/%E8%8A%82%E6%97%A5%E7%9A%84%E4%BB%AA%E5%BC%8F%E6%84%9F/</url>
+    <content><![CDATA[<p>正值新年，我的内心有一种奇特的感觉，那些日期以2024开头的事情，不论好与坏，不论实际上有多近，都已经翻篇。仿佛2024年已变成题干，而2025年才是我要书写的答案。</p>
+<p>这或许就是节日的正面意义之一吧。节日将生活分成一个一个小段，事情无论喜怒哀乐只能影响前一个阶段，我们总是以一种崭新的姿态去迎接未来。</p>
+<p>写于2025-1-1</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>节日</tag>
       </tags>
   </entry>
   <entry>
