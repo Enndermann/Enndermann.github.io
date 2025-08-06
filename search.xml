@@ -275,21 +275,6 @@
       </categories>
   </entry>
   <entry>
-    <title>台球的心法</title>
-    <url>/2025/01/26/%E5%8F%B0%E7%90%83%E7%9A%84%E5%BF%83%E6%B3%95/</url>
-    <content><![CDATA[<p>最近我的台球技术有了阶段性的提升，甚至在误打误撞之下完成了人生中的第一杆清台。提升的原因不在台球之中，而在台球之外——在于对身体和心态的调控。</p>
-<p>从第一性原理出发，将母球以预想的状态击出，关键在于出杆的平直，如何做到出杆平直呢？关键在于让身体处于一个最佳的姿态，能够将球杆笔直地送出。调整两脚连线与出杆方向之间的夹角，找到最舒服和放松的状态，确保主视眼、手架、握杆手臂的方向以及球杆的方向在一条直线上。这是技术层面的基础，也是稳定发挥的前提。</p>
-<p>然而，将客观条件调整到最优后，能否真正发挥出来，还取决于心法。在不击球的时候，需要做好规划，思考链接的顺序、球形的难点、下一球的杆法与力道。而当俯身准备击球时，心中只需专注于力度和打点，注意力在母球和目标球上切换，确保出杆方向与母球、假想球连线一致。至于之前的规划、球能否进袋等杂念，统统要抛之脑后。</p>
-<p>其实人生的心法和台球的心法并无二致，都可以总结为“谋定后动，动则忘忧”。我自己常常就是吃着碗里的看着锅里的，总是让过去的遗憾和未来的焦虑降低了行动的效率。留专门的时间做好长期和短期的规划，真正开始行动时，暂时放下过去和未来，集中注意力完成当下的规划即可。</p>
-]]></content>
-      <categories>
-        <category>体育</category>
-      </categories>
-      <tags>
-        <tag>心法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>周刊25-06-10</title>
     <url>/2025/06/10/%E5%91%A8%E5%88%8A25-06-10/</url>
     <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>新开一个系列，记录每周发现的新鲜事物</p>
@@ -314,6 +299,21 @@
       </categories>
       <tags>
         <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>台球的心法</title>
+    <url>/2025/01/26/%E5%8F%B0%E7%90%83%E7%9A%84%E5%BF%83%E6%B3%95/</url>
+    <content><![CDATA[<p>最近我的台球技术有了阶段性的提升，甚至在误打误撞之下完成了人生中的第一杆清台。提升的原因不在台球之中，而在台球之外——在于对身体和心态的调控。</p>
+<p>从第一性原理出发，将母球以预想的状态击出，关键在于出杆的平直，如何做到出杆平直呢？关键在于让身体处于一个最佳的姿态，能够将球杆笔直地送出。调整两脚连线与出杆方向之间的夹角，找到最舒服和放松的状态，确保主视眼、手架、握杆手臂的方向以及球杆的方向在一条直线上。这是技术层面的基础，也是稳定发挥的前提。</p>
+<p>然而，将客观条件调整到最优后，能否真正发挥出来，还取决于心法。在不击球的时候，需要做好规划，思考链接的顺序、球形的难点、下一球的杆法与力道。而当俯身准备击球时，心中只需专注于力度和打点，注意力在母球和目标球上切换，确保出杆方向与母球、假想球连线一致。至于之前的规划、球能否进袋等杂念，统统要抛之脑后。</p>
+<p>其实人生的心法和台球的心法并无二致，都可以总结为“谋定后动，动则忘忧”。我自己常常就是吃着碗里的看着锅里的，总是让过去的遗憾和未来的焦虑降低了行动的效率。留专门的时间做好长期和短期的规划，真正开始行动时，暂时放下过去和未来，集中注意力完成当下的规划即可。</p>
+]]></content>
+      <categories>
+        <category>体育</category>
+      </categories>
+      <tags>
+        <tag>心法</tag>
       </tags>
   </entry>
   <entry>
@@ -354,40 +354,6 @@
 <h2 id="使用Everything进行文件传输"><a href="#使用Everything进行文件传输" class="headerlink" title="使用Everything进行文件传输"></a>使用Everything进行文件传输</h2><p>众所周知，<code>everything</code>的文件功能非常强大，但是它也可以通过创建HTTP&#x2F;FTP服务器的方式进行文件传输。</p>
 <p>打开<code>everything</code>-工具-选项-HTTP服务器，点击“启动HTTP服务器“，“绑定到接口”设置为本机IP地址，再设置端口，点击应用。<strong>同一局域网</strong>中的设备就可以访问<code>IP地址:端口</code>下载主机中的文件了。</p>
 <p>待探索的功能包括传输安全性的设置和共享文件夹的设置。</p>
-]]></content>
-      <categories>
-        <category>周刊</category>
-      </categories>
-      <tags>
-        <tag>推荐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>周刊25-07-19</title>
-    <url>/2025/07/15/%E5%91%A8%E5%88%8A25-07-19/</url>
-    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/2n1Z/1080X1000/%E5%B0%8F%E9%B9%8F%E8%BD%A6%E6%9C%BA.jpg?40" alt="小鹏车机"></p>
-<blockquote>
-<p>小鹏的车机给我一种用力过猛的感觉。为了追求简约、科技感，车子所有的控制 按钮都被聚合到中控大屏上，但实际上车机的按钮图标小，选择树复杂，并没有让用户更加省心。我要调节空调的风向，捣鼓半天才在一个三级菜单中找到相应按钮。像车子这种天天跑的东西，设计上还是更注重功能性一点吧。</p>
-</blockquote>
-<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Cherry-Studio"><a href="#Cherry-Studio" class="headerlink" title="Cherry Studio"></a>Cherry Studio</h2><p>支持多服务商集成的 AI 对话客户端。输入服务商的API key即可使用，基于AI模型还可以使用对话、绘图、翻译、知识库、MCP等功能。</p>
-<p>官网：<a href="https://www.cherry-ai.com/">https://www.cherry-ai.com/</a></p>
-<h2 id="SearXNG"><a href="#SearXNG" class="headerlink" title="SearXNG"></a>SearXNG</h2><p>注重隐私、可定制的元搜索引擎。优点是免费、集成多个搜索引擎的结果，使用下来效果还是很不错的。目前已经替换为主力搜素。</p>
-<p>相似的项目有Libre Search，但是使用较低质的节点访问时，网页会弹出人机验证，降低了访问速度，而SearXNG就没有这个问题。</p>
-<p>官网：<a href="https://searx.bndkt.io/">https://searx.bndkt.io/</a></p>
-<h2 id="PING0"><a href="#PING0" class="headerlink" title="PING0"></a>PING0</h2><p>一个IP检测网站，可以用来查看梯子节点的IP质量。</p>
-<p>官网：<a href="https://ping0.cc/">https://ping0.cc/</a></p>
-<h2 id="流浪图床"><a href="#流浪图床" class="headerlink" title="流浪图床"></a>流浪图床</h2><p>一家免费图床，个人曾经使用一段时间，体验不错。</p>
-<p>官网：<a href="https://p.sda1.dev/">https://p.sda1.dev/</a></p>
-<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="Firefox系加载网页怎么那么慢？"><a href="#Firefox系加载网页怎么那么慢？" class="headerlink" title="Firefox系加载网页怎么那么慢？"></a>Firefox系加载网页怎么那么慢？</h2><p>上篇文章中提到我从chrome更换到了zen，实际使用中，zen加载网页总是比chrome慢一丢丢，到周二那会，国内国外的网站更是一个也登不上去，但是chrome却可以正常使用。这难道是firefox的问题？</p>
-<p>上网搜才发现firefox默认的DoH在国内访问不快，并且也有可能解析到国外的服务器，导致访问很不稳定。</p>
-<p>解决方案其实很简单：在浏览器设置里搜索“DNS”，将“基于HTTPS的DNS启用策略”设置为关闭即可。</p>
-<h2 id="设置默认搜索引擎"><a href="#设置默认搜索引擎" class="headerlink" title="设置默认搜索引擎"></a>设置默认搜索引擎</h2><ol>
-<li>在搜索引擎中搜索任意关键字，查看搜索页面的网址，将网址中的关键字替换为<code>%s</code>。</li>
-<li>打开浏览器搜索引擎设置界面，添加引擎。</li>
-<li>以<code>SearXNG</code>为例，在添加搜索引擎的网址处输入<code>https://searx.bndkt.io/search?q=%s</code>即可。</li>
-</ol>
-<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="提问的智慧"><a href="#提问的智慧" class="headerlink" title="提问的智慧"></a>提问的智慧</h2><p>我一直认为<strong>“语言的边界就是思想的边界”</strong>。这篇教程从要不要提问、提问的方式方法、对答案的解读以及人际沟通的技巧等方面阐述了自己的理解。我觉得很适合给刚上大学的我看。</p>
-<p>链接：<a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md</a></p>
 ]]></content>
       <categories>
         <category>周刊</category>
@@ -441,7 +407,41 @@
       </tags>
   </entry>
   <entry>
-    <title>周刊25-08-04</title>
+    <title>周刊25-07-19</title>
+    <url>/2025/07/15/%E5%91%A8%E5%88%8A25-07-19/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/nSXpukx3_GXINi-9mmHPUOvZ4IYlmEO-qALh6XsWjKqyl5f0KlZfm6UsKj-HyTuv/20250719/2n1Z/1080X1000/%E5%B0%8F%E9%B9%8F%E8%BD%A6%E6%9C%BA.jpg?40" alt="小鹏车机"></p>
+<blockquote>
+<p>小鹏的车机给我一种用力过猛的感觉。为了追求简约、科技感，车子所有的控制 按钮都被聚合到中控大屏上，但实际上车机的按钮图标小，选择树复杂，并没有让用户更加省心。我要调节空调的风向，捣鼓半天才在一个三级菜单中找到相应按钮。像车子这种天天跑的东西，设计上还是更注重功能性一点吧。</p>
+</blockquote>
+<h1 id="有趣的项目"><a href="#有趣的项目" class="headerlink" title="有趣的项目"></a>有趣的项目</h1><h2 id="Cherry-Studio"><a href="#Cherry-Studio" class="headerlink" title="Cherry Studio"></a>Cherry Studio</h2><p>支持多服务商集成的 AI 对话客户端。输入服务商的API key即可使用，基于AI模型还可以使用对话、绘图、翻译、知识库、MCP等功能。</p>
+<p>官网：<a href="https://www.cherry-ai.com/">https://www.cherry-ai.com/</a></p>
+<h2 id="SearXNG"><a href="#SearXNG" class="headerlink" title="SearXNG"></a>SearXNG</h2><p>注重隐私、可定制的元搜索引擎。优点是免费、集成多个搜索引擎的结果，使用下来效果还是很不错的。目前已经替换为主力搜素。</p>
+<p>相似的项目有Libre Search，但是使用较低质的节点访问时，网页会弹出人机验证，降低了访问速度，而SearXNG就没有这个问题。</p>
+<p>官网：<a href="https://searx.bndkt.io/">https://searx.bndkt.io/</a></p>
+<h2 id="PING0"><a href="#PING0" class="headerlink" title="PING0"></a>PING0</h2><p>一个IP检测网站，可以用来查看梯子节点的IP质量。</p>
+<p>官网：<a href="https://ping0.cc/">https://ping0.cc/</a></p>
+<h2 id="流浪图床"><a href="#流浪图床" class="headerlink" title="流浪图床"></a>流浪图床</h2><p>一家免费图床，个人曾经使用一段时间，体验不错。</p>
+<p>官网：<a href="https://p.sda1.dev/">https://p.sda1.dev/</a></p>
+<h1 id="折腾"><a href="#折腾" class="headerlink" title="折腾"></a>折腾</h1><h2 id="Firefox系加载网页怎么那么慢？"><a href="#Firefox系加载网页怎么那么慢？" class="headerlink" title="Firefox系加载网页怎么那么慢？"></a>Firefox系加载网页怎么那么慢？</h2><p>上篇文章中提到我从chrome更换到了zen，实际使用中，zen加载网页总是比chrome慢一丢丢，到周二那会，国内国外的网站更是一个也登不上去，但是chrome却可以正常使用。这难道是firefox的问题？</p>
+<p>上网搜才发现firefox默认的DoH在国内访问不快，并且也有可能解析到国外的服务器，导致访问很不稳定。</p>
+<p>解决方案其实很简单：在浏览器设置里搜索“DNS”，将“基于HTTPS的DNS启用策略”设置为关闭即可。</p>
+<h2 id="设置默认搜索引擎"><a href="#设置默认搜索引擎" class="headerlink" title="设置默认搜索引擎"></a>设置默认搜索引擎</h2><ol>
+<li>在搜索引擎中搜索任意关键字，查看搜索页面的网址，将网址中的关键字替换为<code>%s</code>。</li>
+<li>打开浏览器搜索引擎设置界面，添加引擎。</li>
+<li>以<code>SearXNG</code>为例，在添加搜索引擎的网址处输入<code>https://searx.bndkt.io/search?q=%s</code>即可。</li>
+</ol>
+<h1 id="好文"><a href="#好文" class="headerlink" title="好文"></a>好文</h1><h2 id="提问的智慧"><a href="#提问的智慧" class="headerlink" title="提问的智慧"></a>提问的智慧</h2><p>我一直认为<strong>“语言的边界就是思想的边界”</strong>。这篇教程从要不要提问、提问的方式方法、对答案的解读以及人际沟通的技巧等方面阐述了自己的理解。我觉得很适合给刚上大学的我看。</p>
+<p>链接：<a href="https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md">https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md</a></p>
+]]></content>
+      <categories>
+        <category>周刊</category>
+      </categories>
+      <tags>
+        <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>周刊25-08-06</title>
     <url>/2025/07/28/%E5%91%A8%E5%88%8A25-08-01/</url>
     <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250805/RnI9/1706X1279/moon.jpg?60" alt="何处是归程"></p>
 <blockquote>
@@ -462,12 +462,46 @@
 <p>从论坛上了解到，<code>Zen</code>中大量的UI效果渲染，挤占了网页加载的性能资源。若干月前已经有人在<code>Github</code>上提交了相关的Issue，但是由于开发者的主要精力放在UI上，性能的问题迟迟没有解决。真是成也UI，败也UI啊。</p>
 <p>经过反复的折腾之后，我也明确了自己对浏览器的需求：（1）对各类网站的兼容性（2）优秀的网页加载速度（3）书签、历史记录的跨平台同步（4）丰富的插件生态。另外垂直标签栏也是一个很加分的设计。体验了<code>Zen</code>后，我发现垂直标签栏的信息密度、操作方便度远高于水平标签栏。并且，由于浏览器顶部少了标签栏和地址栏，浏览效果接近全屏，沉浸感超强，在笔电上尤其明显。</p>
 <p>总的来说，虽然<code>Chrome</code>没有垂直标签页，但是瑕不掩瑜，它目前仍是最适合我的浏览器。</p>
+<h2 id="首次清台"><a href="#首次清台" class="headerlink" title="首次清台"></a>首次清台</h2><p>真的涨球了，在西安完成了人生第一杆清台。</p>
 ]]></content>
       <categories>
         <category>周刊</category>
       </categories>
       <tags>
         <tag>推荐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>夏日所感</title>
+    <url>/2025/07/06/%E5%A4%8F%E6%97%A5%E6%89%80%E6%84%9F/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250709/EJab/5734X4300/%E9%BB%91%E4%BA%91%E9%87%91%E5%90%BB_compressed.jpg?10" alt="黑云金吻250709"></p>
+<p>Dark clouds become heaven’s flowers when kissed by light.</p>
+]]></content>
+      <categories>
+        <category>自我观察</category>
+      </categories>
+      <tags>
+        <tag>诗</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网易云的后门</title>
+    <url>/2025/06/19/%E7%BD%91%E6%98%93%E4%BA%91%E7%9A%84%E5%90%8E%E9%97%A8/</url>
+    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250619/B5eO/2020X1124/%E5%A4%8F%E5%A4%A9%E7%9A%84%E4%BA%91250619.jpg" alt="夏天的云250619"></p>
+<blockquote>
+<p>夏天的云: )</p>
+</blockquote>
+<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>今天特别想听王心凌的《梦的光点》，但是Spotify因为地区冲突不能用了，网易云又没有版权。一时间怒上心头，就不信没有办法越过这点限制。上网搜集一番，真有方案。</p>
+<h1 id="后门"><a href="#后门" class="headerlink" title="后门"></a>后门</h1><p>众所周知，网易云由于没有某热门歌手的版权而丧失了大量用户，但是其实也有留下后门。</p>
+<p>在电脑端上打开网易云音乐-我的音乐云盘，将准备好的歌曲文件上传到云盘中。<strong>那么这首歌就和其他有版权没什么两样了，既可以多端播放，也可以收藏到歌单中</strong>。而且对于网易云曾经&#x2F;现在有版权的歌曲，如《梦的光点》，网易云会根据歌曲名<strong>自动匹配歌词、甚至还有以前的评论</strong>，如果信息没有匹配或匹配错误，也可以在手机端音乐网盘中，点击歌曲详情选择“网盘歌曲信息匹配纠正”。</p>
+<p>遗憾的是，jay的歌曲匹配不到歌词，只能听曲。</p>
+<p>另本人正在用的<a href="https://flac.life/">无损音乐下载网站</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>音乐</tag>
       </tags>
   </entry>
   <entry>
@@ -537,39 +571,6 @@
 ]]></content>
       <categories>
         <category>自我观察</category>
-      </categories>
-      <tags>
-        <tag>音乐</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>夏日所感</title>
-    <url>/2025/07/06/%E5%A4%8F%E6%97%A5%E6%89%80%E6%84%9F/</url>
-    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250709/EJab/5734X4300/%E9%BB%91%E4%BA%91%E9%87%91%E5%90%BB_compressed.jpg?10" alt="黑云金吻250709"></p>
-<p>Dark clouds become heaven’s flowers when kissed by light.</p>
-]]></content>
-      <categories>
-        <category>自我观察</category>
-      </categories>
-      <tags>
-        <tag>诗</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>网易云的后门</title>
-    <url>/2025/06/19/%E7%BD%91%E6%98%93%E4%BA%91%E7%9A%84%E5%90%8E%E9%97%A8/</url>
-    <content><![CDATA[<p><img src="https://tc.z.wiki/autoupload/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250619/B5eO/2020X1124/%E5%A4%8F%E5%A4%A9%E7%9A%84%E4%BA%91250619.jpg" alt="夏天的云250619"></p>
-<blockquote>
-<p>夏天的云: )</p>
-</blockquote>
-<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>今天特别想听王心凌的《梦的光点》，但是Spotify因为地区冲突不能用了，网易云又没有版权。一时间怒上心头，就不信没有办法越过这点限制。上网搜集一番，真有方案。</p>
-<h1 id="后门"><a href="#后门" class="headerlink" title="后门"></a>后门</h1><p>众所周知，网易云由于没有某热门歌手的版权而丧失了大量用户，但是其实也有留下后门。</p>
-<p>在电脑端上打开网易云音乐-我的音乐云盘，将准备好的歌曲文件上传到云盘中。<strong>那么这首歌就和其他有版权没什么两样了，既可以多端播放，也可以收藏到歌单中</strong>。而且对于网易云曾经&#x2F;现在有版权的歌曲，如《梦的光点》，网易云会根据歌曲名<strong>自动匹配歌词、甚至还有以前的评论</strong>，如果信息没有匹配或匹配错误，也可以在手机端音乐网盘中，点击歌曲详情选择“网盘歌曲信息匹配纠正”。</p>
-<p>遗憾的是，jay的歌曲匹配不到歌词，只能听曲。</p>
-<p>另本人正在用的<a href="https://flac.life/">无损音乐下载网站</a></p>
-]]></content>
-      <categories>
-        <category>教程</category>
       </categories>
       <tags>
         <tag>音乐</tag>
