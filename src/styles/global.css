@@ -20,9 +20,13 @@ html[data-theme="dark"] {
   --border: #ab4b08;
 }
 
+img {
+  border-radius: 15px;
+}
+
 @font-face {
   font-family: 'TsangerJinKai01JF W04';
-  src: url('../assets/fonts/TsangerJinKai01JF W04.ttf') format('truetype');
+  src: url('/fonts/TsangerJinKai01JF W04.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
