@@ -10,7 +10,7 @@ html[data-theme="light"] {
   --accent: #006cac;
   --muted: #e6e6e6;
   --border: #ece9e9;
-}
+} 
 
 html[data-theme="dark"] {
   --background: #212737;
@@ -18,6 +18,18 @@ html[data-theme="dark"] {
   --accent: #ff6b01;
   --muted: #343f60;
   --border: #ab4b08;
+}
+
+@font-face {
+  font-family: 'TsangerJinKai01JF W04';
+  src: url('../assets/fonts/TsangerJinKai01JF W04.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'TsangerJinKai01JF', sans-serif;
 }
 
 @theme inline {
