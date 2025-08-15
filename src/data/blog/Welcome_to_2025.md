@@ -1,6 +1,6 @@
 ---
 title: Welcome to 2025
-decription: 又到了新旧交替的时候
+description: 又到了新旧交替的时候
 pubDatetime: 2024-12-31T22:13:13Z
 tags: 年度
 ---
