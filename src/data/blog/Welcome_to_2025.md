@@ -2,7 +2,8 @@
 title: Welcome to 2025
 description: 又到了新旧交替的时候
 pubDatetime: 2024-12-31T22:13:13Z
-tags: - 年度
+tags:
+  - 年度
 ---
 
 2024年很长，长到每一天我都有好多话要讲。
