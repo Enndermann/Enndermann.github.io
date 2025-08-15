@@ -54,6 +54,11 @@ const structuredData = {
   class={`${scrollSmooth && "scroll-smooth"}`}
 >
   <head>
+    <style is:global>
+      #clustrmaps-widget-v2 {
+        display: none !important;
+      }
+    </style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
