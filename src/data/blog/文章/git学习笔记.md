@@ -1,7 +1,7 @@
 ---
 title: Git学习笔记
 description: 实习摸鱼时初步学习了git的原理
-pubDatetime: 2025-07-10T11:23:40Z
+pubDatetime: 2025-07-10T11:23:40
 tags:
   - git
   - 学习笔记
