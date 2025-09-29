@@ -11,7 +11,8 @@ import { slugifyStr } from "./slugify";
 export function getPath(
   id: string,
   filePath: string | undefined,
-  includeBase = true
+  includeBase = true,
+  category: string
 ) {
   const pathSegments = filePath
     ?.replace(BLOG_PATH, "")
@@ -21,8 +22,11 @@ export function getPath(
     .slice(0, -1) // remove the last segment_ file name_ since it's unnecessary
     .map(segment => slugifyStr(segment)); // slugify each segment path
 
-  const basePath = includeBase ? "/posts" : "";
-
+  let basePath = "";
+  if (includeBase) {
+    basePath = category === "weekly" ? "/weekly" : "/posts";
+  }
+  
   // Making sure `id` does not contain the directory
   const blogId = id.split("/");
   const slug = blogId.length > 0 ? blogId.slice(-1) : blogId;

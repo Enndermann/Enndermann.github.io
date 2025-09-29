@@ -1,7 +1,8 @@
 ---
 title: Welcome to 2025
 description: 又到了新旧交替的时候
-pubDatetime: 2024-12-31T22:13:13
+pubDatetime: 2024-12-31T22:13:13+08:00
+category: "article"
 tags:
   - 年度
 ---

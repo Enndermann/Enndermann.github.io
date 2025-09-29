@@ -20,6 +20,8 @@ const blog = defineCollection({
       canonicalURL: z.string().optional(),
       hideEditPost: z.boolean().optional(),
       timezone: z.string().optional(),
+      // --- 新增 category 字段 ---
+      category: z.enum(["article", "weekly"]),
     }),
 });
 
