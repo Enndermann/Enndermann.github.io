@@ -9,7 +9,6 @@ export interface Props extends CollectionEntry<"blog"> {
 }
 
 const { variant = "h2", data, id, filePath } = Astro.props;
-console.log(data, filePath);
 
 const { title, description, pubDatetime, modDatetime, timezone } = data;
 

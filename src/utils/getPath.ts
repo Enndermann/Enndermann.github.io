@@ -12,7 +12,7 @@ export function getPath(
   id: string,
   filePath: string | undefined,
   includeBase = true,
-  category: string
+  category = ""
 ) {
   const pathSegments = filePath
     ?.replace(BLOG_PATH, "")
@@ -23,7 +23,7 @@ export function getPath(
     .map(segment => slugifyStr(segment)); // slugify each segment path
 
   let basePath = "";
-  if (includeBase) {
+  if (includeBase && category !== "") {
     basePath = category === "weekly" ? "/weekly" : "/posts";
   }
   
