@@ -31,11 +31,11 @@ tags:
 
 进入设备选择界面时，将下面`Troblesshooting`部分打勾。
 
-![trouble shooting](https://i0.hdslb.com/bfs/new_dyn/913d018eeefaf0f94f115d5e2c5b6fa1276494267.jpg@1192w.avif)
+![trouble shooting](https://i0.hdslb.com/bfs/new_dyn/913d018eeefaf0f94f115d5e2c5b6fa1276494267.jpg)
 
 然后在`Playback devices`栏勾选你的播放设备，点击`OK`，之后会弹出驱动注入界面。出现两个绿色背景的对号时，注入成功。
 
-![驱动注入](https://i0.hdslb.com/bfs/new_dyn/ca4809a06b96a51c005e0a446ba20f46276494267.jpg@750w_706h.avif)
+![驱动注入](https://i0.hdslb.com/bfs/new_dyn/ca4809a06b96a51c005e0a446ba20f46276494267.jpg)
 
 将从`AutoEQ`上下载的`txt`文件复制到`Equalizer APO`目录下的`config`文件夹里，打开根目录下的`Editor.exe`。选择相应的`txt`文件，并点击启动按钮，则设置完毕。以后除非修改设置，不需要再打开该软件。
 
