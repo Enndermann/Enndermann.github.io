@@ -11,7 +11,7 @@ tags:
 
 最近我购入了一台兴戈EP5耳机，用来听音乐和打游戏。在听音乐的过程中，我发现这台耳机在低频的表现很优秀，但是在高频，尤其是女中高音，就显得有些“糊”，也就是音乐各部分的分离度不够。
 
-网络上提供的解决方案有两种，一种是购入更好的硬件，比如耳机、功放、声卡，但是耗费不菲；另一种是从软件层面调整频响曲线，也就是我下面要分享的`AutoEQ`。
+网上提供的解决方案有两种，一种是购入更好的硬件，比如耳机、功放、声卡，但是耗费不菲；另一种是从软件层面调整频响曲线，也就是我下面要分享的`AutoEQ`。
 
 # 什么是`AutoEQ`
 
@@ -39,4 +39,4 @@ tags:
 
 将从`AutoEQ`上下载的`txt`文件复制到`Equalizer APO`目录下的`config`文件夹里，打开根目录下的`Editor.exe`。选择相应的`txt`文件，并点击启动按钮，则设置完毕。以后除非修改设置，不需要再打开该软件。
 
-![Equalizer APO设置](https://edgeone.51shazhu.com/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20251009/W5XV/1530X1026/equalizer%E8%AE%BE%E7%BD%AE.png/webp)
+![Equalizer APO设置](https://edgeone.51shazhu.com/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20251009/W5XV/1530X1026/equalizer%E8%AE%BE%E7%BD%AE.png/webp)	
