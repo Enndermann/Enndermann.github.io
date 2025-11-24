@@ -1,0 +1,250 @@
+---
+import { SITE } from "@/config";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Main from "@/layouts/Main.astro";
+import Hr from "@/components/Hr.astro";
+
+// 这里定义页面的元数据
+const pageTitle = "Fun Box";
+const pageDesc = "A random discovery from my collection.";
+---
+
+<Layout title={`${pageTitle} | ${SITE.title}`}>
+  <Header activeNav="surprising-box" />
+  
+  <Main pageTitle={pageTitle} pageDesc={pageDesc}>
+    <div class="mt-8 min-h-[300px]">
+      
+      <div 
+        id="surprise-container" 
+        class="relative flex flex-col items-center justify-center rounded-lg border border-skin-line bg-skin-card p-8 text-center shadow-lg transition-all"
+      >
+        <div id="loading-state" class="animate-pulse py-12">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-box size-16 text-skin-accent" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 3l8 4.5l0 9l-8 4.5l-8 -4.5l0 -9l8 -4.5" />
+            <path d="M12 12l8 -4.5" />
+            <path d="M12 12l0 9" />
+            <path d="M12 12l-8 -4.5" />
+          </svg>
+          <p class="mt-4 text-lg font-medium">Opening the box...</p>
+        </div>
+
+        <div id="error-state" class="hidden py-8 text-red-500">
+          <p class="text-xl font-bold">Oops!</p>
+          <p id="error-message" class="mt-2 text-sm">Something went wrong.</p>
+        </div>
+
+        <div id="content-display" class="hidden w-full">
+          <img id="result-image" class="hidden mx-auto max-h-[500px] rounded shadow-md" alt="Surprise" />
+          
+          <div id="result-text-wrapper" class="hidden w-full text-left">
+            <h3 id="file-name" class="mb-4 text-center text-lg font-bold text-skin-accent border-b border-skin-line pb-2"></h3>
+            <pre id="result-text" class="max-h-[500px] w-full overflow-auto rounded bg-skin-fill p-4 text-sm font-mono leading-relaxed"></pre>
+          </div>
+          
+          <a id="github-link" href="#" target="_blank" class="mt-6 inline-block text-sm text-skin-base opacity-70 hover:text-skin-accent hover:underline hover:opacity-100">
+            View on GitHub &rarr;
+          </a>
+        </div>
+      </div>
+
+      <div class="mt-8 flex justify-center">
+        <button
+          id="refresh-btn"
+          class="group flex items-center gap-2 rounded-full bg-skin-accent px-6 py-3 font-bold text-skin-inverted transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-skin-accent focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-dice size-6 transition-transform group-hover:rotate-180" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 3m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+            <circle cx="8.5" cy="8.5" r=".5" fill="currentColor" />
+            <circle cx="15.5" cy="8.5" r=".5" fill="currentColor" />
+            <circle cx="15.5" cy="15.5" r=".5" fill="currentColor" />
+            <circle cx="8.5" cy="15.5" r=".5" fill="currentColor" />
+          </svg>
+          Surprise Me!
+        </button>
+      </div>
+    </div>
+  </Main>
+
+  <Footer />
+</Layout>
+
+<script>
+  // ==========================================
+  // 🔧 配置区域 (请修改这里)
+  // ==========================================
+  const CONFIG = {
+    username: "Enndermann", // 你的 GitHub 用户名
+    repo: "Enndermann.github.io",    // 你的仓库名
+    path: "box",  // 你想随机展示的文件夹路径 (例如: 'memes', 'quotes', 'images')
+    branch: "Babel_astro",         // 分支名
+  };
+  // ==========================================
+
+  // DOM 元素引用
+  const els = {
+    container: document.getElementById("surprise-container"),
+    loading: document.getElementById("loading-state"),
+    error: document.getElementById("error-state"),
+    errorMsg: document.getElementById("error-message"),
+    content: document.getElementById("content-display"),
+    img: document.getElementById("result-image") as HTMLImageElement,
+    textWrapper: document.getElementById("result-text-wrapper"),
+    fileName: document.getElementById("file-name"),
+    textPre: document.getElementById("result-text"),
+    btn: document.getElementById("refresh-btn") as HTMLButtonElement,
+    link: document.getElementById("github-link") as HTMLAnchorElement,
+  };
+
+  // 缓存文件列表，避免重复调用 API 消耗额度
+  let cachedFileList: any[] | null = null;
+
+  /**
+   * 获取仓库指定文件夹下的所有文件
+   */
+  async function fetchFileList() {
+    if (cachedFileList) return cachedFileList;
+
+    const apiUrl = `https://api.github.com/repos/${CONFIG.username}/${CONFIG.repo}/contents/${CONFIG.path}?ref=${CONFIG.branch}`;
+    
+    try {
+      const res = await fetch(apiUrl);
+      if (!res.ok) {
+        if (res.status === 403) throw new Error("API rate limit exceeded. Try again later.");
+        if (res.status === 404) throw new Error("Repository path not found.");
+        throw new Error(`Error ${res.status}: Failed to fetch list.`);
+      }
+      const data = await res.json();
+      // 过滤掉子文件夹，只保留文件
+      const files = Array.isArray(data) ? data.filter((item: any) => item.type === "file") : [];
+      
+      if (files.length === 0) throw new Error("No files found in this folder.");
+      
+      cachedFileList = files;
+      return files;
+    } catch (err: any) {
+      throw err;
+    }
+  }
+
+  /**
+   * 主逻辑：随机获取并渲染
+   */
+  async function surpriseMe() {
+    // 1. 重置 UI 状态
+    setLoading(true);
+    setError(null);
+    
+    try {
+      // 2. 获取列表
+      const files = await fetchFileList();
+      
+      // 3. 随机选择一个
+      const randomFile = files[Math.floor(Math.random() * files.length)];
+      
+      // 4. 渲染内容
+      await renderContent(randomFile);
+      
+    } catch (err: any) {
+      setError(err.message || "Unknown error occurred.");
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  /**
+   * 根据文件类型渲染内容
+   */
+  async function renderContent(file: any) {
+    const ext = file.name.split('.').pop().toLowerCase();
+    const isImage = ['jpg', 'jpeg', 'png', 'gif', 'webp', 'svg'].includes(ext);
+
+    // 隐藏所有内容容器
+    els.img.classList.add('hidden');
+    els.textWrapper.classList.add('hidden');
+    
+    // 设置 GitHub 跳转链接
+    els.link.href = file.html_url;
+    els.link.innerText = `View ${file.name} on GitHub →`;
+
+    if (isImage) {
+      // === 图片处理 ===
+      // 使用 download_url 直接展示
+      els.img.src = file.download_url;
+      els.img.alt = file.name;
+      els.img.classList.remove('hidden');
+      
+      // 图片加载完成后再显示整个区域（防止布局跳动）
+      await new Promise((resolve, reject) => {
+        els.img.onload = resolve;
+        els.img.onerror = () => reject(new Error("Failed to load image."));
+      });
+
+    } else {
+      // === 文本/代码处理 ===
+      // 需要再次 fetch 文件内容
+      const res = await fetch(file.download_url);
+      if (!res.ok) throw new Error("Failed to fetch file content.");
+      
+      const text = await res.text();
+      
+      if (els.fileName) els.fileName.innerText = file.name;
+      if (els.textPre) els.textPre.textContent = text; // 使用 textContent 防止 XSS
+      
+      els.textWrapper.classList.remove('hidden');
+    }
+
+    // 显示主内容区
+    if (els.content) els.content.classList.remove('hidden');
+  }
+
+  // === UI 辅助函数 ===
+
+  function setLoading(isLoading: boolean) {
+    if (isLoading) {
+      els.loading?.classList.remove('hidden');
+      els.content?.classList.add('hidden');
+      els.error?.classList.add('hidden');
+      if (els.btn) {
+        els.btn.disabled = true;
+        els.btn.classList.add('opacity-70', 'cursor-wait');
+      }
+    } else {
+      els.loading?.classList.add('hidden');
+      if (els.btn) {
+        els.btn.disabled = false;
+        els.btn.classList.remove('opacity-70', 'cursor-wait');
+      }
+    }
+  }
+
+  function setError(msg: string | null) {
+    if (msg) {
+      if (els.errorMsg) els.errorMsg.innerText = msg;
+      els.error?.classList.remove('hidden');
+      els.content?.classList.add('hidden');
+    } else {
+      els.error?.classList.add('hidden');
+    }
+  }
+
+  // === 初始化 ===
+  
+  // 页面加载时自动运行一次
+  surpriseMe();
+
+  // 绑定按钮点击事件
+  els.btn?.addEventListener('click', surpriseMe);
+  
+  // 兼容 Astro 的 View Transitions (如果开启了的话)
+  document.addEventListener("astro:after-swap", () => {
+     // 重新绑定事件或重置状态（简单起见，ViewTransition下可能需要重新运行脚本逻辑）
+     // 注意：Astro Paper 默认使用 View Transitions，script 标签如果不加 is:inline 
+     // 会在页面切换时重新执行，所以这里的逻辑通常是安全的。
+  });
+
+</script>
