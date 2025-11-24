@@ -92,9 +92,9 @@ const pageDesc = "A random discovery from my collection.";
     errorMsg: document.getElementById("error-message"),
     content: document.getElementById("content-display"),
     img: document.getElementById("result-image") as HTMLImageElement,
-    textWrapper: document.getElementById("result-text-wrapper"),
-    fileName: document.getElementById("file-name"),
-    textPre: document.getElementById("result-text"),
+    textWrapper: document.getElementById("result-text-wrapper") as HTMLElement, 
+    fileName: document.getElementById("file-name") as HTMLElement,
+    textPre: document.getElementById("result-text") as HTMLElement,
     btn: document.getElementById("refresh-btn") as HTMLButtonElement,
     link: document.getElementById("github-link") as HTMLAnchorElement,
   };
