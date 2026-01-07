@@ -7,7 +7,7 @@ tags:
   - 个人项目
 ---
 
-基于多模态大模型的 PDF 目录自动生成工具。只需简单的几步操作，即可将 PDF 书籍的目录页转换为可跳转的 PDF 书签。全程借助Antigravity实现，代码开源在https://github.com/Enndermann/PDFCatalogueGenerator，欢迎Star。
+基于多模态大模型的 PDF 目录自动生成工具。只需简单的几步操作，即可将 PDF 书籍的目录页转换为可跳转的 PDF 书签。全程借助Antigravity实现，代码开源在[Github仓库](https://github.com/Enndermann/PDFCatalogueGenerator)，欢迎Star。
 
 ## 📖 项目简介
 
