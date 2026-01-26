@@ -79,7 +79,7 @@ $$ P(d_j|context)=\sigma(\theta_j^Tv_{w_I}) $$
 
 霍夫曼树将根据中心词预测上下文词的任务转变为一系列二分类任务。
 
-![image.png](attachment:1348f6b9-372a-4416-aaf8-0a14cec75699:image.png)
+![Skip-gram架构](https://yunlongs-1253041399.cos.ap-chengdu.myqcloud.com/image/OpenNe/Deepwalk/5.jpg)
 
 需要学习的参数包括嵌入矩阵的参数，以及haffman分类器的参数。可以通过最大化似然函数来优化参数，损失函数为
 $$
