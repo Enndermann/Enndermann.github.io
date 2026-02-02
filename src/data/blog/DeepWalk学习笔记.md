@@ -21,7 +21,7 @@ tags:
 
 # shallow encoder
 
-参考链接：[DeepWalk](https://yunlongs.cn/2019/04/26/NE-Deepwalk/)，[word2vec](https://zh.d2l.ai/chapter_natural-language-processing-pretraining/word2vec.html)，[deepwalk2](https://network-papers.readthedocs.io/en/latest/embeddings/DeepWalk.html)，[skip-gram2](https://zhuanlan.zhihu.com/p/27234078)
+参考链接：[DeepWalk](https://yunlongs.cn/2019/04/26/NE-Deepwalk/)，[word2vec](https://zh.d2l.ai/chapter_natural-language-processing-pretraining/word2vec.html)，[deepwalk2](https://network-papers.readthedocs.io/en/latest/embeddings/DeepWalk.html)，[skip-gram2](https://zhuanlan.zhihu.com/p/27234078)，[skip-gram3](https://www.cnblogs.com/stuBoo/articles/18973467)
 
 最简单的编码器就是建立一个n*d嵌入表，也就是共n个节点，每个节点对应一个d为向量
 
@@ -93,7 +93,7 @@ $$ P(w | w_I) = \prod_{j=1}^{L(w)-1} P(d_{j+1} | n_j, w_I) $$
 
 代入对数损失函数中，针对单对词 $(w_I, w_O)$ 的损失就变成了：
 $$
-J_{w_I, w_O} = - \sum_{j=1}^{L(w_O)-1} \left[ [d_{j+1}=1] \log \sigma(\theta_j^T v_{w_I}) + [d_{j+1}=0] \log (1 - \sigma(\theta_j^T v_{w_I})) \right]
+E = - \log P(w_O | w_I) = - \sum_{j=1}^{L(w_O)-1} \log \sigma \left( [1 - 2d_j] \cdot \mathbf{v}_{w_I}^\top \mathbf{\theta}_{n(w_O, j)} \right)
 $$
 如果词典较大，隐藏层和输出层的权重会相当大，为了提高训练效率，有以下优化策略：
 
