@@ -83,7 +83,7 @@ $$ P(d_j|context)=\sigma(\theta_j^Tv_{w_I}) $$
 
 需要学习的参数包括嵌入矩阵的参数，以及haffman分类器的参数。可以通过最大化似然函数来优化参数，损失函数为
 $$
- -\sum^T_{t=1}\sum_{-m\leq j\leq m,j\neq0}logP(w^{(t+j)}|w^{(t)})
+-\sum^T_{t=1}\sum_{-m\leq j\leq m,j\neq0}logP(w^{(t+j)}|w^{(t)})
 $$
 
 
@@ -93,7 +93,10 @@ $$ P(w | w_I) = \prod_{j=1}^{L(w)-1} P(d_{j+1} | n_j, w_I) $$
 
 代入对数损失函数中，针对单对词 $(w_I, w_O)$ 的损失就变成了：
 $$
-E = - \log P(w_O | w_I) = - \sum_{j=1}^{L(w_O)-1} \log \sigma \left( [1 - 2d_j] \cdot \mathbf{v}_{w_I}^\top \mathbf{\theta}_{n(w_O, j)} \right)
+\begin{align}
+	E &= - \log P(w_O | w_I) \\
+	&= - \sum_{j=1}^{L(w_O)-1} \log \sigma \left( [1 - 2d_j] \cdot \mathbf{v}_{w_I}^\top \mathbf{\theta}_{n(w_O, j)} \right)
+\end{align}
 $$
 如果词典较大，隐藏层和输出层的权重会相当大，为了提高训练效率，有以下优化策略：
 
