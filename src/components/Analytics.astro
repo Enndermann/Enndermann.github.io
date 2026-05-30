@@ -1,0 +1,48 @@
+---
+const endpoint = "https://blog-analytics.enderman2021.workers.dev/collect";
+---
+
+<script is:inline define:vars={{ endpoint }}>
+  (function () {
+    if (navigator.doNotTrack === "1") return;
+
+    var data = {
+      url: window.location.href,
+      path: window.location.pathname,
+      title: document.title,
+      referrer: document.referrer,
+      screen: window.screen.width + "x" + window.screen.height
+    };
+
+    function send() {
+      try {
+        var payload = JSON.stringify(data);
+
+        if (navigator.sendBeacon) {
+          var blob = new Blob([payload], {
+            type: "application/json"
+          });
+          navigator.sendBeacon(endpoint, blob);
+          return;
+        }
+
+        fetch(endpoint, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: payload,
+          keepalive: true
+        });
+      } catch (e) {}
+    }
+
+    if (document.visibilityState === "prerender") {
+      document.addEventListener("visibilitychange", function () {
+        if (document.visibilityState === "visible") send();
+      }, { once: true });
+    } else {
+      send();
+    }
+  })();
+</script>
