@@ -78,14 +78,18 @@ exports.main_handler = async event => {
       return { statusCode: 400, headers, body: "" };
     }
 
-    // 提取真实 IP：优先 X-Forwarded-For 第一个值，
-    // 回退到来源 IP（函数 URL 为 requestContext.http.sourceIp，
-    // 旧版 API 网关为 requestContext.identity.sourceIp，保留兼容）
+    // 提取真实 IP。函数 URL 实测事件结构（2026-07）：
+    //   requestContext.sourceIp 与 headers["x-scf-remote-addr"] 均为 SCF 平台
+    //   注入的客户端地址（客户端无法伪造），优先使用；
+    //   X-Forwarded-For 可被客户端伪造，仅作最后兜底；
+    //   其余为旧版 API 网关等触发方式的兼容路径。
     const xff = h["x-forwarded-for"] || h["X-Forwarded-For"];
     const ip =
-      (xff ? xff.split(",")[0].trim() : null) ||
+      event.requestContext?.sourceIp ||
+      h["x-scf-remote-addr"] ||
       event.requestContext?.http?.sourceIp ||
       event.requestContext?.identity?.sourceIp ||
+      (xff ? xff.split(",")[0].trim() : null) ||
       "unknown";
 
     const now = new Date();
