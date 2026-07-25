@@ -1,5 +1,6 @@
 ---
-const endpoint = "https://blog-analytics.enderman2021.workers.dev/collect";
+// 腾讯云 SCF 函数 URL（访客访问日志上报接口）
+const endpoint = "https://1407164515-dfhy24gt9a.ap-shanghai.tencentscf.com";
 ---
 
 <script is:inline define:vars={{ endpoint }}>
@@ -11,16 +12,19 @@ const endpoint = "https://blog-analytics.enderman2021.workers.dev/collect";
       path: window.location.pathname,
       title: document.title,
       referrer: document.referrer,
-      screen: window.screen.width + "x" + window.screen.height
+      screen: window.screen.width + "x" + window.screen.height,
+      language: navigator.language || "",
     };
 
     function send() {
       try {
         var payload = JSON.stringify(data);
 
+        // Content-Type 使用 text/plain，属于 CORS 简单请求，
+        // 不触发 OPTIONS 预检；云函数内部照常 JSON.parse
         if (navigator.sendBeacon) {
           var blob = new Blob([payload], {
-            type: "application/json"
+            type: "text/plain",
           });
           navigator.sendBeacon(endpoint, blob);
           return;
@@ -29,18 +33,22 @@ const endpoint = "https://blog-analytics.enderman2021.workers.dev/collect";
         fetch(endpoint, {
           method: "POST",
           headers: {
-            "Content-Type": "application/json"
+            "Content-Type": "text/plain",
           },
           body: payload,
-          keepalive: true
+          keepalive: true,
         });
       } catch (e) {}
     }
 
     if (document.visibilityState === "prerender") {
-      document.addEventListener("visibilitychange", function () {
-        if (document.visibilityState === "visible") send();
-      }, { once: true });
+      document.addEventListener(
+        "visibilitychange",
+        function () {
+          if (document.visibilityState === "visible") send();
+        },
+        { once: true }
+      );
     } else {
       send();
     }

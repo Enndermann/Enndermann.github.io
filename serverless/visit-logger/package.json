@@ -1,0 +1,10 @@
+{
+  "name": "visit-logger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "腾讯云 SCF 云函数：访客访问日志记录（写入 COS）",
+  "main": "index.js",
+  "dependencies": {
+    "cos-nodejs-sdk-v5": "^2.14.3"
+  }
+}

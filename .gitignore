@@ -26,3 +26,6 @@ pnpm-debug.log*
 # pagefind
 
 public/pagefind
+
+# 云函数部署包（本地打包产物，无需提交）
+serverless/*.zip
