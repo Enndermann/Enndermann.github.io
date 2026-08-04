@@ -10,5 +10,3 @@ title: "About"
 如果有想法，欢迎通过页脚的Github或邮箱与我联系。
 
 <center>---Enderman---<center>
-
-![Babel的Logo](https://tc.z.wiki/autoupload/f/_gJdWWHL4igSoPS2NFUDfH77jU67v1q_jyjUhnq6It6yl5f0KlZfm6UsKj-HyTuv/20250922/W5Oq/1280X1280/babel.jpg/webp?20)
